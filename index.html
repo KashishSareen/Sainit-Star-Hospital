@@ -1,0 +1,1381 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Sainit Multispeciality Hospital</title>
+
+    <!-- Tailwind -->
+    <script src="https://cdn.tailwindcss.com"></script>
+
+    <!-- Font Awesome CDN  -->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"
+    />
+
+    <!-- Remix Icons -->
+    <link
+      href="https://cdn.jsdelivr.net/npm/remixicon/fonts/remixicon.css"
+      rel="stylesheet"
+    />
+    <!-- Link Swiper's CSS -->
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/swiper@12/swiper-bundle.min.css"
+    />
+
+    <!-- AOS CSS -->
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet" />
+
+        <!-- Fix horizontal scroll - global style -->
+    <style>
+      html, body {
+        overflow-x: hidden !important;
+        width: 100% !important;
+        max-width: 100% !important;
+        position: relative;
+      }
+      * {
+        max-width: 100%;
+        box-sizing: border-box;
+      }
+      /* Prevent AOS from causing horizontal scroll */
+      [data-aos] {
+        overflow-x: hidden !important;
+      }
+      .swiper-slide {
+        overflow-x: hidden;
+      }
+      .swiper {
+        overflow-x: hidden;
+      }
+    </style>
+  </head>
+
+  <body class="bg-[#F9FAFB] font-sans ">
+    <!-- NAVBAR -->
+     <nav class="nav"></nav>
+  
+  
+    <!-- ========= FULLSCREEN SWIPER SECTION (Tailwind layout + Swiper) ========= -->
+<section id="home"  class="relative w-full h-screen mt-0 bg-gray-900">
+  <div class="swiper mySwiper w-full h-full">
+    <div class="swiper-wrapper">
+      <!-- Slide 1 -->
+      <div class="swiper-slide relative flex items-center justify-center">
+        <img
+          src="/images/hero1.jpg"
+          alt="Medical Team"
+          class="absolute inset-0 w-full h-full object-cover brightness-50"
+        />
+        <div class="relative z-10 max-w-3xl mx-4 mt-10 lg:mt-0 bg-white/60 backdrop-blur-md p-6 md:p-10 rounded-3xl shadow-xl text-center border border-white/30 transition duration-500 hover:scale-105 hover:shadow-2xl">
+          <h1 class="text-2xl md:text-4xl font-bold text-[#0F766E] mb-4">
+            Welcome to Sainit Multispeciality Hospital
+          </h1>
+          <p class="text-gray-800 text-sm md:text-base mb-6 leading-relaxed">
+            Sainit Star Multispeciality Hospital in Mumbai is dedicated to
+            providing patient-focused healthcare. We combine quality,
+            affordable medical services with genuine compassion and
+            unwavering integrity. Our foundation is built upon a team of
+            highly experienced doctors, supported by skilled and dedicated
+            staff, all operating within modern, well-equipped facilities. We
+            prioritize accurate diagnoses and personalized treatment plans,
+            ensuring every patient receives the precise care they need. From
+            routine check-ups to complex procedures, trust Sainit Star for
+            comprehensive and empathetic healthcare tailored to your
+            well-being.
+          </p>
+          <button class="bg-[#0F766E] text-white px-6 py-3 rounded-lg font-medium transition duration-300 hover:bg-[#115E59] hover:scale-105 shadow-md hover:shadow-lg">
+            Read More
+          </button>
+        </div>
+      </div>
+      
+      <!-- Slide 2 -->
+      <div class="swiper-slide relative flex items-center justify-center">
+        <img
+          src="/images/hero2.jpg"
+          alt="Modern Clinic"
+          class="absolute inset-0 w-full h-full object-cover brightness-50"
+        />
+        <div class="relative z-10 max-w-3xl mx-4 sm:mx-auto bg-white/60 backdrop-blur-md p-5 sm:p-6 md:p-10 rounded-2xl md:rounded-3xl shadow-lg md:shadow-xl text-center border border-white/30 transition duration-500 hover:scale-105 hover:shadow-2xl">
+  <h1 class="text-xl sm:text-2xl md:text-4xl font-bold text-[#0F766E] mb-3 sm:mb-4 leading-snug">
+    Your Health, Our Priority,<br class="block sm:hidden"> With Compassion.
+  </h1>
+
+  <p class="text-gray-800 text-xs sm:text-sm md:text-base mb-5 sm:mb-6 leading-relaxed sm:leading-loose px-1 sm:px-0">
+    At Sainit Star Multispeciality Hospital, located conveniently in Goregaon West, Mumbai, our mission is to redefine healthcare through a patient-centric approach. We are committed to delivering top-tier medical services that are not only of the highest quality but also accessible and affordable. Every aspect of our operations is imbued with compassion and guided by integrity, fostering an environment where healing thrives. Our distinguished panel of experienced doctors, coupled with a highly skilled and empathetic nursing and support staff, utilizes state-of-the-art medical technology and modern infrastructure. This synergy ensures precise diagnostics, effective treatments, and truly personalized care paths for every individual.
+  </p>
+
+  <button class="bg-[#0F766E] text-white px-5 sm:px-6 py-2.5 sm:py-3  text-sm sm:text-base rounded-lg font-medium transition duration-300 hover:bg-[#115E59] hover:scale-105  shadow-md hover:shadow-lg">
+    Read More
+  </button>
+
+</div>
+      </div>
+      
+      <!-- Slide 3 -->
+      <div class="swiper-slide relative flex items-center justify-center">
+        <img
+          src="/images/hero3.jpg"
+          alt="Doctor with patient"
+          class="absolute inset-0 w-full h-full object-cover brightness-50"
+        />
+        <div class="relative z-10 max-w-3xl mx-4 bg-white/60 backdrop-blur-md p-6 md:p-10 rounded-3xl shadow-xl text-center border border-white/30 transition duration-500 hover:scale-105 hover:shadow-2xl">
+          <h1 class="text-2xl md:text-4xl font-bold text-[#0F766E] mb-4">
+            Expert Doctors & Specialists
+          </h1>
+          <p class="text-gray-800 text-sm md:text-base mb-6 leading-relaxed">
+            Our team comprises over 100 highly qualified medical professionals, including renowned specialists in cardiology, neurology, orthopedics, oncology, and more. Each doctor brings decades of experience and a patient-first approach to their practice. We believe in collaborative care, where specialists work together to provide comprehensive treatment plans. Regular training, international exposure, and continuous education ensure our doctors stay at the forefront of medical advancements, delivering the highest standard of care with compassion and expertise.
+          </p>
+          <button class="bg-[#0F766E] text-white px-6 py-3 rounded-lg font-medium transition duration-300 hover:bg-[#115E59] hover:scale-105 shadow-md hover:shadow-lg">
+            Meet Our Experts
+          </button>
+        </div>
+      </div>
+      
+      <!-- Slide 4 -->
+      <!-- <div class="swiper-slide relative flex items-center justify-center">
+        <img
+          src="https://images.pexels.com/photos/5215024/pexels-photo-5215024.jpeg?auto=compress&cs=tinysrgb&w=1600"
+          alt="Laboratory"
+          class="absolute inset-0 w-full h-full object-cover brightness-50"
+        />
+        <div class="relative z-10 max-w-3xl mx-4 bg-white/60 backdrop-blur-md p-6 md:p-10 rounded-3xl shadow-xl text-center border border-white/30 transition duration-500 hover:scale-105 hover:shadow-2xl">
+          <h1 class="text-2xl md:text-4xl font-bold text-[#0F766E] mb-4">
+            Precision Diagnostics
+          </h1>
+          <p class="text-gray-800 text-sm md:text-base mb-6 leading-relaxed">
+            Our advanced diagnostic center is equipped with the latest technology including 3T MRI, 128-slice CT scan, digital X-ray, high-definition ultrasound, and fully automated pathology labs. We offer comprehensive diagnostic services with rapid turnaround times and exceptional accuracy. Our team of skilled radiologists and pathologists ensures precise interpretations, enabling early detection and effective treatment planning. From routine blood tests to complex imaging studies, trust Sainit Star for reliable, accurate diagnostics that form the foundation of quality healthcare.
+          </p>
+          <button class="bg-[#0F766E] text-white px-6 py-3 rounded-lg font-medium transition duration-300 hover:bg-[#115E59] hover:scale-105 shadow-md hover:shadow-lg">
+            View Services
+          </button>
+        </div>
+      </div> -->
+      
+      <!-- Slide 5 -->
+      <!-- <div class="swiper-slide relative flex items-center justify-center">
+        <img
+          src="https://images.pexels.com/photos/4506109/pexels-photo-4506109.jpeg?auto=compress&cs=tinysrgb&w=1600"
+          alt="Wellness"
+          class="absolute inset-0 w-full h-full object-cover brightness-50"
+        />
+        <div class="relative z-10 max-w-3xl mx-4 bg-white/60 backdrop-blur-md p-6 md:p-10 rounded-3xl shadow-xl text-center border border-white/30 transition duration-500 hover:scale-105 hover:shadow-2xl">
+          <h1 class="text-2xl md:text-4xl font-bold text-[#0F766E] mb-4">
+            Holistic Wellness Programs
+          </h1>
+          <p class="text-gray-800 text-sm md:text-base mb-6 leading-relaxed">
+            Beyond treating illnesses, we focus on your overall well-being through comprehensive wellness programs. Our holistic approach includes preventive health checkups, nutritional counseling, stress management workshops, yoga and meditation sessions, and lifestyle modification guidance. We believe that true health encompasses physical, mental, and emotional wellness. Our dedicated wellness team works with you to create personalized programs that help prevent diseases, manage chronic conditions, and enhance your quality of life for years to come.
+          </p>
+          <button class="bg-[#0F766E] text-white px-6 py-3 rounded-lg font-medium transition duration-300 hover:bg-[#115E59] hover:scale-105 shadow-md hover:shadow-lg">
+            Start Your Journey
+          </button>
+        </div>
+      </div> -->
+      
+      <!-- Slide 6 -->
+      <!-- <div class="swiper-slide relative flex items-center justify-center">
+        <img
+          src="https://images.pexels.com/photos/4167541/pexels-photo-4167541.jpeg?auto=compress&cs=tinysrgb&w=1600"
+          alt="Pediatrics"
+          class="absolute inset-0 w-full h-full object-cover brightness-50"
+        />
+        <div class="relative z-10 max-w-3xl mx-4 bg-white/60 backdrop-blur-md p-6 md:p-10 rounded-3xl shadow-xl text-center border border-white/30 transition duration-500 hover:scale-105 hover:shadow-2xl">
+          <h1 class="text-2xl md:text-4xl font-bold text-[#0F766E] mb-4">
+            Family & Pediatric Care
+          </h1>
+          <p class="text-gray-800 text-sm md:text-base mb-6 leading-relaxed">
+            Your family's health is our priority. Our dedicated pediatric department offers comprehensive care from newborn to adolescent years, including vaccinations, growth monitoring, developmental assessments, and specialized treatments. We also provide family medicine services, geriatric care, women's health programs, and maternity services. Our child-friendly environment, experienced pediatricians, and compassionate staff ensure that every family member receives personalized, gentle care in a warm and welcoming atmosphere.
+          </p>
+          <button class="bg-[#0F766E] text-white px-6 py-3 rounded-lg font-medium transition duration-300 hover:bg-[#115E59] hover:scale-105 shadow-md hover:shadow-lg">
+            Contact Us
+          </button>
+        </div>
+      </div> -->
+    </div>
+    
+  
+  </div>
+</section>
+
+    <!-- ABOUT US SECTION  -->
+
+
+<section id="about"
+      class="py-16 sm:py-20 bg-gradient-to-br from-white via-teal-50/30 to-white"
+    >
+      <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+        <!-- About Us Heading -->
+        <div class="text-center mb-10 sm:mb-12" >
+          <h2 class="text-3xl sm:text-4xl md:text-5xl font-bold text-gray-800">
+            About <span class="text-teal-600">Us</span>
+          </h2>
+        </div>
+
+        <!-- Grid Layout -->
+        <div class="grid md:grid-cols-2 gap-8 lg:gap-12 items-center">
+          <!-- Left Side - Image -->
+          <div class="order-1 md:order-1 overflow-hidden" data-aos="fade-right">
+            <div class="relative">
+              <div
+                class="absolute -top-4 -left-4 w-24 h-24 bg-teal-100 rounded-full opacity-50"
+              ></div>
+              <div
+                class="absolute -bottom-4 -right-4 w-32 h-32 bg-teal-100 rounded-full opacity-50"
+              ></div>
+
+              <div
+                class="relative rounded-2xl overflow-hidden shadow-2xl group"
+              >
+                <img
+                  src="/images/sainit-multispeciality-hospital.webp"
+                  loading="lazy"
+                  class="w-full h-64 sm:h-80 md:h-96 lg:h-[500px] object-cover transition duration-500 group-hover:scale-105"
+                />
+
+                <div
+                  class="absolute inset-0 bg-gradient-to-t from-black/10 via-transparent to-transparent"
+                ></div>
+              </div>
+            </div>
+          </div>
+
+          <!-- Right Side - Text -->
+          <div class="order-2 md:order-2" data-aos="fade-left">
+            <div class="mb-4 sm:mb-6">
+              <h3
+                class="text-2xl sm:text-3xl md:text-4xl font-bold text-gray-800 leading-tight"
+              >
+                Your Health, Our Priority,<br />
+                <span class="text-teal-600">With Compassion.</span>
+              </h3>
+            </div>
+
+            <p
+              class="text-gray-800 text-sm sm:text-base leading-relaxed mb-4 sm:mb-5"
+            >
+              Sainit Star Multispeciality Hospital in Mumbai is dedicated to
+              providing patient-focused healthcare. We combine quality,
+              affordable medical services with genuine compassion and unwavering
+              integrity. Our foundation is built upon a team of highly
+              experienced doctors, supported by skilled and dedicated staff, all
+              operating within modern, well-equipped facilities. We prioritize
+              accurate diagnoses and personalized treatment plans, ensuring
+              every patient receives the precise care they need. From routine
+              check-ups to complex procedures, trust Sainit Star for
+              comprehensive and empathetic healthcare tailored to your
+              well-being.
+            </p>
+
+            <p class="text-gray-800 text-sm sm:text-base leading-relaxed">
+              Sainit Star Multispeciality Hospital stands as a trusted center of
+              excellence in Goregaon West, Mumbai, dedicated to delivering
+              high-quality healthcare with compassion, integrity, and
+              affordability. Our multidisciplinary team of experienced doctors,
+              specialists, and skilled medical staff is supported by advanced
+              medical technology and modern facilities to ensure accurate
+              diagnosis and effective treatment. We focus on personalized,
+              patient-first care that addresses both medical needs and overall
+              well-being, offering comprehensive services from emergency care to
+              specialized treatments, preventive health, and rehabilitation for
+              the community we proudly serve.
+            </p>
+          </div>
+        </div>
+
+        <!-- 🔥 STATS SECTION (ADDED ONLY) -->
+        <div class="grid grid-cols-2 md:grid-cols-4 gap-4 sm:gap-6 mt-12" data-aos="zoom-in-up">
+          <!-- Stat 1 -->
+          <div
+            class="group bg-white/70 backdrop-blur-md border border-teal-100 rounded-xl p-5 flex items-center gap-4 shadow-sm transition duration-300 hover:-translate-y-2 hover:shadow-xl hover:border-teal-300"
+          >
+            <div
+              class="w-12 h-12 flex items-center justify-center rounded-lg bg-teal-100 transition duration-300 group-hover:bg-teal-600"
+            >
+              <i
+                class="ri-hospital-line text-2xl text-teal-600 group-hover:text-white transition"
+              ></i>
+            </div>
+
+            <div>
+              <p class="text-2xl font-bold text-gray-800">1979</p>
+              <p class="text-sm text-gray-500">Since</p>
+            </div>
+          </div>
+
+          <!-- Stat 2 -->
+          <div
+            class="group bg-white/70 backdrop-blur-md border border-teal-100 rounded-xl p-5 flex items-center gap-4 shadow-sm transition duration-300 hover:-translate-y-2 hover:shadow-xl hover:border-teal-300"
+          >
+            <div
+              class="w-12 h-12 flex items-center justify-center rounded-lg bg-teal-100 transition duration-300 group-hover:bg-teal-600"
+            >
+              <i
+                class="ri-user-heart-line text-2xl text-teal-600 group-hover:text-white transition"
+              ></i>
+            </div>
+
+            <div>
+              <p class="text-2xl font-bold text-gray-800">15</p>
+              <p class="text-sm text-gray-500">Experience of Doctors</p>
+            </div>
+          </div>
+
+          <!-- Stat 3 -->
+          <div
+            class="group bg-white/70 backdrop-blur-md border border-teal-100 rounded-xl p-5 flex items-center gap-4 shadow-sm transition duration-300 hover:-translate-y-2 hover:shadow-xl hover:border-teal-300"
+          >
+            <div
+              class="w-12 h-12 flex items-center justify-center rounded-lg bg-teal-100 transition duration-300 group-hover:bg-teal-600"
+            >
+              <i
+                class="ri-team-line text-2xl text-teal-600 group-hover:text-white transition"
+              ></i>
+            </div>
+
+            <div>
+              <p class="text-2xl font-bold text-gray-800">25</p>
+              <p class="text-sm text-gray-500">Staff</p>
+            </div>
+          </div>
+
+          <!-- Stat 4 -->
+          <div
+            class="group bg-white/70 backdrop-blur-md border border-teal-100 rounded-xl p-5 flex items-center gap-4 shadow-sm transition duration-300 hover:-translate-y-2 hover:shadow-xl hover:border-teal-300"
+          >
+            <div
+              class="w-12 h-12 flex items-center justify-center rounded-lg bg-teal-100 transition duration-300 group-hover:bg-teal-600"
+            >
+              <i
+                class="ri-hotel-bed-line text-2xl text-teal-600 group-hover:text-white transition"
+              ></i>
+            </div>
+
+            <div>
+              <p class="text-2xl font-bold text-gray-800">22</p>
+              <p class="text-sm text-gray-500">Beds Available</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+      <!-- ========= TAGLINE + MISSION & VISION SECTION ========= -->
+    <section class="py-16 sm:py-20 bg-white relative overflow-hidden" data-aos="fade-up" data-aos-duration="800">
+      <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 relative z-10">
+        <!-- Tagline Badge & main display -->
+        <div class="text-center mb-12 md:mb-16">
+          <div class="inline-flex items-center gap-2 bg-teal-50 px-6 py-2 rounded-full shadow-sm border border-teal-100 mb-5">
+            <i class="fas fa-heart text-teal-500 text-sm"></i>
+            <span class="text-teal-700 font-semibold tracking-wide text-sm sm:text-base">Our Promise</span>
+          </div>
+          <h2 class="text-4xl sm:text-5xl md:text-6xl font-extrabold text-gray-800 leading-tight">
+            <span class="text-teal-600">Care.</span> 
+            <span class="text-gray-800">Cure.</span> 
+            <span class="text-teal-500">Compassion.</span>
+          </h2>
+
+          <p class="text-gray-500 max-w-2xl mx-auto text-base sm:text-lg mt-4">Healing with heart, excellence in every step</p>
+        </div>
+
+        <!-- Mission & Vision Cards (balanced and elegant) -->
+        <div class="grid md:grid-cols-2 gap-8 lg:gap-12">
+          <!-- Mission Card -->
+          <div class="group bg-gradient-to-br from-white to-teal-50/40 rounded-2xl shadow-lg hover:shadow-2xl transition-all duration-500 border border-teal-100 overflow-hidden hover:-translate-y-2" data-aos="flip-left" data-aos-duration="800" data-aos-delay="100">
+            <div class="p-6 sm:p-8 md:p-10">
+              <div class="w-16 h-16 bg-teal-100 rounded-2xl flex items-center justify-center mb-6 group-hover:bg-teal-600 transition duration-300">
+                <i class="fas fa-hand-holding-heart text-3xl text-teal-600 group-hover:text-white transition"></i>
+              </div>
+              <h3 class="text-2xl sm:text-3xl font-bold text-gray-800 mb-4">Our Mission</h3>
+              <p class="text-gray-700 text-base sm:text-lg leading-relaxed">
+                To heal, support, and care for every patient with empathy and excellence, ensuring safe, effective, and compassionate treatment at every step.
+              </p>
+              
+            </div>
+          </div>
+
+          <!-- Vision Card -->
+          <div class="group bg-gradient-to-br from-white to-teal-50/40 rounded-2xl shadow-lg hover:shadow-2xl transition-all duration-500 border border-teal-100 overflow-hidden hover:-translate-y-2" data-aos="flip-right" data-aos-duration="800" data-aos-delay="200">
+            <div class="p-6 sm:p-8 md:p-10">
+              <div class="w-16 h-16 bg-teal-100 rounded-2xl flex items-center justify-center mb-6 group-hover:bg-teal-600 transition duration-300">
+                <i class="fas fa-eye text-3xl text-teal-600 group-hover:text-white transition"></i>
+              </div>
+              <h3 class="text-2xl sm:text-3xl font-bold text-gray-800 mb-4">Our Vision</h3>
+              <p class="text-gray-700 text-base sm:text-lg leading-relaxed">
+                To redefine healthcare by combining clinical excellence with genuine care, effective cure, and heartfelt compassion.
+              </p>
+              
+            </div>
+          </div>
+        </div>
+        <!-- subtle decorative line -->
+        <div class="mt-16 text-center ">
+          <p class="text-teal-600/80 text-sm">✦ Every day we deliver care that comforts, cures that restore ✦</p>
+        </div>
+      </div>
+    </section>
+
+
+    <!-- SERVICES SECTION -->
+
+      <section id="services" class="py-16 sm:py-20 relative overflow-hidden bg-white" data-aos="fade-up" data-aos-duration="800">
+    <!-- Wave Background Pattern -->
+    <div class="absolute inset-0 bg-gradient-to-b from-teal-50/30 via-white to-teal-50/20"></div>
+
+    <!-- Top Wave -->
+    <div class="absolute top-0 left-0 w-full overflow-hidden leading-none z-0 opacity-40">
+      <svg class="relative block w-full h-auto" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 320">
+        <path fill="#14b8a6" fill-opacity="0.1" d="M0,192L48,197.3C96,203,192,213,288,208C384,203,480,181,576,181.3C672,181,768,203,864,208C960,213,1056,203,1152,186.7C1248,171,1344,149,1392,138.7L1440,128L1440,0L1392,0C1344,0,1248,0,1152,0C1056,0,960,0,864,0C768,0,672,0,576,0C480,0,384,0,288,0C192,0,96,0,48,0L0,0Z"></path>
+      </svg>
+    </div>
+
+    <!-- Bottom Wave -->
+    <div class="absolute bottom-0 left-0 w-full overflow-hidden leading-none z-0 opacity-40 rotate-180">
+      <svg class="relative block w-full h-auto" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 320">
+        <path fill="#14b8a6" fill-opacity="0.1" d="M0,192L48,197.3C96,203,192,213,288,208C384,203,480,181,576,181.3C672,181,768,203,864,208C960,213,1056,203,1152,186.7C1248,171,1344,149,1392,138.7L1440,128L1440,320L1392,320C1344,320,1248,320,1152,320C1056,320,960,320,864,320C768,320,672,320,576,320C480,320,384,320,288,320C192,320,96,320,48,320L0,320Z"></path>
+      </svg>
+    </div>
+
+    <!-- Soft Floating Blobs -->
+    <div class="absolute top-20 right-10 w-64 h-64 bg-teal-200/20 rounded-full blur-3xl animate-pulse" style="animation-duration: 8s"></div>
+    <div class="absolute bottom-20 left-10 w-80 h-80 bg-emerald-200/15 rounded-full blur-3xl animate-pulse" style="animation-duration: 10s; animation-delay: 1s"></div>
+
+    <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 relative z-10">
+      <!-- Heading -->
+      <div class="text-center mb-12 md:mb-16">
+        <span class="inline-block px-4 py-1.5 rounded-full bg-teal-100/90 text-teal-700 text-sm font-semibold tracking-wide mb-4 shadow-sm">Expert Medical Care</span>
+        <h2 class="text-3xl sm:text-4xl md:text-5xl font-bold text-gray-800 mb-3">
+          Our <span class="text-teal-600">Services</span>
+        </h2>
+        <p class="text-gray-500 max-w-2xl mx-auto text-sm sm:text-base">
+          Comprehensive healthcare solutions with advanced technology & expert care
+        </p>
+      </div>
+
+     
+      <div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4 gap-6">
+        
+        <!-- Service 1: Emergency & Trauma Care (Essential) -->
+        <div class="group bg-white rounded-xl p-6 text-center shadow-sm hover:shadow-xl transition-all duration-300 hover:-translate-y-1 border border-gray-100 hover:border-teal-200" data-aos="zoom-in" data-aos-duration="600" data-aos-delay="100">
+          <div class="w-16 h-16 mx-auto flex items-center justify-center rounded-full bg-teal-100 group-hover:bg-teal-600 transition-all duration-300">
+            <i class="fas fa-ambulance text-2xl text-teal-600 group-hover:text-white transition-colors"></i>
+          </div>
+          <h3 class="mt-4 text-lg font-semibold text-gray-800 group-hover:text-teal-700 transition">24/7 Emergency & Trauma Care</h3>
+          <p class="text-gray-600 text-sm mt-2 leading-relaxed">Immediate medical attention for urgent and critical health situations.</p>
+        </div>
+
+        <!-- Service 2: Cardiology Services (using heartbeat icon, premium cardiac care) -->
+        <div class="group bg-white rounded-xl p-6 text-center shadow-sm hover:shadow-xl transition-all duration-300 hover:-translate-y-1 border border-gray-100 hover:border-teal-200" data-aos="zoom-in" data-aos-duration="600" data-aos-delay="150">
+          <div class="w-16 h-16 mx-auto flex items-center justify-center rounded-full bg-teal-100 group-hover:bg-teal-600 transition-all duration-300">
+            <i class="fas fa-heartbeat text-2xl text-teal-600 group-hover:text-white transition-colors"></i>
+          </div>
+          <h3 class="mt-4 text-lg font-semibold text-gray-800 group-hover:text-teal-700 transition">Cardiology Services</h3>
+          <p class="text-gray-600 text-sm mt-2 leading-relaxed">Advanced cardiac care for heart health and cardiovascular diseases.</p>
+        </div>
+
+        <!-- Service 3: Orthopedics & Joint Care (bone icon) -->
+        <div class="group bg-white rounded-xl p-6 text-center shadow-sm hover:shadow-xl transition-all duration-300 hover:-translate-y-1 border border-gray-100 hover:border-teal-200" data-aos="zoom-in" data-aos-duration="600" data-aos-delay="200">
+          <div class="w-16 h-16 mx-auto flex items-center justify-center rounded-full bg-teal-100 group-hover:bg-teal-600 transition-all duration-300">
+            <i class="fas fa-bone text-2xl text-teal-600 group-hover:text-white transition-colors"></i>
+          </div>
+          <h3 class="mt-4 text-lg font-semibold text-gray-800 group-hover:text-teal-700 transition">Orthopedics & Joint Care</h3>
+          <p class="text-gray-600 text-sm mt-2 leading-relaxed">Expert treatment for bone, joint, and musculoskeletal disorders.</p>
+        </div>
+
+        <!-- Service 4: Gynaecology & Obstetrics (female icon) -->
+        <div class="group bg-white rounded-xl p-6 text-center shadow-sm hover:shadow-xl transition-all duration-300 hover:-translate-y-1 border border-gray-100 hover:border-teal-200" data-aos="zoom-in" data-aos-duration="600" data-aos-delay="250">
+          <div class="w-16 h-16 mx-auto flex items-center justify-center rounded-full bg-teal-100 group-hover:bg-teal-600 transition-all duration-300">
+            <i class="fas fa-female text-2xl text-teal-600 group-hover:text-white transition-colors"></i>
+          </div>
+          <h3 class="mt-4 text-lg font-semibold text-gray-800 group-hover:text-teal-700 transition">Gynecology & Obstetrics</h3>
+          <p class="text-gray-600 text-sm mt-2 leading-relaxed">Dedicated care for women's health, pregnancy, and childbirth.</p>
+        </div>
+
+        <!-- Service 5: Advanced Diagnostics (microscope) keeping diagnostics as key service -->
+        <div class="group bg-white rounded-xl p-6 text-center shadow-sm hover:shadow-xl transition-all duration-300 hover:-translate-y-1 border border-gray-100 hover:border-teal-200" data-aos="zoom-in" data-aos-duration="600" data-aos-delay="300">
+          <div class="w-16 h-16 mx-auto flex items-center justify-center rounded-full bg-teal-100 group-hover:bg-teal-600 transition-all duration-300">
+            <i class="fas fa-microscope text-2xl text-teal-600 group-hover:text-white transition-colors"></i>
+          </div>
+          <h3 class="mt-4 text-lg font-semibold text-gray-800 group-hover:text-teal-700 transition">Advanced Diagnostic Services</h3>
+          <p class="text-gray-600 text-sm mt-2 leading-relaxed">Precise imaging and lab tests for accurate disease detection.</p>
+        </div>
+
+      </div>
+
+      <!-- CTA Button -->
+      <div class="text-center mt-12 md:mt-14">
+        <a href="/service.html" id="viewAllBtn" class="inline-flex items-center gap-2 px-8 py-3 bg-teal-600 hover:bg-teal-700 text-white font-semibold rounded-full shadow-md hover:shadow-lg transition-all duration-300 transform hover:scale-105 focus:outline-none focus:ring-2 focus:ring-teal-400 focus:ring-offset-2">
+          View All Services
+          <i class="fas fa-arrow-right text-sm transition-transform group-hover:translate-x-1"></i>
+        </a>
+        <p class="text-gray-400 text-xs mt-3">Discover our complete range of 20+ specialized treatments</p>
+      </div>
+    </div>
+  </section>
+
+    <!-- TESTIMONIALS SECTION -->
+    <section
+      class="py-16 sm:py-20 relative overflow-hidden bg-gradient-to-b from-white to-teal-50/30"
+      data-aos="fade-up"
+      data-aos-duration="800"
+    >
+      <!-- Decorative Elements -->
+      <div
+        class="absolute top-0 left-0 w-full overflow-hidden leading-none z-0 opacity-30"
+      >
+        <svg
+          class="relative block w-full h-auto"
+          xmlns="http://www.w3.org/2000/svg"
+          viewBox="0 0 1440 320"
+        >
+          <path
+            fill="#14b8a6"
+            fill-opacity="0.1"
+            d="M0,192L48,197.3C96,203,192,213,288,208C384,203,480,181,576,181.3C672,181,768,203,864,208C960,213,1056,203,1152,186.7C1248,171,1344,149,1392,138.7L1440,128L1440,0L1392,0C1344,0,1248,0,1152,0C1056,0,960,0,864,0C768,0,672,0,576,0C480,0,384,0,288,0C192,0,96,0,48,0L0,0Z"
+          ></path>
+        </svg>
+      </div>
+
+      <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 relative z-10">
+        <!-- Section Header -->
+        <div class="text-center mb-12 md:mb-16">
+          <span
+            class="inline-block px-4 py-1.5 rounded-full bg-teal-100/90 text-teal-700 text-sm font-semibold tracking-wide mb-4 shadow-sm"
+          >
+            Testimonials
+          </span>
+          <h2
+            class="text-3xl sm:text-4xl md:text-5xl font-bold text-gray-800 mb-3"
+          >
+            What Our <span class="text-teal-600">Patients Say</span>
+          </h2>
+          <!-- <div class="w-20 h-1 bg-gradient-to-r from-teal-400 to-teal-600 mx-auto rounded-full mb-4"></div> -->
+          <p class="text-gray-500 max-w-2xl mx-auto text-sm sm:text-base">
+            Real experiences from patients who trusted us with their health and
+            well-being
+          </p>
+        </div>
+
+        <!-- Testimonials Grid -->
+        <div
+          class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6 md:gap-8"
+        >
+          <!-- testimonial card 1 -->
+          <div
+            class="group bg-[#F8FAFC] p-6 md:p-8 rounded-3xl shadow-lg border border-gray-100 flex flex-col items-start transition-all duration-300 hover:-translate-y-2 hover:shadow-2xl hover:border-[#2A9D8F]/30 hover:bg-white cursor-default"
+            data-aos="fade-up"
+            data-aos-delay="100"
+          >
+            <div
+              class="flex items-center gap-1 text-yellow-400 mb-4 transition-transform duration-300 group-hover:scale-105"
+            >
+              <i class="ri-star-fill"></i><i class="ri-star-fill"></i
+              ><i class="ri-star-fill"></i><i class="ri-star-fill"></i
+              ><i class="ri-star-fill"></i>
+              <span class="text-gray-500 text-sm ml-2">5.0</span>
+            </div>
+            <p
+              class="text-[#1e3a3a] text-base md:text-lg leading-relaxed mb-6 transition-colors duration-300 group-hover:text-[#1e3a3a]/90"
+            >
+              "We recently had a family member treated here and the experience
+              was truly reassuring. The staff were caring, attentive, and
+              treated us like their own family. The doctors were excellent both
+              medically and emotionally, always patient and supportive."
+            </p>
+            <div
+              class="flex items-center gap-4 mt-auto transition-all duration-300 group-hover:translate-x-1"
+            >
+              <div
+                class="w-12 h-12 bg-[#2A9D8F]/20 rounded-full flex items-center justify-center text-[#2A9D8F] text-xl font-bold transition-all duration-300 group-hover:bg-[#2A9D8F] group-hover:text-white group-hover:scale-110"
+              >
+                K
+              </div>
+              <div>
+                <h4
+                  class="font-semibold text-[#1e3a3a] transition-colors duration-300 group-hover:text-[#2A9D8F]"
+                >
+                  Kamal Mittal
+                </h4>
+              </div>
+            </div>
+          </div>
+
+          <!-- testimonial card 2 -->
+          <div
+            class="group bg-[#F8FAFC] p-6 md:p-8 rounded-3xl shadow-lg border border-gray-100 flex flex-col items-start transition-all duration-300 hover:-translate-y-2 hover:shadow-2xl hover:border-[#2A9D8F]/30 hover:bg-white cursor-default"
+            data-aos="fade-up"
+            data-aos-delay="200"
+          >
+            <div
+              class="flex items-center gap-1 text-yellow-400 mb-4 transition-transform duration-300 group-hover:scale-105"
+            >
+              <i class="ri-star-fill"></i><i class="ri-star-fill"></i
+              ><i class="ri-star-fill"></i><i class="ri-star-fill"></i
+              ><i class="ri-star-fill"></i>
+              <span class="text-gray-500 text-sm ml-2">5.0</span>
+            </div>
+            <p
+              class="text-[#1e3a3a] text-base md:text-lg leading-relaxed mb-6 transition-colors duration-300 group-hover:text-[#1e3a3a]/90"
+            >
+              "I felt genuinely heard and cared for throughout my treatment,
+              making my recovery much smoother."
+            </p>
+            <div
+              class="flex items-center gap-4 mt-auto transition-all duration-300 group-hover:translate-x-1"
+            >
+              <div
+                class="w-12 h-12 bg-[#2A9D8F]/20 rounded-full flex items-center justify-center text-[#2A9D8F] text-xl font-bold transition-all duration-300 group-hover:bg-[#2A9D8F] group-hover:text-white group-hover:scale-110"
+              >
+                P
+              </div>
+              <div>
+                <h4
+                  class="font-semibold text-[#1e3a3a] transition-colors duration-300 group-hover:text-[#2A9D8F]"
+                >
+                  Priya Singh
+                </h4>
+              </div>
+            </div>
+          </div>
+
+          <!-- testimonial card 3 -->
+          <div
+            class="group bg-[#F8FAFC] p-6 md:p-8 rounded-3xl shadow-lg border border-gray-100 flex flex-col items-start transition-all duration-300 hover:-translate-y-2 hover:shadow-2xl hover:border-[#2A9D8F]/30 hover:bg-white cursor-default"
+            data-aos="fade-up"
+            data-aos-delay="300"
+          >
+            <div
+              class="flex items-center gap-1 text-yellow-400 mb-4 transition-transform duration-300 group-hover:scale-105"
+            >
+              <i class="ri-star-fill"></i><i class="ri-star-fill"></i
+              ><i class="ri-star-fill"></i><i class="ri-star-fill"></i
+              ><i class="ri-star-half-fill"></i>
+              <span class="text-gray-500 text-sm ml-2">4.8</span>
+            </div>
+            <p
+              class="text-[#1e3a3a] text-base md:text-lg leading-relaxed mb-6 transition-colors duration-300 group-hover:text-[#1e3a3a]/90"
+            >
+              "Dr Rahul Rane is an excellent orthopaedic doctor. He listens
+              patiently, explains the condition clearly, and suggests the right
+              treatment without unnecessary procedures. I felt confident and
+              comfortable throughout the consultation. Highly recommended for
+              anyone with bone or joint issues."
+            </p>
+
+            <div
+              class="flex items-center gap-4 mt-auto transition-all duration-300 group-hover:translate-x-1"
+            >
+              <div
+                class="w-12 h-12 bg-[#2A9D8F]/20 rounded-full flex items-center justify-center text-[#2A9D8F] text-xl font-bold transition-all duration-300 group-hover:bg-[#2A9D8F] group-hover:text-white group-hover:scale-110"
+              >
+                A
+              </div>
+              <div>
+                <h4
+                  class="font-semibold text-[#1e3a3a] transition-colors duration-300 group-hover:text-[#2A9D8F]"
+                >
+                  Alvi Shaban
+                </h4>
+              </div>
+            </div>
+          </div>
+
+          <!-- testimonial card 4 -->
+          <div
+            class="group bg-[#F8FAFC] p-6 md:p-8 rounded-3xl shadow-lg border border-gray-100 flex flex-col items-start transition-all duration-300 hover:-translate-y-2 hover:shadow-2xl hover:border-[#2A9D8F]/30 hover:bg-white cursor-default"
+            data-aos="fade-up"
+            data-aos-delay="100"
+          >
+            <div
+              class="flex items-center gap-1 text-yellow-400 mb-4 transition-transform duration-300 group-hover:scale-105"
+            >
+              <i class="ri-star-fill"></i><i class="ri-star-fill"></i
+              ><i class="ri-star-fill"></i><i class="ri-star-fill"></i
+              ><i class="ri-star-fill"></i>
+              <span class="text-gray-500 text-sm ml-2">5.0</span>
+            </div>
+            <p
+              class="text-[#1e3a3a] text-base md:text-lg leading-relaxed mb-6 transition-colors duration-300 group-hover:text-[#1e3a3a]/90"
+            >
+              "The service and management is amazing the dr performed the
+              operation was very incredible the staff specially the nurses
+              Sanjana was very helpful and caring, shibu the OT tech person was
+              very sweet all the nurses were amazing and caring highly
+              recommended this place for great experience while getting
+              treated."
+            </p>
+            <div
+              class="flex items-center gap-4 mt-auto transition-all duration-300 group-hover:translate-x-1"
+            >
+              <div
+                class="w-12 h-12 bg-[#2A9D8F]/20 rounded-full flex items-center justify-center text-[#2A9D8F] text-xl font-bold transition-all duration-300 group-hover:bg-[#2A9D8F] group-hover:text-white group-hover:scale-110"
+              >
+                M
+              </div>
+              <div>
+                <h4
+                  class="font-semibold text-[#1e3a3a] transition-colors duration-300 group-hover:text-[#2A9D8F]"
+                >
+                  Muskaan Shaikh
+                </h4>
+              </div>
+            </div>
+          </div>
+
+          <!-- testimonial card 5 -->
+          <div
+            class="group bg-[#F8FAFC] p-6 md:p-8 rounded-3xl shadow-lg border border-gray-100 flex flex-col items-start transition-all duration-300 hover:-translate-y-2 hover:shadow-2xl hover:border-[#2A9D8F]/30 hover:bg-white cursor-default"
+            data-aos="fade-up"
+            data-aos-delay="200"
+          >
+            <div
+              class="flex items-center gap-1 text-yellow-400 mb-4 transition-transform duration-300 group-hover:scale-105"
+            >
+              <i class="ri-star-fill"></i><i class="ri-star-fill"></i
+              ><i class="ri-star-fill"></i><i class="ri-star-fill"></i
+              ><i class="ri-star-fill"></i>
+              <span class="text-gray-500 text-sm ml-2">5.0</span>
+            </div>
+            <p
+              class="text-[#1e3a3a] text-base md:text-lg leading-relaxed mb-6 transition-colors duration-300 group-hover:text-[#1e3a3a]/90"
+            >
+              "Sainit star hospital has excellent reach by metro line from
+              western suberbs, I received good treatment along with proper
+              guidence.This hospital has good perspectives ahed Happy to share
+              review Thank you."
+            </p>
+
+            <div
+              class="flex items-center gap-4 mt-auto transition-all duration-300 group-hover:translate-x-1"
+            >
+              <div
+                class="w-12 h-12 bg-[#2A9D8F]/20 rounded-full flex items-center justify-center text-[#2A9D8F] text-xl font-bold transition-all duration-300 group-hover:bg-[#2A9D8F] group-hover:text-white group-hover:scale-110"
+              >
+                P
+              </div>
+              <div>
+                <h4
+                  class="font-semibold text-[#1e3a3a] transition-colors duration-300 group-hover:text-[#2A9D8F]"
+                >
+                  Piyush Saurabh
+                </h4>
+              </div>
+            </div>
+          </div>
+
+          <!-- testimonial card 6 -->
+          <div
+            class="group bg-[#F8FAFC] p-6 md:p-8 rounded-3xl shadow-lg border border-gray-100 flex flex-col items-start transition-all duration-300 hover:-translate-y-2 hover:shadow-2xl hover:border-[#2A9D8F]/30 hover:bg-white cursor-default"
+            data-aos="fade-up"
+            data-aos-delay="300"
+          >
+            <div
+              class="flex items-center gap-1 text-yellow-400 mb-4 transition-transform duration-300 group-hover:scale-105"
+            >
+              <i class="ri-star-fill"></i><i class="ri-star-fill"></i
+              ><i class="ri-star-fill"></i><i class="ri-star-fill"></i
+              ><i class="ri-star-half-fill"></i>
+              <span class="text-gray-500 text-sm ml-2">4.9</span>
+            </div>
+            <p
+              class="text-[#1e3a3a] text-base md:text-lg leading-relaxed mb-6 transition-colors duration-300 group-hover:text-[#1e3a3a]/90"
+            >
+              "Sainit star multispeciality is definitely a place for all your
+              requirements. I highly recommend this place for optimim diagnosis,
+              cleanliness, hygiene and just a friendly atmosphere."
+            </p>
+            <div
+              class="flex items-center gap-4 mt-auto transition-all duration-300 group-hover:translate-x-1"
+            >
+              <div
+                class="w-12 h-12 bg-[#2A9D8F]/20 rounded-full flex items-center justify-center text-[#2A9D8F] text-xl font-bold transition-all duration-300 group-hover:bg-[#2A9D8F] group-hover:text-white group-hover:scale-110"
+              >
+                P
+              </div>
+              <div>
+                <h4
+                  class="font-semibold text-[#1e3a3a] transition-colors duration-300 group-hover:text-[#2A9D8F]"
+                >
+                  Poonam dave
+                </h4>
+              </div>
+            </div>
+          </div>
+        </div>
+
+   
+      </div>
+    </section>
+
+    <!-- FAQ SECTION -->
+
+   <section
+      class="py-16 sm:py-20 relative overflow-hidden bg-gradient-to-b from-teal-50/20 to-white"
+      data-aos="fade-up"
+      data-aos-duration="800"
+    >
+      <!-- Decorative Elements -->
+      <div
+        class="absolute bottom-0 left-0 w-full overflow-hidden leading-none z-0 opacity-30"
+      >
+        <svg
+          class="relative block w-full h-auto"
+          xmlns="http://www.w3.org/2000/svg"
+          viewBox="0 0 1440 320"
+        >
+          <path
+            fill="#14b8a6"
+            fill-opacity="0.1"
+            d="M0,192L48,197.3C96,203,192,213,288,208C384,203,480,181,576,181.3C672,181,768,203,864,208C960,213,1056,203,1152,186.7C1248,171,1344,149,1392,138.7L1440,128L1440,320L1392,320C1344,320,1248,320,1152,320C1056,320,960,320,864,320C768,320,672,320,576,320C480,320,384,320,288,320C192,320,96,320,48,320L0,320Z"
+          ></path>
+        </svg>
+      </div>
+
+      <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 relative z-10">
+        <!-- Section Header -->
+        <div class="text-center mb-12 md:mb-16" data-aos="fade-down" data-aos-duration="600">
+          <span
+            class="inline-block px-4 py-1.5 rounded-full bg-teal-100/90 text-teal-700 text-sm font-semibold tracking-wide mb-4 shadow-sm"
+          >
+            Frequently Asked Questions
+          </span>
+          <h2
+            class="text-3xl sm:text-4xl md:text-5xl font-bold text-gray-800 mb-3"
+          >
+            Got <span class="text-teal-600">Questions?</span> We've Got Answers
+          </h2>
+          <div
+            class="w-20 h-1 bg-gradient-to-r from-teal-400 to-teal-600 mx-auto rounded-full mb-4"
+          ></div>
+          <p class="text-gray-500 max-w-2xl mx-auto text-sm sm:text-base">
+            Find answers to common questions about our services, facilities, and
+            patient care
+          </p>
+        </div>
+
+        <!-- FAQ Grid -->
+        <div class="max-w-4xl mx-auto">
+          <!-- FAQ Item 1 -->
+          <div class="mb-4 group" data-aos="fade-up" data-aos-duration="600" data-aos-delay="100">
+            <button
+              class="faq-toggle w-full text-left bg-white rounded-xl p-5 shadow-sm hover:shadow-md transition-all duration-300 border border-gray-100 hover:border-teal-200 flex justify-between items-center"
+            >
+              <div class="flex items-center gap-3">
+                <div
+                  class="w-8 h-8 rounded-full bg-teal-100 group-hover:bg-teal-600 transition-colors duration-300 flex items-center justify-center"
+                >
+                  <i
+                    class="fas fa-question text-teal-600 group-hover:text-white text-sm transition-colors"
+                  ></i>
+                </div>
+                <span class="font-semibold text-gray-800 text-base sm:text-lg"
+                  >What is the official contact no of Sainit Multispeciality Hospital?</span
+                >
+              </div>
+              <i
+                class="fas fa-chevron-down text-teal-600 transition-transform duration-300"
+              ></i>
+            </button>
+            <div
+              class="faq-answer hidden mt-2 ml-11 p-4 bg-gray-50 rounded-lg border-l-4 border-teal-500"
+            >
+              <p class="text-gray-600 text-sm sm:text-base leading-relaxed">
+                The contact no of Sainit Multispeciality Hospital is 9167916660
+              </p>
+            </div>
+          </div>
+
+          <!-- FAQ Item 2 -->
+          <div class="mb-4 group" data-aos="fade-up" data-aos-duration="600" data-aos-delay="150">
+            <button
+              class="faq-toggle w-full text-left bg-white rounded-xl p-5 shadow-sm hover:shadow-md transition-all duration-300 border border-gray-100 hover:border-teal-200 flex justify-between items-center"
+            >
+              <div class="flex items-center gap-3">
+                <div
+                  class="w-8 h-8 rounded-full bg-teal-100 group-hover:bg-teal-600 transition-colors duration-300 flex items-center justify-center"
+                >
+                  <i
+                    class="fas fa-question text-teal-600 group-hover:text-white text-sm transition-colors"
+                  ></i>
+                </div>
+                <span class="font-semibold text-gray-800 text-base sm:text-lg"
+                  >What is the official email id of Sainit Multispeciality Hospital?</span
+                >
+              </div>
+              <i
+                class="fas fa-chevron-down text-teal-600 transition-transform duration-300"
+              ></i>
+            </button>
+            <div
+              class="faq-answer hidden mt-2 ml-11 p-4 bg-gray-50 rounded-lg border-l-4 border-teal-500"
+            >
+              <p class="text-gray-600 text-sm sm:text-base leading-relaxed">
+               The official email id of Sainit Multispeciality Hospital is care@sainitstarhospital.com
+              </p>
+            </div>
+          </div>
+
+          <!-- FAQ Item 3 -->
+          <div class="mb-4 group" data-aos="fade-up" data-aos-duration="600" data-aos-delay="200">
+            <button
+              class="faq-toggle w-full text-left bg-white rounded-xl p-5 shadow-sm hover:shadow-md transition-all duration-300 border border-gray-100 hover:border-teal-200 flex justify-between items-center"
+            >
+              <div class="flex items-center gap-3">
+                <div
+                  class="w-8 h-8 rounded-full bg-teal-100 group-hover:bg-teal-600 transition-colors duration-300 flex items-center justify-center"
+                >
+                  <i
+                    class="fas fa-question text-teal-600 group-hover:text-white text-sm transition-colors"
+                  ></i>
+                </div>
+                <span class="font-semibold text-gray-800 text-base sm:text-lg"
+                  >When should I consult an orthopedic specialist?</span
+                >
+              </div>
+              <i
+                class="fas fa-chevron-down text-teal-600 transition-transform duration-300"
+              ></i>
+            </button>
+            <div
+              class="faq-answer hidden mt-2 ml-11 p-4 bg-gray-50 rounded-lg border-l-4 border-teal-500"
+            >
+              <p class="text-gray-600 text-sm sm:text-base leading-relaxed">
+                You should consult an orthopedic specialist if you experience persistent joint pain, difficulty in movement, swelling, stiffness, fractures, or pain that affects your daily activities.
+              </p>
+            </div>
+          </div>
+
+          <!-- FAQ Item 4 -->
+          <div class="mb-4 group" data-aos="fade-up" data-aos-duration="600" data-aos-delay="250">
+            <button
+              class="faq-toggle w-full text-left bg-white rounded-xl p-5 shadow-sm hover:shadow-md transition-all duration-300 border border-gray-100 hover:border-teal-200 flex justify-between items-center"
+            >
+              <div class="flex items-center gap-3">
+                <div
+                  class="w-8 h-8 rounded-full bg-teal-100 group-hover:bg-teal-600 transition-colors duration-300 flex items-center justify-center"
+                >
+                  <i
+                    class="fas fa-question text-teal-600 group-hover:text-white text-sm transition-colors"
+                  ></i>
+                </div>
+                <span class="font-semibold text-gray-800 text-base sm:text-lg"
+                  >Do you offer physiotherapy for orthopedic recovery?</span
+                >
+              </div>
+              <i
+                class="fas fa-chevron-down text-teal-600 transition-transform duration-300"
+              ></i>
+            </button>
+            <div
+              class="faq-answer hidden mt-2 ml-11 p-4 bg-gray-50 rounded-lg border-l-4 border-teal-500"
+            >
+              <p class="text-gray-600 text-sm sm:text-base leading-relaxed">
+              Yes, physiotherapy is an important part of orthopedic care. Our physiotherapists work closely with orthopedic doctors to help patients regain strength, mobility, and function after injury or surgery.
+              </p>
+            </div>
+          </div>
+
+          <!-- FAQ Item 5 -->
+          <div class="mb-4 group" data-aos="fade-up" data-aos-duration="600" data-aos-delay="300">
+            <button
+              class="faq-toggle w-full text-left bg-white rounded-xl p-5 shadow-sm hover:shadow-md transition-all duration-300 border border-gray-100 hover:border-teal-200 flex justify-between items-center"
+            >
+              <div class="flex items-center gap-3">
+                <div
+                  class="w-8 h-8 rounded-full bg-teal-100 group-hover:bg-teal-600 transition-colors duration-300 flex items-center justify-center"
+                >
+                  <i
+                    class="fas fa-question text-teal-600 group-hover:text-white text-sm transition-colors"
+                  ></i>
+                </div>
+                <span class="font-semibold text-gray-800 text-base sm:text-lg"
+                  >Is surgery always required for orthopedic problems?</span
+                >
+              </div>
+              <i
+                class="fas fa-chevron-down text-teal-600 transition-transform duration-300"
+              ></i>
+            </button>
+            <div
+              class="faq-answer hidden mt-2 ml-11 p-4 bg-gray-50 rounded-lg border-l-4 border-teal-500"
+            >
+              <p class="text-gray-600 text-sm sm:text-base leading-relaxed">
+                No, surgery is not always necessary. Many orthopedic conditions can be effectively treated with medication, physiotherapy, lifestyle changes, and non-surgical interventions.
+              </p>
+            </div>
+          </div>
+
+          <!-- FAQ Item 6 -->
+          <div class="mb-4 group" data-aos="fade-up" data-aos-duration="600" data-aos-delay="350">
+            <button
+              class="faq-toggle w-full text-left bg-white rounded-xl p-5 shadow-sm hover:shadow-md transition-all duration-300 border border-gray-100 hover:border-teal-200 flex justify-between items-center"
+            >
+              <div class="flex items-center gap-3">
+                <div
+                  class="w-8 h-8 rounded-full bg-teal-100 group-hover:bg-teal-600 transition-colors duration-300 flex items-center justify-center"
+                >
+                  <i
+                    class="fas fa-question text-teal-600 group-hover:text-white text-sm transition-colors"
+                  ></i>
+                </div>
+                <span class="font-semibold text-gray-800 text-base sm:text-lg"
+                  >Do you provide treatment for fractures and accidents?</span
+                >
+              </div>
+              <i
+                class="fas fa-chevron-down text-teal-600 transition-transform duration-300"
+              ></i>
+            </button>
+            <div
+              class="faq-answer hidden mt-2 ml-11 p-4 bg-gray-50 rounded-lg border-l-4 border-teal-500"
+            >
+              <p class="text-gray-600 text-sm sm:text-base leading-relaxed">
+                Yes, we offer complete fracture management including diagnosis, casting, splinting, and surgical treatment when required, supported by advanced imaging and expert care.
+              </p>
+            </div>
+          </div>
+
+          <!-- FAQ Item 7 -->
+          <div class="mb-4 group" data-aos="fade-up" data-aos-duration="600" data-aos-delay="400">
+            <button
+              class="faq-toggle w-full text-left bg-white rounded-xl p-5 shadow-sm hover:shadow-md transition-all duration-300 border border-gray-100 hover:border-teal-200 flex justify-between items-center"
+            >
+              <div class="flex items-center gap-3">
+                <div
+                  class="w-8 h-8 rounded-full bg-teal-100 group-hover:bg-teal-600 transition-colors duration-300 flex items-center justify-center"
+                >
+                  <i
+                    class="fas fa-question text-teal-600 group-hover:text-white text-sm transition-colors"
+                  ></i>
+                </div>
+                <span class="font-semibold text-gray-800 text-base sm:text-lg"
+                  >What conditions are treated by the orthopedic department?</span
+                >
+              </div>
+              <i
+                class="fas fa-chevron-down text-teal-600 transition-transform duration-300"
+              ></i>
+            </button>
+            <div
+              class="faq-answer hidden mt-2 ml-11 p-4 bg-gray-50 rounded-lg border-l-4 border-teal-500"
+            >
+              <p class="text-gray-600 text-sm sm:text-base leading-relaxed">
+               Our orthopedic department treats bone, joint, muscle, ligament, and spine conditions including fractures, arthritis, back pain, sports injuries, joint pain, and mobility disorders.
+              </p>
+            </div>
+          </div>
+
+         
+        </div>
+
+        <!-- Still Have Questions -->
+        <div
+          class="text-center mt-12 p-8 bg-teal-50/50 rounded-2xl border border-teal-100"
+          data-aos="zoom-in-up"
+          data-aos-duration="700"
+          data-aos-delay="450"
+        >
+          <h3 class="text-xl sm:text-2xl font-semibold text-gray-800 mb-2">
+            Still Have Questions?
+          </h3>
+          <p class="text-gray-600 text-sm sm:text-base mb-4">
+            Can't find the answer you're looking for? Please contact our support
+            team.
+          </p>
+         <div class="flex flex-col sm:flex-row gap-3 justify-center">
+  <a href="tel:+919167916660"
+     class="px-6 py-2.5 bg-teal-600 hover:bg-teal-700 text-white font-semibold rounded-full shadow-md hover:shadow-lg transition-all duration-300 inline-flex items-center justify-center gap-2">
+    <i class="fas fa-phone-alt"></i> Call Us
+  </a>
+  <a href="mailto:care@saintistarhospital.com?subject=Inquiry%20from%20Sainit%20Hospital&body=Hello,%20I%20would%20like%20to%20inquire%20about..."
+     class="px-6 py-2.5 border-2 border-teal-600 text-teal-600 hover:bg-teal-600 hover:text-white font-semibold rounded-full transition-all duration-300 inline-flex items-center justify-center gap-2" target="_blank">
+    <i class="fas fa-envelope"></i> Email Us
+  </a>
+</div>
+        </div>
+      </div>
+    </section>
+
+    <!-- CONTACT SECTION -->
+<section id="contact" class="py-16 sm:py-20 relative overflow-hidden bg-gradient-to-b from-white to-teal-50/30" data-aos="fade-up" data-aos-duration="800">
+  <!-- Decorative Elements (matching your website's style) -->
+  <div class="absolute top-0 left-0 w-full overflow-hidden leading-none z-0 opacity-30">
+    <svg class="relative block w-full h-auto" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 320">
+      <path fill="#14b8a6" fill-opacity="0.1" d="M0,192L48,197.3C96,203,192,213,288,208C384,203,480,181,576,181.3C672,181,768,203,864,208C960,213,1056,203,1152,186.7C1248,171,1344,149,1392,138.7L1440,128L1440,0L1392,0C1344,0,1248,0,1152,0C1056,0,960,0,864,0C768,0,672,0,576,0C480,0,384,0,288,0C192,0,96,0,48,0L0,0Z"></path>
+    </svg>
+  </div>
+
+  <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 relative z-10">
+    
+    <!-- Heading (matches your website's section headers) -->
+    <div class="text-center mb-12 md:mb-16">
+      <span class="inline-block px-4 py-1.5 rounded-full bg-teal-100/90 text-teal-700 text-sm font-semibold tracking-wide mb-4 shadow-sm">
+        Get In Touch
+      </span>
+      <h2 class="text-3xl sm:text-4xl md:text-5xl font-bold text-gray-800 mb-3">
+        Contact <span class="text-teal-600">Us</span>
+      </h2>
+    
+      <p class="text-gray-500 max-w-2xl mx-auto text-sm sm:text-base">
+        Let's connect now for more information and appointments
+      </p>
+    </div>
+
+    <!-- Grid Layout -->
+    <div class="grid lg:grid-cols-2 gap-8 lg:gap-12">
+      
+      <!-- LEFT SIDE - Contact Information Cards -->
+      <div class="space-y-6">
+        
+        <!-- Address Card with Google Maps Link -->
+        <a href="https://maps.google.com/?q=Ground+Floor+New+Link+Rd+near+Oshiwara+Depot+Patliputra+Goregaon+West+Mumbai+400104" 
+           target="_blank"
+           class="group bg-white/70 backdrop-blur-md border border-teal-100 rounded-xl p-6 shadow-sm transition duration-300 hover:-translate-y-2 hover:shadow-xl hover:border-teal-300 block cursor-pointer"
+           data-aos="fade-right" data-aos-duration="600">
+          <div class="flex items-center gap-4">
+            <div class="w-14 h-14 flex items-center justify-center rounded-lg bg-teal-100 transition duration-300 group-hover:bg-teal-600">
+              <i class="fas fa-map-marker-alt text-2xl text-teal-600 group-hover:text-white transition"></i>
+            </div>
+            <div>
+              <h3 class="font-semibold text-gray-800 text-lg">Address</h3>
+              <p class="text-gray-600 text-sm leading-relaxed">
+                Ground Floor, New Link Rd, near Oshiwara Depot, Patliputra,<br />
+                Goregaon West, Mumbai - 400104
+              </p>
+              
+            </div>
+          </div>
+        </a>
+
+        <!-- Call & Email Grid -->
+        <div class="grid sm:grid-cols-2 gap-6">
+          
+          <!-- Call Card - Clickable Phone Link -->
+          <a href="tel:+919167916660" 
+             class="group bg-white/70 backdrop-blur-md border border-teal-100 rounded-xl p-6 text-center transition duration-300 hover:-translate-y-2 hover:shadow-xl hover:border-teal-300 block cursor-pointer"
+             data-aos="fade-up" data-aos-duration="600" data-aos-delay="100">
+            <div class="w-14 h-14 mx-auto flex items-center justify-center rounded-lg bg-teal-100 transition duration-300 group-hover:bg-teal-600 mb-4">
+              <i class="fas fa-phone-alt text-2xl text-teal-600 group-hover:text-white transition"></i>
+            </div>
+            <h3 class="font-semibold text-gray-800 text-lg mb-2">Call Us</h3>
+            <p class="text-teal-600 font-medium text-base">+91 9167916660</p>
+            <p class="text-gray-500 text-xs mt-2">24/7 Emergency Available</p>
+            <p class="text-teal-600 text-xs mt-1 group-hover:text-teal-700">
+              <i class="fas fa-phone-alt mr-1"></i>Tap to call →
+            </p>
+          </a>
+
+          <!-- Email Card - Clickable Email Link -->
+          <a href="mailto:care@saintistarhospital.com?subject=Inquiry%20from%20Website&body=Hello,%20I%20would%20like%20to%20know%20more%20about..." 
+             class="group bg-white/70 backdrop-blur-md border border-teal-100 rounded-xl p-6 text-center transition duration-300 hover:-translate-y-2 hover:shadow-xl hover:border-teal-300 block cursor-pointer"
+             data-aos="fade-up" data-aos-duration="600" data-aos-delay="200">
+            <div class="w-14 h-14 mx-auto flex items-center justify-center rounded-lg bg-teal-100 transition duration-300 group-hover:bg-teal-600 mb-4">
+              <i class="fas fa-envelope text-2xl text-teal-600 group-hover:text-white transition"></i>
+            </div>
+            <h3 class="font-semibold text-gray-800 text-lg mb-2">Email Us</h3>
+            <p class="text-teal-600 text-sm break-all">care@saintistarhospital.com</p>
+            <p class="text-gray-500 text-xs mt-2">We reply within 24 hours</p>
+            <p class="text-teal-600 text-xs mt-1 group-hover:text-teal-700">
+              <i class="fas fa-envelope mr-1"></i>Send email →
+            </p>
+          </a>
+
+        </div>
+
+       
+
+        <!-- WhatsApp Link (Bonus - common for hospitals) -->
+        <a href="https://wa.me/919167916660?text=Hello%2C%20I%20would%20like%20to%20inquire%20about%20hospital%20services" 
+           target="_blank"
+           class="group bg-white/70 backdrop-blur-md border border-teal-100 rounded-xl p-6 transition duration-300 hover:-translate-y-2 hover:shadow-xl hover:border-teal-300 block cursor-pointer"
+           data-aos="fade-left" data-aos-duration="600">
+          <div class="flex items-center gap-4">
+            <div class="w-14 h-14 flex items-center justify-center rounded-lg bg-teal-100 transition duration-300 group-hover:bg-green-500">
+              <i class="fab fa-whatsapp text-2xl text-teal-600 group-hover:text-white transition"></i>
+            </div>
+            <div>
+              <h3 class="font-semibold text-gray-800 text-lg">WhatsApp Us</h3>
+              <p class="text-gray-600 text-sm">+91 9167916660</p>
+              <p class="text-green-600 text-xs mt-1 group-hover:text-green-700">
+                <i class="fab fa-whatsapp mr-1"></i>Chat with us on WhatsApp →
+              </p>
+            </div>
+          </div>
+        </a>
+      </div>
+
+      <!-- RIGHT SIDE - Enhanced Form -->
+      <div class="bg-white rounded-2xl shadow-xl border border-gray-100 overflow-hidden transition-all duration-300 hover:shadow-2xl" data-aos="zoom-in" data-aos-duration="800" data-aos-delay="200">
+        <div class="bg-gradient-to-r from-teal-50 to-white px-6 py-5 border-b border-teal-100">
+          <div class="flex items-center gap-3">
+            <i class="fas fa-pen-alt text-teal-600 text-xl"></i>
+            <h3 class="text-xl sm:text-2xl font-bold text-gray-800">Send Us a Message</h3>
+          </div>
+          <p class="text-gray-500 text-sm mt-1">Fill the form below and our team will get back to you shortly</p>
+        </div>
+
+        <form class="p-6 sm:p-8 space-y-5">
+          <!-- Name Field -->
+          <div>
+            <label class="text-gray-700 font-medium text-sm mb-2 block">
+              <i class="fas fa-user text-teal-500 mr-2 text-xs"></i>Your Name *
+            </label>
+            <input type="text" placeholder="Enter your full name" 
+              class="w-full border border-gray-300 rounded-xl px-4 py-3 focus:outline-none focus:ring-2 focus:ring-teal-400 focus:border-transparent transition bg-gray-50 focus:bg-white">
+          </div>
+
+          <!-- Phone & Email Grid -->
+          <div class="grid md:grid-cols-2 gap-4">
+            <div>
+              <label class="text-gray-700 font-medium text-sm mb-2 block">
+                <i class="fas fa-phone-alt text-teal-500 mr-2 text-xs"></i>Contact Number *
+              </label>
+              <input type="tel" placeholder="+91 98765 43210" 
+                class="w-full border border-gray-300 rounded-xl px-4 py-3 focus:outline-none focus:ring-2 focus:ring-teal-400 focus:border-transparent transition bg-gray-50 focus:bg-white">
+            </div>
+            <div>
+              <label class="text-gray-700 font-medium text-sm mb-2 block">
+                <i class="fas fa-envelope text-teal-500 mr-2 text-xs"></i>Email Address *
+              </label>
+              <input type="email" placeholder="your@email.com" 
+                class="w-full border border-gray-300 rounded-xl px-4 py-3 focus:outline-none focus:ring-2 focus:ring-teal-400 focus:border-transparent transition bg-gray-50 focus:bg-white">
+            </div>
+          </div>
+
+          <!-- Subject Dropdown -->
+          <div>
+            <label class="text-gray-700 font-medium text-sm mb-2 block">
+              <i class="fas fa-tag text-teal-500 mr-2 text-xs"></i>Subject *
+            </label>
+            <select class="w-full border border-gray-300 rounded-xl px-4 py-3 focus:outline-none focus:ring-2 focus:ring-teal-400 focus:border-transparent transition bg-gray-50 focus:bg-white">
+              <option>General Inquiry</option>
+              <option>Appointment Booking</option>
+              <option>Emergency Assistance</option>
+              <option>Feedback / Suggestion</option>
+              <option>Insurance & Billing</option>
+              <option>Other</option>
+            </select>
+          </div>
+
+          <!-- Message Field -->
+          <div>
+            <label class="text-gray-700 font-medium text-sm mb-2 block">
+              <i class="fas fa-comment-dots text-teal-500 mr-2 text-xs"></i>Your Message *
+            </label>
+            <textarea rows="4" placeholder="Please describe your query or concern in detail..." 
+              class="w-full border border-gray-300 rounded-xl px-4 py-3 focus:outline-none focus:ring-2 focus:ring-teal-400 focus:border-transparent transition bg-gray-50 focus:bg-white resize-none"></textarea>
+          </div>
+
+          <!-- Checkbox - Not a Robot -->
+          <div class="flex items-center gap-3 py-2">
+            <input type="checkbox" id="robotCheck" class="w-5 h-5 text-teal-600 border-gray-300 rounded focus:ring-teal-400">
+            <label for="robotCheck" class="text-gray-600 text-sm">I am not a robot</label>
+          </div>
+
+          <!-- Submit Button -->
+          <button type="submit" 
+            class="w-full sm:w-auto bg-teal-600 hover:bg-teal-700 text-white font-semibold px-8 py-3 rounded-full shadow-md hover:shadow-lg transition-all duration-300 transform hover:scale-105 flex items-center justify-center gap-2">
+            <i class="fas fa-paper-plane"></i>
+            Send Message
+          </button>
+
+          <p class="text-xs text-gray-400 text-center pt-2">
+            <i class="fas fa-lock text-teal-400 mr-1"></i> Your information is safe and confidential
+          </p>
+        </form>
+      </div>
+    </div>
+
+    <!-- MAP SECTION - Added below contact form as requested -->
+    <div class="mt-16" data-aos="fade-up" data-aos-duration="800">
+      <div class="bg-white rounded-2xl shadow-xl border border-gray-100 overflow-hidden">
+        <div class="bg-gradient-to-r from-teal-50 to-white px-6 py-4 border-b border-teal-100">
+          <div class="flex items-center gap-3">
+            <i class="fas fa-map-marked-alt text-teal-600 text-xl"></i>
+            <h3 class="text-lg sm:text-xl font-bold text-gray-800">Find Us Here</h3>
+          </div>
+          <p class="text-gray-500 text-sm mt-1">Visit our hospital location for in-person consultations</p>
+        </div>
+        <div class="w-full h-80 md:h-96">
+
+ 
+          <iframe 
+            class="w-full h-full"
+            src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3768.9740862444173!2d72.8333670749794!3d19.152611582067873!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3be7b700264bc63d%3A0x68853bb098a81547!2sSainit%20Star%20Multispeciality%20Hospital!5e0!3m2!1sen!2sin!4v1774338404321!5m2!1sen!2sin" 
+            style="border:0;"
+            allowfullscreen=""
+            loading="lazy"
+            referrerpolicy="no-referrer-when-downgrade">
+          </iframe>
+        </div>
+        
+      </div>
+    </div>
+
+  </div>
+</section>
+
+
+
+    <!-- FOOTER -->
+    <div class="footer"></div>
+
+    <!-- Font Awesome CDN (Add this in your head tag if not already added) -->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"
+    />
+  </body>
+  <!-- Swiper JS -->
+  <script src="https://cdn.jsdelivr.net/npm/swiper@12/swiper-bundle.min.js"></script>
+
+  <!-- AOS JS -->
+  <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+
+  <!-- Initialize Swiper and AOS -->
+  <script>
+    var swiper = new Swiper(".mySwiper", {
+      spaceBetween: 30,
+      centeredSlides: true,
+      autoplay: {
+        delay: 2500,
+        disableOnInteraction: false,
+      },
+     
+    });
+
+    // Initialize AOS
+    AOS.init({
+      duration: 800,
+      once: true,
+      offset: 50,
+    });
+  </script>
+  <script src="./nav.js"></script>
+  <script src="./footer.js"></script>
+
+  <!-- JavaScript for FAQ Toggle -->
+  <script>
+    // FAQ Toggle Functionality
+    document.querySelectorAll(".faq-toggle").forEach((button) => {
+      button.addEventListener("click", () => {
+        const answer = button.nextElementSibling;
+        const icon = button.querySelector(".fa-chevron-down");
+
+        // Toggle the answer visibility
+        answer.classList.toggle("hidden");
+
+        // Rotate the icon
+        if (answer.classList.contains("hidden")) {
+          icon.style.transform = "rotate(0deg";
+        } else {
+          icon.style.transform = "rotate(180deg";
+        }
+      });
+    });
+  </script>
+
+   
+</html>

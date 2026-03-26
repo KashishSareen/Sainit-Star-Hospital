@@ -1,0 +1,274 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sainit Hospital - All Medical Specialties</title>
+    
+    <!-- Tailwind -->
+    <script src="https://cdn.tailwindcss.com"></script>
+
+    <!-- Font Awesome CDN  -->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"
+    />
+
+    <!-- Remix Icons -->
+    <link
+      href="https://cdn.jsdelivr.net/npm/remixicon/fonts/remixicon.css"
+      rel="stylesheet"
+    />
+    <!-- Link Swiper's CSS -->
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/swiper@12/swiper-bundle.min.css"
+    />
+
+    <!-- AOS CSS -->
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet" />
+</head>
+
+<body class="bg-white">
+
+  <!-- Header section -->
+    <div class="nav"></div>
+
+    <!-- service section -->
+     <div id="full-services-page" class="scroll-mt-20">
+   
+    <section class="py-16 sm:py-20 relative overflow-hidden bg-white border-t border-teal-100/30">
+      <!-- Wave Background Pattern similar -->
+      <div class="absolute inset-0 bg-gradient-to-b from-teal-50/20 via-white to-teal-50/20"></div>
+      <!-- Top Wave (mirror but with slight opacity) -->
+      <div class="absolute top-0 left-0 w-full overflow-hidden leading-none z-0 opacity-30">
+        <svg class="relative block w-full h-auto" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 320">
+          <path fill="#14b8a6" fill-opacity="0.1" d="M0,192L48,197.3C96,203,192,213,288,208C384,203,480,181,576,181.3C672,181,768,203,864,208C960,213,1056,203,1152,186.7C1248,171,1344,149,1392,138.7L1440,128L1440,0L1392,0C1344,0,1248,0,1152,0C1056,0,960,0,864,0C768,0,672,0,576,0C480,0,384,0,288,0C192,0,96,0,48,0L0,0Z"></path>
+        </svg>
+      </div>
+      <!-- Bottom Wave -->
+      <div class="absolute bottom-0 left-0 w-full overflow-hidden leading-none z-0 opacity-30 rotate-180">
+        <svg class="relative block w-full h-auto" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 320">
+          <path fill="#14b8a6" fill-opacity="0.1" d="M0,192L48,197.3C96,203,192,213,288,208C384,203,480,181,576,181.3C672,181,768,203,864,208C960,213,1056,203,1152,186.7C1248,171,1344,149,1392,138.7L1440,128L1440,320L1392,320C1344,320,1248,320,1152,320C1056,320,960,320,864,320C768,320,672,320,576,320C480,320,384,320,288,320C192,320,96,320,48,320L0,320Z"></path>
+        </svg>
+      </div>
+      <!-- Soft blobs -->
+      <div class="absolute top-32 left-1/4 w-72 h-72 bg-teal-200/20 rounded-full blur-3xl animate-pulse" style="animation-duration: 12s"></div>
+      <div class="absolute bottom-20 right-10 w-80 h-80 bg-emerald-200/15 rounded-full blur-3xl animate-pulse" style="animation-duration: 9s; animation-delay: 0.5s"></div>
+
+      <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 relative z-10">
+        <!-- Heading for full services page with AOS -->
+        <div class="text-center mb-12 md:mb-16" data-aos="fade-down" data-aos-duration="700">
+          <span class="inline-block px-4 py-1.5 rounded-full bg-teal-100/80 text-teal-700 text-sm font-semibold tracking-wide mb-4 shadow-sm mt-10">Complete Healthcare Network</span>
+          <h2 class="text-3xl sm:text-4xl md:text-5xl font-bold text-gray-800 mb-3">
+            All <span class="text-teal-600">Medical Specialties</span>
+          </h2>
+          <p class="text-gray-500 max-w-2xl mx-auto text-sm sm:text-base">
+            Explore our extensive range of advanced treatments, surgical care, and wellness services
+          </p>
+        </div>
+
+        <div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4 gap-6">
+          
+          <!-- Cosmetology -->
+          <div class="group bg-white rounded-xl p-6 text-center shadow-sm hover:shadow-xl transition-all duration-300 hover:-translate-y-1 border border-gray-100 hover:border-teal-200" data-aos="fade-up" data-aos-duration="600" data-aos-delay="100">
+            <div class="w-16 h-16 mx-auto flex items-center justify-center rounded-full bg-teal-100 group-hover:bg-teal-600 transition-all duration-300">
+              <i class="ri-leaf-line text-2xl text-teal-600 group-hover:text-white transition-colors"></i>
+            </div>
+            <h3 class="mt-4 text-lg font-semibold text-gray-800 group-hover:text-teal-700 transition">Cosmetology</h3>
+            <p class="text-gray-600 text-sm mt-2 leading-relaxed">Aesthetic treatments for skin, hair, and appearance enhancement.</p>
+          </div>
+
+          <!-- Dentistry -->
+          <div class="group bg-white rounded-xl p-6 text-center shadow-sm hover:shadow-xl transition-all duration-300 hover:-translate-y-1 border border-gray-100 hover:border-teal-200" data-aos="fade-up" data-aos-duration="600" data-aos-delay="150">
+            <div class="w-16 h-16 mx-auto flex items-center justify-center rounded-full bg-teal-100 group-hover:bg-teal-600 transition-all duration-300">
+              <i class="ri-tooth-line text-2xl text-teal-600 group-hover:text-white transition-colors"></i>
+            </div>
+            <h3 class="mt-4 text-lg font-semibold text-gray-800 group-hover:text-teal-700 transition">Dentistry</h3>
+            <p class="text-gray-600 text-sm mt-2 leading-relaxed">Complete dental care for healthy teeth and confident smiles.</p>
+          </div>
+
+          <!-- Diabetology -->
+          <div class="group bg-white rounded-xl p-6 text-center shadow-sm hover:shadow-xl transition-all duration-300 hover:-translate-y-1 border border-gray-100 hover:border-teal-200" data-aos="fade-up" data-aos-duration="600" data-aos-delay="200">
+            <div class="w-16 h-16 mx-auto flex items-center justify-center rounded-full bg-teal-100 group-hover:bg-teal-600 transition-all duration-300">
+              <i class="ri-drop-line text-2xl text-teal-600 group-hover:text-white transition-colors"></i>
+            </div>
+            <h3 class="mt-4 text-lg font-semibold text-gray-800 group-hover:text-teal-700 transition">Diabetology</h3>
+            <p class="text-gray-600 text-sm mt-2 leading-relaxed">Effective management and care for diabetes and related conditions.</p>
+          </div>
+
+          <!-- ENT -->
+          <div class="group bg-white rounded-xl p-6 text-center shadow-sm hover:shadow-xl transition-all duration-300 hover:-translate-y-1 border border-gray-100 hover:border-teal-200" data-aos="fade-up" data-aos-duration="600" data-aos-delay="250">
+            <div class="w-16 h-16 mx-auto flex items-center justify-center rounded-full bg-teal-100 group-hover:bg-teal-600 transition-all duration-300">
+              <i class="fas fa-ear-listen text-2xl text-teal-600 group-hover:text-white transition-colors"></i>
+            </div>
+            <h3 class="mt-4 text-lg font-semibold text-gray-800 group-hover:text-teal-700 transition">ENT (Ear, Nose, Throat)</h3>
+            <p class="text-gray-600 text-sm mt-2 leading-relaxed">Diagnosis and treatment of ear, nose, and throat conditions.</p>
+          </div>
+
+          <!-- Laparoscopic Surgery -->
+          <div class="group bg-white rounded-xl p-6 text-center shadow-sm hover:shadow-xl transition-all duration-300 hover:-translate-y-1 border border-gray-100 hover:border-teal-200" data-aos="fade-up" data-aos-duration="600" data-aos-delay="300">
+            <div class="w-16 h-16 mx-auto flex items-center justify-center rounded-full bg-teal-100 group-hover:bg-teal-600 transition-all duration-300">
+              <i class="ri-surgical-mask-line text-2xl text-teal-600 group-hover:text-white transition-colors"></i>
+            </div>
+            <h3 class="mt-4 text-lg font-semibold text-gray-800 group-hover:text-teal-700 transition">Laparoscopic Surgery</h3>
+            <p class="text-gray-600 text-sm mt-2 leading-relaxed">Minimally invasive surgical solutions with faster recovery.</p>
+          </div>
+
+          <!-- General Medicine -->
+          <div class="group bg-white rounded-xl p-6 text-center shadow-sm hover:shadow-xl transition-all duration-300 hover:-translate-y-1 border border-gray-100 hover:border-teal-200" data-aos="fade-up" data-aos-duration="600" data-aos-delay="350">
+            <div class="w-16 h-16 mx-auto flex items-center justify-center rounded-full bg-teal-100 group-hover:bg-teal-600 transition-all duration-300">
+              <i class="ri-stethoscope-line text-2xl text-teal-600 group-hover:text-white transition-colors"></i>
+            </div>
+            <h3 class="mt-4 text-lg font-semibold text-gray-800 group-hover:text-teal-700 transition">General Medicine</h3>
+            <p class="text-gray-600 text-sm mt-2 leading-relaxed">Comprehensive care for common illnesses and chronic conditions.</p>
+          </div>
+
+          <!-- General Physician -->
+          <div class="group bg-white rounded-xl p-6 text-center shadow-sm hover:shadow-xl transition-all duration-300 hover:-translate-y-1 border border-gray-100 hover:border-teal-200" data-aos="fade-up" data-aos-duration="600" data-aos-delay="400">
+            <div class="w-16 h-16 mx-auto flex items-center justify-center rounded-full bg-teal-100 group-hover:bg-teal-600 transition-all duration-300">
+              <i class="ri-user-heart-line text-2xl text-teal-600 group-hover:text-white transition-colors"></i>
+            </div>
+            <h3 class="mt-4 text-lg font-semibold text-gray-800 group-hover:text-teal-700 transition">General Physician</h3>
+            <p class="text-gray-600 text-sm mt-2 leading-relaxed">Primary medical care for routine checkups and health concerns.</p>
+          </div>
+
+          <!-- General Surgery -->
+          <div class="group bg-white rounded-xl p-6 text-center shadow-sm hover:shadow-xl transition-all duration-300 hover:-translate-y-1 border border-gray-100 hover:border-teal-200" data-aos="fade-up" data-aos-duration="600" data-aos-delay="450">
+            <div class="w-16 h-16 mx-auto flex items-center justify-center rounded-full bg-teal-100 group-hover:bg-teal-600 transition-all duration-300">
+              <i class="ri-scissors-cut-line text-2xl text-teal-600 group-hover:text-white transition-colors"></i>
+            </div>
+            <h3 class="mt-4 text-lg font-semibold text-gray-800 group-hover:text-teal-700 transition">General Surgery</h3>
+            <p class="text-gray-600 text-sm mt-2 leading-relaxed">Safe and reliable surgical procedures with expert surgeons.</p>
+          </div>
+
+          <!-- Pediatrics -->
+          <div class="group bg-white rounded-xl p-6 text-center shadow-sm hover:shadow-xl transition-all duration-300 hover:-translate-y-1 border border-gray-100 hover:border-teal-200" data-aos="fade-up" data-aos-duration="600" data-aos-delay="500">
+            <div class="w-16 h-16 mx-auto flex items-center justify-center rounded-full bg-teal-100 group-hover:bg-teal-600 transition-all duration-300">
+              <i class="fas fa-baby text-2xl text-teal-600 group-hover:text-white transition-colors"></i>
+            </div>
+            <h3 class="mt-4 text-lg font-semibold text-gray-800 group-hover:text-teal-700 transition">Pediatrics</h3>
+            <p class="text-gray-600 text-sm mt-2 leading-relaxed">Specialized healthcare for infants, children, and adolescents.</p>
+          </div>
+
+          <!-- Pediatric Care (additional but different icon) -->
+          <div class="group bg-white rounded-xl p-6 text-center shadow-sm hover:shadow-xl transition-all duration-300 hover:-translate-y-1 border border-gray-100 hover:border-teal-200" data-aos="fade-up" data-aos-duration="600" data-aos-delay="550">
+            <div class="w-16 h-16 mx-auto flex items-center justify-center rounded-full bg-teal-100 group-hover:bg-teal-600 transition-all duration-300">
+              <i class="fas fa-child text-2xl text-teal-600 group-hover:text-white transition-colors"></i>
+            </div>
+            <h3 class="mt-4 text-lg font-semibold text-gray-800 group-hover:text-teal-700 transition">Pediatric Care</h3>
+            <p class="text-gray-600 text-sm mt-2 leading-relaxed">Specialized medical care for infants, children, and adolescents.</p>
+          </div>
+
+          <!-- Physiotherapy -->
+          <div class="group bg-white rounded-xl p-6 text-center shadow-sm hover:shadow-xl transition-all duration-300 hover:-translate-y-1 border border-gray-100 hover:border-teal-200" data-aos="fade-up" data-aos-duration="600" data-aos-delay="600">
+            <div class="w-16 h-16 mx-auto flex items-center justify-center rounded-full bg-teal-100 group-hover:bg-teal-600 transition-all duration-300">
+              <i class="ri-run-line text-2xl text-teal-600 group-hover:text-white transition-colors"></i>
+            </div>
+            <h3 class="mt-4 text-lg font-semibold text-gray-800 group-hover:text-teal-700 transition">Physiotherapy</h3>
+            <p class="text-gray-600 text-sm mt-2 leading-relaxed">Rehabilitation and physical therapy for injury recovery and mobility.</p>
+          </div>
+
+          <!-- Diagnostic & Imaging Services -->
+          <div class="group bg-white rounded-xl p-6 text-center shadow-sm hover:shadow-xl transition-all duration-300 hover:-translate-y-1 border border-gray-100 hover:border-teal-200" data-aos="fade-up" data-aos-duration="600" data-aos-delay="650">
+            <div class="w-16 h-16 mx-auto flex items-center justify-center rounded-full bg-teal-100 group-hover:bg-teal-600 transition-all duration-300">
+              <i class="fas fa-x-ray text-2xl text-teal-600 group-hover:text-white transition-colors"></i>
+            </div>
+            <h3 class="mt-4 text-lg font-semibold text-gray-800 group-hover:text-teal-700 transition">Diagnostic & Imaging Services</h3>
+            <p class="text-gray-600 text-sm mt-2 leading-relaxed">Comprehensive diagnostics including pathology, sonography, X-ray, and 2D Echo imaging.</p>
+          </div>
+
+          <!-- Pharmacy & Laparoscopy -->
+          <div class="group bg-white rounded-xl p-6 text-center shadow-sm hover:shadow-xl transition-all duration-300 hover:-translate-y-1 border border-gray-100 hover:border-teal-200" data-aos="fade-up" data-aos-duration="600" data-aos-delay="700">
+            <div class="w-16 h-16 mx-auto flex items-center justify-center rounded-full bg-teal-100 group-hover:bg-teal-600 transition-all duration-300">
+              <i class="fas fa-pills text-2xl text-teal-600 group-hover:text-white transition-colors"></i>
+            </div>
+            <h3 class="mt-4 text-lg font-semibold text-gray-800 group-hover:text-teal-700 transition">Pharmacy & Laparoscopy</h3>
+            <p class="text-gray-600 text-sm mt-2 leading-relaxed">24/7 in-house pharmacy and advanced 3-chip HD laparoscopic surgical facilities.</p>
+          </div>
+
+          <!-- Advanced Critical Care -->
+          <div class="group bg-white rounded-xl p-6 text-center shadow-sm hover:shadow-xl transition-all duration-300 hover:-translate-y-1 border border-gray-100 hover:border-teal-200" data-aos="fade-up" data-aos-duration="600" data-aos-delay="750">
+            <div class="w-16 h-16 mx-auto flex items-center justify-center rounded-full bg-teal-100 group-hover:bg-teal-600 transition-all duration-300">
+              <i class="fas fa-heartbeat text-2xl text-teal-600 group-hover:text-white transition-colors"></i>
+            </div>
+            <h3 class="mt-4 text-lg font-semibold text-gray-800 group-hover:text-teal-700 transition">Advanced Critical Care</h3>
+            <p class="text-gray-600 text-sm mt-2 leading-relaxed">22-bedded ICU with power backup, emergency care, and round-the-clock monitoring.</p>
+          </div>
+
+          <!-- Modern Surgical Facilities -->
+          <div class="group bg-white rounded-xl p-6 text-center shadow-sm hover:shadow-xl transition-all duration-300 hover:-translate-y-1 border border-gray-100 hover:border-teal-200" data-aos="fade-up" data-aos-duration="600" data-aos-delay="800">
+            <div class="w-16 h-16 mx-auto flex items-center justify-center rounded-full bg-teal-100 group-hover:bg-teal-600 transition-all duration-300">
+              <i class="fas fa-procedures text-2xl text-teal-600 group-hover:text-white transition-colors"></i>
+            </div>
+            <h3 class="mt-4 text-lg font-semibold text-gray-800 group-hover:text-teal-700 transition">Modern Surgical Facilities</h3>
+            <p class="text-gray-600 text-sm mt-2 leading-relaxed">Equipped with advanced operation theatre, C-arm, and modern anesthesia systems.</p>
+          </div>
+
+          <!-- Orthopedics -->
+          <div class="group bg-white rounded-xl p-6 text-center shadow-sm hover:shadow-xl transition-all duration-300 hover:-translate-y-1 border border-gray-100 hover:border-teal-200" data-aos="fade-up" data-aos-duration="600" data-aos-delay="850">
+            <div class="w-16 h-16 mx-auto flex items-center justify-center rounded-full bg-teal-100 group-hover:bg-teal-600 transition-all duration-300">
+              <i class="fas fa-bone text-2xl text-teal-600 group-hover:text-white transition-colors"></i>
+            </div>
+            <h3 class="mt-4 text-lg font-semibold text-gray-800 group-hover:text-teal-700 transition">Orthopedics</h3>
+            <p class="text-gray-600 text-sm mt-2 leading-relaxed">Advanced care for bones, joints, spine, and musculoskeletal health.</p>
+          </div>
+
+          <!-- Gynaecology -->
+          <div class="group bg-white rounded-xl p-6 text-center shadow-sm hover:shadow-xl transition-all duration-300 hover:-translate-y-1 border border-gray-100 hover:border-teal-200" data-aos="fade-up" data-aos-duration="600" data-aos-delay="900">
+            <div class="w-16 h-16 mx-auto flex items-center justify-center rounded-full bg-teal-100 group-hover:bg-teal-600 transition-all duration-300">
+              <i class="fas fa-female text-2xl text-teal-600 group-hover:text-white transition-colors"></i>
+            </div>
+            <h3 class="mt-4 text-lg font-semibold text-gray-800 group-hover:text-teal-700 transition">Gynaecology</h3>
+            <p class="text-gray-600 text-sm mt-2 leading-relaxed">Comprehensive women's health and maternity care services</p>
+          </div>
+
+          <!-- Cardiology (Added for completeness) -->
+          <div class="group bg-white rounded-xl p-6 text-center shadow-sm hover:shadow-xl transition-all duration-300 hover:-translate-y-1 border border-gray-100 hover:border-teal-200" data-aos="fade-up" data-aos-duration="600" data-aos-delay="950">
+            <div class="w-16 h-16 mx-auto flex items-center justify-center rounded-full bg-teal-100 group-hover:bg-teal-600 transition-all duration-300">
+              <i class="fas fa-heart text-2xl text-teal-600 group-hover:text-white transition-colors"></i>
+            </div>
+            <h3 class="mt-4 text-lg font-semibold text-gray-800 group-hover:text-teal-700 transition">Cardiology</h3>
+            <p class="text-gray-600 text-sm mt-2 leading-relaxed">Advanced cardiac care and heart health management.</p>
+          </div>
+
+          <!-- Neurology (Added for completeness) -->
+          <div class="group bg-white rounded-xl p-6 text-center shadow-sm hover:shadow-xl transition-all duration-300 hover:-translate-y-1 border border-gray-100 hover:border-teal-200" data-aos="fade-up" data-aos-duration="600" data-aos-delay="1000">
+            <div class="w-16 h-16 mx-auto flex items-center justify-center rounded-full bg-teal-100 group-hover:bg-teal-600 transition-all duration-300">
+              <i class="fas fa-brain text-2xl text-teal-600 group-hover:text-white transition-colors"></i>
+            </div>
+            <h3 class="mt-4 text-lg font-semibold text-gray-800 group-hover:text-teal-700 transition">Neurology</h3>
+            <p class="text-gray-600 text-sm mt-2 leading-relaxed">Expert care for brain, spine, and nervous system disorders.</p>
+          </div>
+
+        </div>
+
+        <!-- Optional back to top / close but stays user-friendly -->
+        <div class="text-center mt-12" data-aos="zoom-in" data-aos-duration="600" data-aos-delay="1050">
+          <a href="#" class="inline-flex items-center gap-2 px-6 py-2.5 bg-teal-50 hover:bg-teal-100 text-teal-700 font-medium rounded-full transition-all duration-300 border border-teal-200">
+            <i class="fas fa-arrow-up text-sm"></i> Back to Top
+          </a>
+          <p class="text-gray-400 text-xs mt-5">Compassionate care, advanced technology — all under one roof</p>
+        </div>
+      </div>
+    </section>
+  </div>
+    <div class="footer"></div>
+
+    <!-- AOS JS -->
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    
+</body>
+<script src="nav.js"></script>
+<script src="footer.js"></script>
+
+<script>
+  // Initialize AOS
+  AOS.init({
+    duration: 800,
+    once: true,
+    offset: 50,
+    easing: 'ease-out-quad'
+  });
+</script>
+</html>
