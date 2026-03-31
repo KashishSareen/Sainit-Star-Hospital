@@ -132,7 +132,7 @@ footer.innerHTML = `   <footer
             <ul class="space-y-3 text-sm text-gray-600">
               <li>
                 <a
-                  href="#"
+                  href="./Emergency.html"
                   class="hover:text-teal-600 transition flex items-center gap-2"
                   ><i class="fas fa-chevron-right text-teal-500 text-xs"></i>
                   24/7 Emergency & Trauma Care</a
@@ -140,7 +140,7 @@ footer.innerHTML = `   <footer
               </li>
               <li>
                 <a
-                  href="#"
+                  href="./Diagnostics.html"
                   class="hover:text-teal-600 transition flex items-center gap-2"
                   ><i class="fas fa-chevron-right text-teal-500 text-xs"></i>
                   Advanced Diagnostic Services</a
@@ -148,7 +148,7 @@ footer.innerHTML = `   <footer
               </li>
               <li>
                 <a
-                  href="#"
+                  href="./Cardiology.html"
                   class="hover:text-teal-600 transition flex items-center gap-2"
                   ><i class="fas fa-chevron-right text-teal-500 text-xs"></i>
                   Cardiology</a
@@ -156,7 +156,7 @@ footer.innerHTML = `   <footer
               </li>
               <li>
                 <a
-                  href="#"
+                  href="./Cosmetology.html"
                   class="hover:text-teal-600 transition flex items-center gap-2"
                   ><i class="fas fa-chevron-right text-teal-500 text-xs"></i>
                   Cosmetology</a
@@ -164,7 +164,7 @@ footer.innerHTML = `   <footer
               </li>
               <li>
                 <a
-                  href="#"
+                  href="./Dentistry.html"
                   class="hover:text-teal-600 transition flex items-center gap-2"
                   ><i class="fas fa-chevron-right text-teal-500 text-xs"></i>
                   Dentistry</a
@@ -172,7 +172,7 @@ footer.innerHTML = `   <footer
               </li>
               <li>
                 <a
-                  href="#"
+                  href="./Diabetology.html"
                   class="hover:text-teal-600 transition flex items-center gap-2"
                   ><i class="fas fa-chevron-right text-teal-500 text-xs"></i>
                   Diabetology</a
@@ -180,7 +180,7 @@ footer.innerHTML = `   <footer
               </li>
               <li>
                 <a
-                  href="#"
+                  href="./ENT.html"
                   class="hover:text-teal-600 transition flex items-center gap-2"
                   ><i class="fas fa-chevron-right text-teal-500 text-xs"></i>
                   ENT</a
@@ -188,7 +188,7 @@ footer.innerHTML = `   <footer
               </li>
               <li>
                 <a
-                  href="#"
+                  href="./Laparoscopic.html"
                   class="hover:text-teal-600 transition flex items-center gap-2"
                   ><i class="fas fa-chevron-right text-teal-500 text-xs"></i>
                   General & Laparoscopic Surgery</a
@@ -208,7 +208,7 @@ footer.innerHTML = `   <footer
             <ul class="space-y-3 text-sm text-gray-600">
               <li>
                 <a
-                  href="#"
+                  href="./Medicine.html"
                   class="hover:text-teal-600 transition flex items-center gap-2"
                   ><i class="fas fa-chevron-right text-teal-500 text-xs"></i>
                   General Medicine</a
@@ -216,7 +216,7 @@ footer.innerHTML = `   <footer
               </li>
               <li>
                 <a
-                  href="#"
+                  href="./Physician.html"
                   class="hover:text-teal-600 transition flex items-center gap-2"
                   ><i class="fas fa-chevron-right text-teal-500 text-xs"></i>
                   General Physician</a
@@ -224,7 +224,7 @@ footer.innerHTML = `   <footer
               </li>
               <li>
                 <a
-                  href="#"
+                  href="./Surgery.html"
                   class="hover:text-teal-600 transition flex items-center gap-2"
                   ><i class="fas fa-chevron-right text-teal-500 text-xs"></i>
                   General Surgery</a
@@ -232,23 +232,16 @@ footer.innerHTML = `   <footer
               </li>
               <li>
                 <a
-                  href="#"
+                  href="./Gynaecology.html"
                   class="hover:text-teal-600 transition flex items-center gap-2"
                   ><i class="fas fa-chevron-right text-teal-500 text-xs"></i>
                   Gynaecology</a
                 >
               </li>
+           
               <li>
                 <a
-                  href="#"
-                  class="hover:text-teal-600 transition flex items-center gap-2"
-                  ><i class="fas fa-chevron-right text-teal-500 text-xs"></i>
-                  Orthopedics</a
-                >
-              </li>
-              <li>
-                <a
-                  href="#"
+                  href="./Orthopedics.html"
                   class="hover:text-teal-600 transition flex items-center gap-2"
                   ><i class="fas fa-chevron-right text-teal-500 text-xs"></i>
                   Orthopedics & Joint Care</a
@@ -256,7 +249,7 @@ footer.innerHTML = `   <footer
               </li>
               <li>
                 <a
-                  href="#"
+                  href="./Pediatric.html"
                   class="hover:text-teal-600 transition flex items-center gap-2"
                   ><i class="fas fa-chevron-right text-teal-500 text-xs"></i>
                   Pediatric Care</a
@@ -264,7 +257,7 @@ footer.innerHTML = `   <footer
               </li>
               <li>
                 <a
-                  href="#"
+                  href="./Physiotherapy.html"
                   class="hover:text-teal-600 transition flex items-center gap-2"
                   ><i class="fas fa-chevron-right text-teal-500 text-xs"></i>
                   Physiotherapy</a
