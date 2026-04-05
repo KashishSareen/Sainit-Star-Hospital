@@ -27,10 +27,10 @@ footer.innerHTML = `   <footer
               <p>
                 <span class="font-semibold">Phone:</span>
                 <a
-                  href="tel:919167916660"
+                  href="tel:+919167916660"
                   class="text-teal-600 hover:text-teal-700 transition"
                 >
-                  919167916660
+                  +91 91679 16660
                 </a>
               </p>
               <p class="mt-2">
