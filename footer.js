@@ -19,7 +19,7 @@ footer.innerHTML = `   <footer
 
             <p class="text-sm text-gray-600 leading-relaxed">
               Ground Floor, New Link Rd, near Oshiwara Depot,<br />
-              Patliputra, Goregaon West 400104<br />
+               Andheri West 400104<br />
               Mumbai, Maharashtra
             </p>
 
