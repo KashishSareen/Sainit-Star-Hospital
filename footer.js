@@ -15,7 +15,7 @@ footer.innerHTML = `   <footer
         >
           <!-- Column 1 - Logo + Info -->
           <div>
-            <img src="/images/starlogo.jpg" alt="logo" class="h-12 mb-4" />
+            <img src="/images/Sainitlogo.jpg" alt="logo" class="h-12 mb-4" />
 
             <p class="text-sm text-gray-600 leading-relaxed">
               Ground Floor, New Link Rd, near Oshiwara Depot,<br />
