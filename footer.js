@@ -194,7 +194,7 @@ footer.innerHTML = `
     <!-- Bottom Line -->
     <div class="mt-12 pt-6 text-center" style="border-top: 1px solid rgba(212,175,55,0.25);">
       <p class="text-sm" style="color: rgba(197,208,221,0.7);">
-        &copy; 2025 Sainit Star Multispeciality Hospital. All rights reserved. &nbsp;|&nbsp;
+        &copy; 2026 Sainit Star Multispeciality Hospital. All rights reserved. &nbsp;|&nbsp;
         <span style="color: #D4AF37;">Designed &amp; developed by ReferIndia</span>
       </p>
     </div>
