@@ -7,7 +7,7 @@ nav.innerHTML = `
     
     <!-- Logo -->
     <div class="flex items-center">
-      <img src="/images/Sainitlogo.jpg" class="h-14 w-auto rounded-sm border border-[#C5A059]" />
+      <img src="/images/Sainitlogo.jpg" class="h-14 w-auto rounded-[15px] border border-[#C5A059] " />
     </div>
 
     <!-- Desktop Nav -->
