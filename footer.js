@@ -1,277 +1,202 @@
 const footer = document.querySelector('.footer');
 
-footer.innerHTML = `   <footer
-      class="bg-white border-t border-teal-100 pt-12 pb-6 relative overflow-hidden"
-    >
-      <!-- Decorative Gradient Element -->
-      <div
-        class="absolute top-0 left-0 w-full h-1 bg-gradient-to-r from-teal-400 via-teal-500 to-teal-600"
-      ></div>
+footer.innerHTML = `
+<footer style="background: linear-gradient(160deg, #0a1c34 0%, #0D2240 50%, #0f2a4a 100%); position: relative; overflow: hidden;" class="pt-14 pb-6">
+  
+  <!-- Gold top accent line -->
+  <div style="position: absolute; top: 0; left: 0; width: 100%; height: 4px; background: linear-gradient(90deg, #D4AF37, #f0da8a, #D4AF37);"></div>
 
-      <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 relative z-10">
-        <!-- Grid -->
-        <div
-          class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-8 lg:gap-10"
-        >
-          <!-- Column 1 - Logo + Info -->
-          <div>
-            <img src="/images/Sainitlogo.jpg" alt="logo" class="h-12 mb-4" />
+  <!-- Decorative background circles -->
+  <div style="position: absolute; top: -100px; right: -100px; width: 400px; height: 400px; background: radial-gradient(circle, rgba(212,175,55,0.08) 0%, transparent 70%); border-radius: 50%;"></div>
+  <div style="position: absolute; bottom: -80px; left: -80px; width: 300px; height: 300px; background: radial-gradient(circle, rgba(212,175,55,0.06) 0%, transparent 70%); border-radius: 50%;"></div>
 
-            <p class="text-sm text-gray-600 leading-relaxed">
-              Ground Floor, New Link Rd, near Oshiwara Depot,<br />
-               Andheri West 400104<br />
-              Mumbai, Maharashtra
-            </p>
-
-            <div class="mt-4 text-sm text-gray-700">
-              <p>
-                <span class="font-semibold">Phone:</span>
-                <a
-                  href="tel:+919167916660"
-                  class="text-teal-600 hover:text-teal-700 transition"
-                >
-                  +91 91679 16660
-                </a>
-              </p>
-              <p class="mt-2">
-                <span class="font-semibold">Email:</span>
-                <a
-                  href="mailto:care@sainitstarhospital.com"
-                  class="text-teal-600 hover:text-teal-700 transition"
-                >
-                  care@sainitstarhospital.com
-                </a>
-              </p>
-            </div>
-
-            <!-- Social Media Links -->
-            <div class="mt-6">
-              <h4 class="text-sm font-semibold text-gray-800 mb-3">
-                Follow Us
-              </h4>
-              <div class="flex gap-3">
-          
-              <a
-  href="https://wa.me/919167916660"
-  target="_blank"
-  class="w-9 h-9 rounded-full bg-teal-100 hover:bg-teal-600 text-teal-600 hover:text-white flex items-center justify-center transition-all duration-300 hover:scale-110"
->
-  <i class="fab fa-whatsapp text-2xl"></i>
-</a>
-                <a
-                  href="https://www.instagram.com/sainit_star_hospital/"
-                  class="w-9 h-9 rounded-full bg-teal-100 hover:bg-teal-600 text-teal-600 hover:text-white flex items-center justify-center transition-all duration-300 hover:scale-110"
-                >
-                  <i class="fab fa-instagram text-2xl"></i>
-                </a>
-                    
-              </div>
-            </div>
-          </div>
-
-          <!-- Column 2 - Useful Links -->
-          <div>
-            <h3
-              class="text-lg font-semibold text-gray-800 mb-4 relative inline-block"
-            >
-              Useful Links
-              <!-- <span class="absolute bottom-0 left-0 w-8 h-0.5 bg-teal-500 rounded-full mt-1"></span> -->
-            </h3>
-            <ul class="space-y-3 text-sm text-gray-600">
-              <li>
-                <a
-                  href="./index.html"
-                  class="hover:text-teal-600 transition flex items-center gap-2"
-                  ><i class="fas fa-chevron-right text-teal-500 text-xs"></i>
-                  Home</a
-                >
-              </li>
-              <li>
-                <a
-                  href="./index.html#about"
-                  class="hover:text-teal-600 transition flex items-center gap-2"
-                  ><i class="fas fa-chevron-right text-teal-500 text-xs"></i>
-                  About us</a
-                >
-              </li>
-              <li>
-                <a
-                  href="./index.html#services"
-                  class="hover:text-teal-600 transition flex items-center gap-2"
-                  ><i class="fas fa-chevron-right text-teal-500 text-xs"></i>
-                  Services</a
-                >
-              </li>
-              <li>
-                <a
-                  href="./index.html#contact"
-                  class="hover:text-teal-600 transition flex items-center gap-2"
-                  ><i class="fas fa-chevron-right text-teal-500 text-xs"></i>
-                  Contact</a
-                >
-              </li>
-              <li>
-                <a
-                  href="https://www.google.com/maps/place/Sainit+Star+Multispeciality+Hospital/@19.1526116,72.835942,17z/data=!3m1!4b1!4m6!3m5!1s0x3be7b700264bc63d:0x68853bb098a81547!8m2!3d19.1526116!4d72.835942!16s%2Fg%2F11ms45_02t?entry=ttu&g_ep=EgoyMDI2MDMyMi4wIKXMDSoASAFQAw%3D%3D"
-                  class="hover:text-teal-600 transition flex items-center gap-2" target="_blank"
-                  ><i class="fas fa-chevron-right text-teal-500 text-xs"></i>
-                  Google Profile</a
-                >
-              </li>
-            </ul>
-          </div>
-
-          <!-- Column 3 - Services -->
-          <div>
-            <h3
-              class="text-lg font-semibold text-gray-800 mb-4 relative inline-block"
-            >
-              Our Services
-              <!-- <span class="absolute bottom-0 left-0 w-8 h-0.5 bg-teal-500 rounded-full mt-1"></span> -->
-            </h3>
-            <ul class="space-y-3 text-sm text-gray-600">
-              <li>
-                <a
-                  href="./Emergency.html"
-                  class="hover:text-teal-600 transition flex items-center gap-2"
-                  ><i class="fas fa-chevron-right text-teal-500 text-xs"></i>
-                  24/7 Emergency & Trauma Care</a
-                >
-              </li>
-              <li>
-                <a
-                  href="./Diagnostics.html"
-                  class="hover:text-teal-600 transition flex items-center gap-2"
-                  ><i class="fas fa-chevron-right text-teal-500 text-xs"></i>
-                  Advanced Diagnostic Services</a
-                >
-              </li>
-              <li>
-                <a
-                  href="./Cardiology.html"
-                  class="hover:text-teal-600 transition flex items-center gap-2"
-                  ><i class="fas fa-chevron-right text-teal-500 text-xs"></i>
-                  Cardiology</a
-                >
-              </li>
-              <li>
-                <a
-                  href="./Cosmetology.html"
-                  class="hover:text-teal-600 transition flex items-center gap-2"
-                  ><i class="fas fa-chevron-right text-teal-500 text-xs"></i>
-                  Cosmetology</a
-                >
-              </li>
-              <li>
-                <a
-                  href="./Dentistry.html"
-                  class="hover:text-teal-600 transition flex items-center gap-2"
-                  ><i class="fas fa-chevron-right text-teal-500 text-xs"></i>
-                  Dentistry</a
-                >
-              </li>
-              <li>
-                <a
-                  href="./Diabetology.html"
-                  class="hover:text-teal-600 transition flex items-center gap-2"
-                  ><i class="fas fa-chevron-right text-teal-500 text-xs"></i>
-                  Diabetology</a
-                >
-              </li>
-              <li>
-                <a
-                  href="./ENT.html"
-                  class="hover:text-teal-600 transition flex items-center gap-2"
-                  ><i class="fas fa-chevron-right text-teal-500 text-xs"></i>
-                  ENT</a
-                >
-              </li>
-              <li>
-                <a
-                  href="./Laparoscopic.html"
-                  class="hover:text-teal-600 transition flex items-center gap-2"
-                  ><i class="fas fa-chevron-right text-teal-500 text-xs"></i>
-                  General & Laparoscopic Surgery</a
-                >
-              </li>
-            </ul>
-          </div>
-
-          <!-- Column 4 - More Services -->
-          <div>
-            <h3
-              class="text-lg font-semibold text-gray-800 mb-4 relative inline-block"
-            >
-              More Services
-              <!-- <span class="absolute bottom-0 left-0 w-8 h-0.5 bg-teal-500 rounded-full mt-1"></span> -->
-            </h3>
-            <ul class="space-y-3 text-sm text-gray-600">
-              <li>
-                <a
-                  href="./Medicine.html"
-                  class="hover:text-teal-600 transition flex items-center gap-2"
-                  ><i class="fas fa-chevron-right text-teal-500 text-xs"></i>
-                  General Medicine</a
-                >
-              </li>
-              <li>
-                <a
-                  href="./Physician.html"
-                  class="hover:text-teal-600 transition flex items-center gap-2"
-                  ><i class="fas fa-chevron-right text-teal-500 text-xs"></i>
-                  General Physician</a
-                >
-              </li>
-              <li>
-                <a
-                  href="./Surgery.html"
-                  class="hover:text-teal-600 transition flex items-center gap-2"
-                  ><i class="fas fa-chevron-right text-teal-500 text-xs"></i>
-                  General Surgery</a
-                >
-              </li>
-              <li>
-                <a
-                  href="./Gynaecology.html"
-                  class="hover:text-teal-600 transition flex items-center gap-2"
-                  ><i class="fas fa-chevron-right text-teal-500 text-xs"></i>
-                  Gynaecology</a
-                >
-              </li>
-           
-              <li>
-                <a
-                  href="./Orthopedics.html"
-                  class="hover:text-teal-600 transition flex items-center gap-2"
-                  ><i class="fas fa-chevron-right text-teal-500 text-xs"></i>
-                  Orthopedics & Joint Care</a
-                >
-              </li>
-              <li>
-                <a
-                  href="./Pediatric.html"
-                  class="hover:text-teal-600 transition flex items-center gap-2"
-                  ><i class="fas fa-chevron-right text-teal-500 text-xs"></i>
-                  Pediatric Care</a
-                >
-              </li>
-              <li>
-                <a
-                  href="./Physiotherapy.html"
-                  class="hover:text-teal-600 transition flex items-center gap-2"
-                  ><i class="fas fa-chevron-right text-teal-500 text-xs"></i>
-                  Physiotherapy</a
-                >
-              </li>
-            </ul>
-          </div>
+  <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 relative" style="z-index: 10;">
+    <!-- Grid -->
+    <div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-8 lg:gap-10">
+      
+      <!-- Column 1 - Logo + Info -->
+      <div>
+        <div style="background: white; border-radius: 12px; padding: 6px 10px; display: inline-flex; margin-bottom: 16px; box-shadow: 0 4px 15px rgba(0,0,0,0.2);">
+          <img src="/images/Sainitlogo.jpg" alt="logo" class="h-12" />
         </div>
 
-        <!-- Bottom Line -->
-        <div class="border-t border-teal-100 mt-10 pt-6 text-center">
-          <p class="text-sm text-teal-600">
-            Designed & developed by ReferIndia
+        <p class="text-sm leading-relaxed" style="color: #c5d0dd;">
+          Ground Floor, New Link Rd, near Oshiwara Depot,<br />
+          Andheri West 400104<br />
+          Mumbai, Maharashtra
+        </p>
+
+        <div class="mt-4 text-sm" style="color: #c5d0dd;">
+          <p>
+            <span class="font-semibold" style="color: #D4AF37;">Phone:</span>
+            <a href="tel:+919167916660" class="transition hover:underline" style="color: #e8edf3;">
+              +91 91679 16660
+            </a>
+          </p>
+          <p class="mt-2">
+            <span class="font-semibold" style="color: #D4AF37;">Email:</span>
+            <a href="mailto:care@sainitstarhospital.com" class="transition hover:underline" style="color: #e8edf3;">
+              care@sainitstarhospital.com
+            </a>
           </p>
         </div>
+
+        <!-- Social Media Links -->
+        <div class="mt-6">
+          <h4 class="text-sm font-semibold mb-3" style="color: #D4AF37; letter-spacing: 0.05em;">FOLLOW US</h4>
+          <div class="flex gap-3">
+            <a href="https://wa.me/919167916660" target="_blank"
+              class="w-9 h-9 rounded-full flex items-center justify-center transition-all duration-300 hover:scale-110"
+              style="background: rgba(212,175,55,0.15); color: #D4AF37; border: 1px solid rgba(212,175,55,0.3);">
+              <i class="fab fa-whatsapp text-xl"></i>
+            </a>
+            <a href="https://www.instagram.com/sainit_star_hospital/" target="_blank"
+              class="w-9 h-9 rounded-full flex items-center justify-center transition-all duration-300 hover:scale-110"
+              style="background: rgba(212,175,55,0.15); color: #D4AF37; border: 1px solid rgba(212,175,55,0.3);">
+              <i class="fab fa-instagram text-xl"></i>
+            </a>
+          </div>
+        </div>
       </div>
-    </footer>`
+
+      <!-- Column 2 - Useful Links -->
+      <div>
+        <h3 class="text-lg font-bold mb-5 relative inline-block" style="color: #D4AF37; letter-spacing: 0.04em;">
+          USEFUL LINKS
+          <span style="display: block; width: 40px; height: 2px; background: linear-gradient(90deg, #D4AF37, transparent); margin-top: 6px; border-radius: 2px;"></span>
+        </h3>
+        <ul class="space-y-3 text-sm" style="color: #c5d0dd;">
+          <li>
+            <a href="./index.html" class="flex items-center gap-2 transition-all duration-200 hover:translate-x-1" style="color: #c5d0dd;">
+              <i class="fas fa-chevron-right text-xs" style="color: #D4AF37;"></i> Home
+            </a>
+          </li>
+          <li>
+            <a href="./index.html#about" class="flex items-center gap-2 transition-all duration-200 hover:translate-x-1" style="color: #c5d0dd;">
+              <i class="fas fa-chevron-right text-xs" style="color: #D4AF37;"></i> About us
+            </a>
+          </li>
+          <li>
+            <a href="./index.html#services" class="flex items-center gap-2 transition-all duration-200 hover:translate-x-1" style="color: #c5d0dd;">
+              <i class="fas fa-chevron-right text-xs" style="color: #D4AF37;"></i> Services
+            </a>
+          </li>
+          <li>
+            <a href="./index.html#contact" class="flex items-center gap-2 transition-all duration-200 hover:translate-x-1" style="color: #c5d0dd;">
+              <i class="fas fa-chevron-right text-xs" style="color: #D4AF37;"></i> Contact
+            </a>
+          </li>
+          <li>
+            <a href="https://www.google.com/maps/place/Sainit+Star+Multispeciality+Hospital/@19.1526116,72.835942,17z" target="_blank"
+              class="flex items-center gap-2 transition-all duration-200 hover:translate-x-1" style="color: #c5d0dd;">
+              <i class="fas fa-chevron-right text-xs" style="color: #D4AF37;"></i> Google Profile
+            </a>
+          </li>
+        </ul>
+      </div>
+
+      <!-- Column 3 - Services -->
+      <div>
+        <h3 class="text-lg font-bold mb-5 relative inline-block" style="color: #D4AF37; letter-spacing: 0.04em;">
+          OUR SERVICES
+          <span style="display: block; width: 40px; height: 2px; background: linear-gradient(90deg, #D4AF37, transparent); margin-top: 6px; border-radius: 2px;"></span>
+        </h3>
+        <ul class="space-y-3 text-sm" style="color: #c5d0dd;">
+          <li>
+            <a href="./Emergency.html" class="flex items-center gap-2 transition-all duration-200 hover:translate-x-1" style="color: #c5d0dd;">
+              <i class="fas fa-chevron-right text-xs" style="color: #D4AF37;"></i> 24/7 Emergency &amp; Trauma Care
+            </a>
+          </li>
+          <li>
+            <a href="./Diagnostics.html" class="flex items-center gap-2 transition-all duration-200 hover:translate-x-1" style="color: #c5d0dd;">
+              <i class="fas fa-chevron-right text-xs" style="color: #D4AF37;"></i> Advanced Diagnostic Services
+            </a>
+          </li>
+          <li>
+            <a href="./Cardiology.html" class="flex items-center gap-2 transition-all duration-200 hover:translate-x-1" style="color: #c5d0dd;">
+              <i class="fas fa-chevron-right text-xs" style="color: #D4AF37;"></i> Cardiology
+            </a>
+          </li>
+          <li>
+            <a href="./Cosmetology.html" class="flex items-center gap-2 transition-all duration-200 hover:translate-x-1" style="color: #c5d0dd;">
+              <i class="fas fa-chevron-right text-xs" style="color: #D4AF37;"></i> Cosmetology
+            </a>
+          </li>
+          <li>
+            <a href="./Dentistry.html" class="flex items-center gap-2 transition-all duration-200 hover:translate-x-1" style="color: #c5d0dd;">
+              <i class="fas fa-chevron-right text-xs" style="color: #D4AF37;"></i> Dentistry
+            </a>
+          </li>
+          <li>
+            <a href="./Diabetology.html" class="flex items-center gap-2 transition-all duration-200 hover:translate-x-1" style="color: #c5d0dd;">
+              <i class="fas fa-chevron-right text-xs" style="color: #D4AF37;"></i> Diabetology
+            </a>
+          </li>
+          <li>
+            <a href="./ENT.html" class="flex items-center gap-2 transition-all duration-200 hover:translate-x-1" style="color: #c5d0dd;">
+              <i class="fas fa-chevron-right text-xs" style="color: #D4AF37;"></i> ENT
+            </a>
+          </li>
+          <li>
+            <a href="./Laparoscopic.html" class="flex items-center gap-2 transition-all duration-200 hover:translate-x-1" style="color: #c5d0dd;">
+              <i class="fas fa-chevron-right text-xs" style="color: #D4AF37;"></i> General &amp; Laparoscopic Surgery
+            </a>
+          </li>
+        </ul>
+      </div>
+
+      <!-- Column 4 - More Services -->
+      <div>
+        <h3 class="text-lg font-bold mb-5 relative inline-block" style="color: #D4AF37; letter-spacing: 0.04em;">
+          MORE SERVICES
+          <span style="display: block; width: 40px; height: 2px; background: linear-gradient(90deg, #D4AF37, transparent); margin-top: 6px; border-radius: 2px;"></span>
+        </h3>
+        <ul class="space-y-3 text-sm" style="color: #c5d0dd;">
+          <li>
+            <a href="./Medicine.html" class="flex items-center gap-2 transition-all duration-200 hover:translate-x-1" style="color: #c5d0dd;">
+              <i class="fas fa-chevron-right text-xs" style="color: #D4AF37;"></i> General Medicine
+            </a>
+          </li>
+          <li>
+            <a href="./Physician.html" class="flex items-center gap-2 transition-all duration-200 hover:translate-x-1" style="color: #c5d0dd;">
+              <i class="fas fa-chevron-right text-xs" style="color: #D4AF37;"></i> General Physician
+            </a>
+          </li>
+          <li>
+            <a href="./Surgery.html" class="flex items-center gap-2 transition-all duration-200 hover:translate-x-1" style="color: #c5d0dd;">
+              <i class="fas fa-chevron-right text-xs" style="color: #D4AF37;"></i> General Surgery
+            </a>
+          </li>
+          <li>
+            <a href="./Gynaecology.html" class="flex items-center gap-2 transition-all duration-200 hover:translate-x-1" style="color: #c5d0dd;">
+              <i class="fas fa-chevron-right text-xs" style="color: #D4AF37;"></i> Gynaecology
+            </a>
+          </li>
+          <li>
+            <a href="./Orthopedics.html" class="flex items-center gap-2 transition-all duration-200 hover:translate-x-1" style="color: #c5d0dd;">
+              <i class="fas fa-chevron-right text-xs" style="color: #D4AF37;"></i> Orthopedics &amp; Joint Care
+            </a>
+          </li>
+          <li>
+            <a href="./Pediatric.html" class="flex items-center gap-2 transition-all duration-200 hover:translate-x-1" style="color: #c5d0dd;">
+              <i class="fas fa-chevron-right text-xs" style="color: #D4AF37;"></i> Pediatric Care
+            </a>
+          </li>
+          <li>
+            <a href="./Physiotherapy.html" class="flex items-center gap-2 transition-all duration-200 hover:translate-x-1" style="color: #c5d0dd;">
+              <i class="fas fa-chevron-right text-xs" style="color: #D4AF37;"></i> Physiotherapy
+            </a>
+          </li>
+        </ul>
+      </div>
+    </div>
+
+    <!-- Bottom Line -->
+    <div class="mt-12 pt-6 text-center" style="border-top: 1px solid rgba(212,175,55,0.25);">
+      <p class="text-sm" style="color: rgba(197,208,221,0.7);">
+        &copy; 2025 Sainit Star Multispeciality Hospital. All rights reserved. &nbsp;|&nbsp;
+        <span style="color: #D4AF37;">Designed &amp; developed by ReferIndia</span>
+      </p>
+    </div>
+  </div>
+</footer>`;

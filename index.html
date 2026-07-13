@@ -54,24 +54,25 @@
     </style>
   </head>
 
-  <body class="bg-[#F9FAFB] font-sans">
+  <body class="bg-[#FAFAF7] font-sans">
     <!-- NAVBAR -->
     <nav class="nav"></nav>
 
     <!-- ========= FULLSCREEN SWIPER SECTION (Tailwind layout + Swiper) ========= -->
-  <section id="home" class="relative w-full h-screen mt-0">
+<section id="home" class="relative w-full h-screen mt-0">
   <div class="swiper mySwiper w-full h-full">
     <div class="swiper-wrapper">
 
       <!-- Slide 1 -->
-      <div class="swiper-slide relative flex items-center justify-center bg-[url('/images/banner1.jpeg')] bg-cover bg-center">
+      <div class="swiper-slide relative flex items-center justify-center">
+        <!-- Image Tag instead of BG class -->
+        <img src="/images/banner1.jpeg" alt="Sainit Multispeciality Hospital Banner" class="absolute inset-0 w-full h-full object-cover" />
         
         <!-- Overlay -->
         <div class="absolute inset-0 bg-black/40"></div>
 
         <div class="relative z-10 max-w-3xl mx-4 mt-10 lg:mt-0 p-6 md:p-10 rounded-3xl shadow-xl text-center border border-white/30 transition duration-500 hover:scale-105 hover:shadow-2xl bg-black/30 ">
-          
-          <h1 class="text-2xl md:text-4xl font-bold text-[#00ffea] mb-4 drop-shadow-[2px_2px_6px_rgba(0,0,0,0.8)]">
+          <h1 class="text-2xl md:text-4xl font-bold text-[#D4AF37] mb-4 drop-shadow-[2px_2px_6px_rgba(0,0,0,0.8)]">
             Welcome to Sainit Multispeciality Hospital
           </h1>
 
@@ -82,48 +83,52 @@
             unwavering integrity.
           </p>
 
-         <a href="/index.html#about">
-  <button class="bg-[#0F766E] text-white px-6 py-3 rounded-lg font-medium transition duration-300 hover:bg-[#115E59] hover:scale-105 shadow-md hover:shadow-lg">
-    Read More
-  </button>
-</a>
+          <a href="/index.html#about">
+            <button class="bg-[#0D2240] text-white px-6 py-3 rounded-lg font-medium transition duration-300 hover:bg-[#0a1c34] hover:scale-105 shadow-md hover:shadow-lg">
+              Read More
+            </button>
+          </a>
         </div>
       </div>
 
       <!-- Slide 2 -->
-      <div class="swiper-slide relative flex items-center justify-center bg-[url('/images/banner2.webp')] bg-cover bg-center">
+      <div class="swiper-slide relative flex items-center justify-center">
+        <!-- Image Tag instead of BG class -->
+        <img src="/images/banner2.webp" alt="Patient Centric Healthcare" class="absolute inset-0 w-full h-full object-cover" />
         
+        <!-- Overlay -->
         <div class="absolute inset-0 bg-black/40"></div>
 
         <div class="relative z-10 max-w-3xl mx-4 sm:mx-auto p-5 sm:p-6 md:p-10 rounded-2xl md:rounded-3xl shadow-lg md:shadow-xl text-center border border-white/30 transition duration-500 hover:scale-105 hover:shadow-2xl bg-black/30 ">
-          
-          <h1 class="text-xl sm:text-2xl md:text-4xl font-bold text-[#00ffea] mb-3 sm:mb-4 leading-snug drop-shadow-[2px_2px_6px_rgba(0,0,0,0.8)]">
+          <h1 class="text-xl sm:text-2xl md:text-4xl font-bold text-[#D4AF37] mb-3 sm:mb-4 leading-snug drop-shadow-[2px_2px_6px_rgba(0,0,0,0.8)]">
             Your Health, Our Priority,<br class="block sm:hidden" />
             With Compassion.
           </h1>
 
           <p class="text-white text-xs sm:text-sm md:text-base mb-5 sm:mb-6 leading-relaxed sm:leading-loose px-1 sm:px-0">
-          At Sainit Star Multispeciality Hospital, located conveniently in
+            At Sainit Star Multispeciality Hospital, located conveniently in
             Goregaon West, Mumbai, our mission is to redefine healthcare
             through a patient-centric approach.
           </p>
 
           <a href="/index.html#about">
-  <button class="bg-[#0F766E] text-white px-6 py-3 rounded-lg font-medium transition duration-300 hover:bg-[#115E59] hover:scale-105 shadow-md hover:shadow-lg">
-    Read More
-  </button>
-</a>
+            <button class="bg-[#0D2240] text-white px-6 py-3 rounded-lg font-medium transition duration-300 hover:bg-[#0a1c34] hover:scale-105 shadow-md hover:shadow-lg">
+              Read More
+            </button>
+          </a>
         </div>
       </div>
 
       <!-- Slide 3 -->
-      <div class="swiper-slide relative flex items-center justify-center bg-[url('/images/banner3.webp')] bg-cover bg-center">
+      <div class="swiper-slide relative flex items-center justify-center">
+        <!-- Image Tag instead of BG class -->
+        <img src="/images/banner3.webp" alt="Expert Medical Specialists" class="absolute inset-0 w-full h-full object-cover" />
         
+        <!-- Overlay -->
         <div class="absolute inset-0 bg-black/40"></div>
 
         <div class="relative z-10 max-w-3xl mx-4 p-6 md:p-10 rounded-3xl shadow-xl text-center border border-white/30 transition duration-500 hover:scale-105 hover:shadow-2xl bg-black/30 ">
-          
-          <h1 class="text-2xl md:text-4xl font-bold text-[#00ffea] mb-4 drop-shadow-[2px_2px_6px_rgba(0,0,0,0.8)]">
+          <h1 class="text-2xl md:text-4xl font-bold text-[#D4AF37] mb-4 drop-shadow-[2px_2px_6px_rgba(0,0,0,0.8)]">
             Expert Doctors & Specialists
           </h1>
 
@@ -133,7 +138,7 @@
             neurology, orthopedics, oncology, and more.
           </p>
 
-          <button class="bg-[#0F766E] text-white px-6 py-3 rounded-lg font-medium transition duration-300 hover:bg-[#115E59] hover:scale-105 shadow-md hover:shadow-lg">
+          <button class="bg-[#0D2240] text-white px-6 py-3 rounded-lg font-medium transition duration-300 hover:bg-[#0a1c34] hover:scale-105 shadow-md hover:shadow-lg">
             Meet Our Experts
           </button>
         </div>
@@ -146,13 +151,13 @@
 
     <section
       id="about"
-      class="py-16 sm:py-20 bg-gradient-to-br from-white via-teal-50/30 to-white"
+      class="py-16 sm:py-20 bg-gradient-to-br from-white via-[#f5f0e8]/30 to-white"
     >
       <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         <!-- About Us Heading -->
         <div class="text-center mb-10 sm:mb-12">
           <h2 class="text-3xl sm:text-4xl md:text-5xl font-bold text-gray-800">
-            About <span class="text-teal-600">Us</span>
+            About <span class="text-[#0D2240]">Us</span>
           </h2>
         </div>
 
@@ -162,10 +167,10 @@
           <div class="order-1 md:order-1 overflow-hidden" data-aos="fade-right">
             <div class="relative">
               <div
-                class="absolute -top-4 -left-4 w-24 h-24 bg-teal-100 rounded-full opacity-50"
+                class="absolute -top-4 -left-4 w-24 h-24 bg-[#e8edf3] rounded-full opacity-50"
               ></div>
               <div
-                class="absolute -bottom-4 -right-4 w-32 h-32 bg-teal-100 rounded-full opacity-50"
+                class="absolute -bottom-4 -right-4 w-32 h-32 bg-[#e8edf3] rounded-full opacity-50"
               ></div>
 
               <div
@@ -191,7 +196,7 @@
                 class="text-2xl sm:text-3xl md:text-4xl font-bold text-gray-800 leading-tight"
               >
                 Your Health, Our Priority,<br />
-                <span class="text-teal-600">With Compassion.</span>
+                <span class="text-[#0D2240]">With Compassion.</span>
               </h3>
             </div>
 
@@ -233,14 +238,14 @@
   <div
     data-aos="fade-up"
     data-aos-delay="0"
-    class="group bg-white border border-teal-100 rounded-2xl p-6 text-center shadow-md transition-all duration-300 ease-out hover:-translate-y-4 hover:shadow-2xl hover:shadow-teal-100/50 hover:border-teal-300 cursor-default will-change-transform"
+    class="group bg-white border border-[#e8edf3] rounded-2xl p-6 text-center shadow-md transition-all duration-300 ease-out hover:-translate-y-4 hover:shadow-2xl hover:shadow-teal-100/50 hover:border-[#D4AF37] cursor-default will-change-transform"
   >
-    <div class="w-14 h-14 mx-auto flex items-center justify-center rounded-full bg-teal-100 mb-4 transition-all duration-300 group-hover:bg-teal-600 group-hover:scale-110">
-      <i class="ri-award-line text-2xl text-teal-600 transition-all duration-300 group-hover:text-white"></i>
+    <div class="w-14 h-14 mx-auto flex items-center justify-center rounded-full bg-[#e8edf3] mb-4 transition-all duration-300 group-hover:bg-[#0D2240] group-hover:scale-110">
+      <i class="ri-award-line text-2xl text-[#0D2240] transition-all duration-300 group-hover:text-white"></i>
     </div>
 
-    <p class="text-sm tracking-widest text-teal-600 font-medium transition-all duration-300 group-hover:text-teal-700">YEARS</p>
-    <h3 class="text-3xl font-bold text-gray-800 mt-2 transition-all duration-300 group-hover:text-teal-600">16 </h3>
+    <p class="text-sm tracking-widest text-[#0D2240] font-medium transition-all duration-300 group-hover:text-[#b8962e]">YEARS</p>
+    <h3 class="text-3xl font-bold text-gray-800 mt-2 transition-all duration-300 group-hover:text-[#D4AF37]">16 </h3>
     <p class="text-gray-500 text-sm mt-2 transition-colors duration-300 group-hover:text-gray-600">Years of Trusted Care</p>
   </div>
 
@@ -248,14 +253,14 @@
   <div
     data-aos="fade-up"
     data-aos-delay="150"
-    class="group bg-white border border-teal-100 rounded-2xl p-6 text-center shadow-md transition-all duration-300 ease-out hover:-translate-y-4 hover:shadow-2xl hover:shadow-teal-100/50 hover:border-teal-300 cursor-default will-change-transform"
+    class="group bg-white border border-[#e8edf3] rounded-2xl p-6 text-center shadow-md transition-all duration-300 ease-out hover:-translate-y-4 hover:shadow-2xl hover:shadow-teal-100/50 hover:border-[#D4AF37] cursor-default will-change-transform"
   >
-    <div class="w-14 h-14 mx-auto flex items-center justify-center rounded-full bg-teal-100 mb-4 transition-all duration-300 group-hover:bg-teal-600 group-hover:scale-110">
-      <i class="ri-user-heart-line text-2xl text-teal-600 transition-all duration-300 group-hover:text-white"></i>
+    <div class="w-14 h-14 mx-auto flex items-center justify-center rounded-full bg-[#e8edf3] mb-4 transition-all duration-300 group-hover:bg-[#0D2240] group-hover:scale-110">
+      <i class="ri-user-heart-line text-2xl text-[#0D2240] transition-all duration-300 group-hover:text-white"></i>
     </div>
 
-    <p class="text-sm tracking-widest text-teal-600 font-medium transition-all duration-300 group-hover:text-teal-700">DOCTORS</p>
-    <h3 class="text-3xl font-bold text-gray-800 mt-2 transition-all duration-300 group-hover:text-teal-600">15+</h3>
+    <p class="text-sm tracking-widest text-[#0D2240] font-medium transition-all duration-300 group-hover:text-[#b8962e]">DOCTORS</p>
+    <h3 class="text-3xl font-bold text-gray-800 mt-2 transition-all duration-300 group-hover:text-[#D4AF37]">15+</h3>
     <p class="text-gray-500 text-sm mt-2 transition-colors duration-300 group-hover:text-gray-600">Experienced Doctors</p>
   </div>
 
@@ -263,14 +268,14 @@
   <div
     data-aos="fade-up"
     data-aos-delay="300"
-    class="group bg-white border border-teal-100 rounded-2xl p-6 text-center shadow-md transition-all duration-300 ease-out hover:-translate-y-4 hover:shadow-2xl hover:shadow-teal-100/50 hover:border-teal-300 cursor-default will-change-transform"
+    class="group bg-white border border-[#e8edf3] rounded-2xl p-6 text-center shadow-md transition-all duration-300 ease-out hover:-translate-y-4 hover:shadow-2xl hover:shadow-teal-100/50 hover:border-[#D4AF37] cursor-default will-change-transform"
   >
-    <div class="w-14 h-14 mx-auto flex items-center justify-center rounded-full bg-teal-100 mb-4 transition-all duration-300 group-hover:bg-teal-600 group-hover:scale-110">
-      <i class="ri-team-line text-2xl text-teal-600 transition-all duration-300 group-hover:text-white"></i>
+    <div class="w-14 h-14 mx-auto flex items-center justify-center rounded-full bg-[#e8edf3] mb-4 transition-all duration-300 group-hover:bg-[#0D2240] group-hover:scale-110">
+      <i class="ri-team-line text-2xl text-[#0D2240] transition-all duration-300 group-hover:text-white"></i>
     </div>
 
-    <p class="text-sm tracking-widest text-teal-600 font-medium transition-all duration-300 group-hover:text-teal-700">STAFF</p>
-    <h3 class="text-3xl font-bold text-gray-800 mt-2 transition-all duration-300 group-hover:text-teal-600">25+</h3>
+    <p class="text-sm tracking-widest text-[#0D2240] font-medium transition-all duration-300 group-hover:text-[#b8962e]">STAFF</p>
+    <h3 class="text-3xl font-bold text-gray-800 mt-2 transition-all duration-300 group-hover:text-[#D4AF37]">25+</h3>
     <p class="text-gray-500 text-sm mt-2 transition-colors duration-300 group-hover:text-gray-600">Dedicated Staff Members</p>
   </div>
 
@@ -278,14 +283,14 @@
   <div
     data-aos="fade-up"
     data-aos-delay="450"
-    class="group bg-white border border-teal-100 rounded-2xl p-6 text-center shadow-md transition-all duration-300 ease-out hover:-translate-y-4 hover:shadow-2xl hover:shadow-teal-100/50 hover:border-teal-300 cursor-default will-change-transform"
+    class="group bg-white border border-[#e8edf3] rounded-2xl p-6 text-center shadow-md transition-all duration-300 ease-out hover:-translate-y-4 hover:shadow-2xl hover:shadow-teal-100/50 hover:border-[#D4AF37] cursor-default will-change-transform"
   >
-    <div class="w-14 h-14 mx-auto flex items-center justify-center rounded-full bg-teal-100 mb-4 transition-all duration-300 group-hover:bg-teal-600 group-hover:scale-110">
-      <i class="ri-hotel-bed-line text-2xl text-teal-600 transition-all duration-300 group-hover:text-white"></i>
+    <div class="w-14 h-14 mx-auto flex items-center justify-center rounded-full bg-[#e8edf3] mb-4 transition-all duration-300 group-hover:bg-[#0D2240] group-hover:scale-110">
+      <i class="ri-hotel-bed-line text-2xl text-[#0D2240] transition-all duration-300 group-hover:text-white"></i>
     </div>
 
-    <p class="text-sm tracking-widest text-teal-600 font-medium transition-all duration-300 group-hover:text-teal-700">BEDS</p>
-    <h3 class="text-3xl font-bold text-gray-800 mt-2 transition-all duration-300 group-hover:text-teal-600">22</h3>
+    <p class="text-sm tracking-widest text-[#0D2240] font-medium transition-all duration-300 group-hover:text-[#b8962e]">BEDS</p>
+    <h3 class="text-3xl font-bold text-gray-800 mt-2 transition-all duration-300 group-hover:text-[#D4AF37]">22</h3>
     <p class="text-gray-500 text-sm mt-2 transition-colors duration-300 group-hover:text-gray-600">Beds Available</p>
   </div>
 </div>
@@ -304,20 +309,20 @@
         <!-- Tagline Badge & main display -->
         <div class="text-center mb-12 md:mb-16">
           <div
-            class="inline-flex items-center gap-2 bg-teal-50 px-6 py-2 rounded-full shadow-sm border border-teal-100 mb-5"
+            class="inline-flex items-center gap-2 bg-[#f5f0e8] px-6 py-2 rounded-full shadow-sm border border-[#e8edf3] mb-5"
           >
-            <i class="fas fa-heart text-teal-500 text-sm"></i>
+            <i class="fas fa-heart text-[#D4AF37] text-sm"></i>
             <span
-              class="text-teal-700 font-semibold tracking-wide text-sm sm:text-base"
+              class="text-[#0D2240] font-semibold tracking-wide text-sm sm:text-base"
               >Our Promise</span
             >
           </div>
           <h2
             class="text-4xl sm:text-5xl md:text-6xl font-extrabold text-gray-800 leading-tight"
           >
-            <span class="text-teal-600">Care.</span>
+            <span class="text-[#0D2240]">Care.</span>
             <span class="text-gray-800">Cure.</span>
-            <span class="text-teal-500">Compassion.</span>
+            <span class="text-[#D4AF37]">Compassion.</span>
           </h2>
 
           <p class="text-gray-500 max-w-2xl mx-auto text-base sm:text-lg mt-4">
@@ -329,17 +334,17 @@
         <div class="grid md:grid-cols-2 gap-8 lg:gap-12">
           <!-- Mission Card -->
           <div
-            class="group bg-gradient-to-br from-white to-teal-50/40 rounded-2xl shadow-lg hover:shadow-2xl transition-all duration-500 border border-teal-100 overflow-hidden hover:-translate-y-2"
+            class="group bg-gradient-to-br from-white to-[#f5f0e8]/40 rounded-2xl shadow-lg hover:shadow-2xl transition-all duration-500 border border-[#e8edf3] overflow-hidden hover:-translate-y-2"
             data-aos="flip-left"
             data-aos-duration="800"
             data-aos-delay="100"
           >
             <div class="p-6 sm:p-8 md:p-10">
               <div
-                class="w-16 h-16 bg-teal-100 rounded-2xl flex items-center justify-center mb-6 group-hover:bg-teal-600 transition duration-300"
+                class="w-16 h-16 bg-[#e8edf3] rounded-2xl flex items-center justify-center mb-6 group-hover:bg-[#0D2240] transition duration-300"
               >
                 <i
-                  class="fas fa-hand-holding-heart text-3xl text-teal-600 group-hover:text-white transition"
+                  class="fas fa-hand-holding-heart text-3xl text-[#0D2240] group-hover:text-[#0D2240] transition"
                 ></i>
               </div>
               <h3 class="text-2xl sm:text-3xl font-bold text-gray-800 mb-4">
@@ -355,17 +360,17 @@
 
           <!-- Vision Card -->
           <div
-            class="group bg-gradient-to-br from-white to-teal-50/40 rounded-2xl shadow-lg hover:shadow-2xl transition-all duration-500 border border-teal-100 overflow-hidden hover:-translate-y-2"
+            class="group bg-gradient-to-br from-white to-[#f5f0e8]/40 rounded-2xl shadow-lg hover:shadow-2xl transition-all duration-500 border border-[#e8edf3] overflow-hidden hover:-translate-y-2"
             data-aos="flip-right"
             data-aos-duration="800"
             data-aos-delay="200"
           >
             <div class="p-6 sm:p-8 md:p-10">
               <div
-                class="w-16 h-16 bg-teal-100 rounded-2xl flex items-center justify-center mb-6 group-hover:bg-teal-600 transition duration-300"
+                class="w-16 h-16 bg-[#e8edf3] rounded-2xl flex items-center justify-center mb-6 group-hover:bg-[#0D2240] transition duration-300"
               >
                 <i
-                  class="fas fa-eye text-3xl text-teal-600 group-hover:text-white transition"
+                  class="fas fa-eye text-3xl text-[#0D2240] group-hover:text-[#0D2240] transition"
                 ></i>
               </div>
               <h3 class="text-2xl sm:text-3xl font-bold text-gray-800 mb-4">
@@ -380,7 +385,7 @@
         </div>
         <!-- subtle decorative line -->
         <div class="mt-16 text-center">
-          <p class="text-teal-600/80 text-sm">
+          <p class="text-[#0D2240]/80 text-sm">
             ✦ Every day we deliver care that comforts, cures that restore ✦
           </p>
         </div>
@@ -397,7 +402,7 @@
     >
       <!-- Wave Background Pattern -->
       <div
-        class="absolute inset-0 bg-gradient-to-b from-teal-50/30 via-white to-teal-50/20"
+        class="absolute inset-0 bg-gradient-to-b from-[#f5f0e8]/30 via-white to-[#f5f0e8]/20"
       ></div>
 
       <!-- Top Wave -->
@@ -410,7 +415,7 @@
           viewBox="0 0 1440 320"
         >
           <path
-            fill="#14b8a6"
+            fill="#D4AF37"
             fill-opacity="0.1"
             d="M0,192L48,197.3C96,203,192,213,288,208C384,203,480,181,576,181.3C672,181,768,203,864,208C960,213,1056,203,1152,186.7C1248,171,1344,149,1392,138.7L1440,128L1440,0L1392,0C1344,0,1248,0,1152,0C1056,0,960,0,864,0C768,0,672,0,576,0C480,0,384,0,288,0C192,0,96,0,48,0L0,0Z"
           ></path>
@@ -427,7 +432,7 @@
           viewBox="0 0 1440 320"
         >
           <path
-            fill="#14b8a6"
+            fill="#D4AF37"
             fill-opacity="0.1"
             d="M0,192L48,197.3C96,203,192,213,288,208C384,203,480,181,576,181.3C672,181,768,203,864,208C960,213,1056,203,1152,186.7C1248,171,1344,149,1392,138.7L1440,128L1440,320L1392,320C1344,320,1248,320,1152,320C1056,320,960,320,864,320C768,320,672,320,576,320C480,320,384,320,288,320C192,320,96,320,48,320L0,320Z"
           ></path>
@@ -436,11 +441,11 @@
 
       <!-- Soft Floating Blobs -->
       <div
-        class="absolute top-20 right-10 w-64 h-64 bg-teal-200/20 rounded-full blur-3xl animate-pulse"
+        class="absolute top-20 right-10 w-64 h-64 bg-[#c5d0dd]/20 rounded-full blur-3xl animate-pulse"
         style="animation-duration: 8s"
       ></div>
       <div
-        class="absolute bottom-20 left-10 w-80 h-80 bg-emerald-200/15 rounded-full blur-3xl animate-pulse"
+        class="absolute bottom-20 left-10 w-80 h-80 bg-[#c5d0dd]/15 rounded-full blur-3xl animate-pulse"
         style="animation-duration: 10s; animation-delay: 1s"
       ></div>
 
@@ -448,13 +453,13 @@
         <!-- Heading -->
         <div class="text-center mb-12 md:mb-16">
           <span
-            class="inline-block px-4 py-1.5 rounded-full bg-teal-100/90 text-teal-700 text-sm font-semibold tracking-wide mb-4 shadow-sm"
+            class="inline-block px-4 py-1.5 rounded-full bg-[#e8edf3]/90 text-[#0D2240] text-sm font-semibold tracking-wide mb-4 shadow-sm"
             >Expert Medical Care</span
           >
           <h2
             class="text-3xl sm:text-4xl md:text-5xl font-bold text-gray-800 mb-3"
           >
-            Our <span class="text-teal-600">Services</span>
+            Our <span class="text-[#0D2240]">Services</span>
           </h2>
           <p class="text-gray-500 max-w-2xl mx-auto text-sm sm:text-base">
             Comprehensive healthcare solutions with advanced technology & expert
@@ -467,20 +472,20 @@
         >
           <!-- Service 1: Emergency & Trauma Care (Essential) -->
           <div
-            class="block group bg-white rounded-xl p-6 text-center shadow-sm hover:shadow-xl transition-all duration-300 hover:-translate-y-1 border border-gray-100 hover:border-teal-200 flex flex-col"
+            class="block group bg-white rounded-xl p-6 text-center shadow-sm hover:shadow-xl transition-all duration-300 hover:-translate-y-1 border border-gray-100 hover:border-[#D4AF37] flex flex-col"
             data-aos="zoom-in"
             data-aos-duration="600"
             data-aos-delay="100"
           >
             <div
-              class="w-16 h-16 mx-auto flex items-center justify-center rounded-full bg-teal-100 group-hover:bg-teal-600 transition-all duration-300"
+              class="w-16 h-16 mx-auto flex items-center justify-center rounded-full bg-[#e8edf3] group-hover:bg-[#0D2240] transition-all duration-300"
             >
               <i
-                class="fas fa-ambulance text-2xl text-teal-600 group-hover:text-white transition-colors"
+                class="fas fa-ambulance text-2xl text-[#0D2240] group-hover:text-white transition-colors"
               ></i>
             </div>
             <h3
-              class="mt-4 text-lg font-semibold text-gray-800 group-hover:text-teal-700 transition"
+              class="mt-4 text-lg font-semibold text-gray-800 group-hover:text-[#b8962e] transition"
             >
               24/7 Emergency & Trauma Care
             </h3>
@@ -491,7 +496,7 @@
             <!-- Read More Button -->
             <a
               href="./Emergency.html"
-              class="mt-4 inline-flex items-center justify-center gap-1 text-teal-600 hover:text-teal-700 font-medium text-sm transition-colors duration-200 group/btn"
+              class="mt-4 inline-flex items-center justify-center gap-1 text-[#0D2240] hover:text-[#b8962e] font-medium text-sm transition-colors duration-200 group/btn"
             >
               Read More
               <i class="fas fa-arrow-right text-xs transition-transform group-hover/btn:translate-x-1"></i>
@@ -500,20 +505,20 @@
 
           <!-- Service 2: Cardiology Services (using heartbeat icon, premium cardiac care) -->
           <div
-            class="block group bg-white rounded-xl p-6 text-center shadow-sm hover:shadow-xl transition-all duration-300 hover:-translate-y-1 border border-gray-100 hover:border-teal-200 flex flex-col"
+            class="block group bg-white rounded-xl p-6 text-center shadow-sm hover:shadow-xl transition-all duration-300 hover:-translate-y-1 border border-gray-100 hover:border-[#D4AF37] flex flex-col"
             data-aos="zoom-in"
             data-aos-duration="600"
             data-aos-delay="150"
           >
             <div
-              class="w-16 h-16 mx-auto flex items-center justify-center rounded-full bg-teal-100 group-hover:bg-teal-600 transition-all duration-300"
+              class="w-16 h-16 mx-auto flex items-center justify-center rounded-full bg-[#e8edf3] group-hover:bg-[#0D2240] transition-all duration-300"
             >
               <i
-                class="fas fa-heartbeat text-2xl text-teal-600 group-hover:text-white transition-colors"
+                class="fas fa-heartbeat text-2xl text-[#0D2240] group-hover:text-white transition-colors"
               ></i>
             </div>
             <h3
-              class="mt-4 text-lg font-semibold text-gray-800 group-hover:text-teal-700 transition"
+              class="mt-4 text-lg font-semibold text-gray-800 group-hover:text-[#b8962e] transition"
             >
               Cardiology Services
             </h3>
@@ -524,7 +529,7 @@
             <!-- Read More Button -->
             <a
               href="./Cardiology.html"
-              class="mt-4 inline-flex items-center justify-center gap-1 text-teal-600 hover:text-teal-700 font-medium text-sm transition-colors duration-200 group/btn"
+              class="mt-4 inline-flex items-center justify-center gap-1 text-[#0D2240] hover:text-[#b8962e] font-medium text-sm transition-colors duration-200 group/btn"
             >
               Read More
               <i class="fas fa-arrow-right text-xs transition-transform group-hover/btn:translate-x-1"></i>
@@ -533,20 +538,20 @@
           
           <!-- Service 3: Orthopedics & Joint Care (bone icon) -->
           <div
-            class="block group bg-white rounded-xl p-6 text-center shadow-sm hover:shadow-xl transition-all duration-300 hover:-translate-y-1 border border-gray-100 hover:border-teal-200 flex flex-col"
+            class="block group bg-white rounded-xl p-6 text-center shadow-sm hover:shadow-xl transition-all duration-300 hover:-translate-y-1 border border-gray-100 hover:border-[#D4AF37] flex flex-col"
             data-aos="zoom-in"
             data-aos-duration="600"
             data-aos-delay="200"
           >
             <div
-              class="w-16 h-16 mx-auto flex items-center justify-center rounded-full bg-teal-100 group-hover:bg-teal-600 transition-all duration-300"
+              class="w-16 h-16 mx-auto flex items-center justify-center rounded-full bg-[#e8edf3] group-hover:bg-[#0D2240] transition-all duration-300"
             >
               <i
-                class="fas fa-bone text-2xl text-teal-600 group-hover:text-white transition-colors"
+                class="fas fa-bone text-2xl text-[#0D2240] group-hover:text-white transition-colors"
               ></i>
             </div>
             <h3
-              class="mt-4 text-lg font-semibold text-gray-800 group-hover:text-teal-700 transition"
+              class="mt-4 text-lg font-semibold text-gray-800 group-hover:text-[#b8962e] transition"
             >
               Orthopedics & Joint Care
             </h3>
@@ -556,7 +561,7 @@
             <!-- Read More Button -->
             <a
               href="./Orthopedics.html"
-              class="mt-4 inline-flex items-center justify-center gap-1 text-teal-600 hover:text-teal-700 font-medium text-sm transition-colors duration-200 group/btn"
+              class="mt-4 inline-flex items-center justify-center gap-1 text-[#0D2240] hover:text-[#b8962e] font-medium text-sm transition-colors duration-200 group/btn"
             >
               Read More
               <i class="fas fa-arrow-right text-xs transition-transform group-hover/btn:translate-x-1"></i>
@@ -565,20 +570,20 @@
 
           <!-- Service 4: Gynaecology & Obstetrics (female icon) -->
           <div
-            class="block group bg-white rounded-xl p-6 text-center shadow-sm hover:shadow-xl transition-all duration-300 hover:-translate-y-1 border border-gray-100 hover:border-teal-200 flex flex-col"
+            class="block group bg-white rounded-xl p-6 text-center shadow-sm hover:shadow-xl transition-all duration-300 hover:-translate-y-1 border border-gray-100 hover:border-[#D4AF37] flex flex-col"
             data-aos="zoom-in"
             data-aos-duration="600"
             data-aos-delay="250"
           >
             <div
-              class="w-16 h-16 mx-auto flex items-center justify-center rounded-full bg-teal-100 group-hover:bg-teal-600 transition-all duration-300"
+              class="w-16 h-16 mx-auto flex items-center justify-center rounded-full bg-[#e8edf3] group-hover:bg-[#0D2240] transition-all duration-300"
             >
               <i
-                class="fas fa-female text-2xl text-teal-600 group-hover:text-white transition-colors"
+                class="fas fa-female text-2xl text-[#0D2240] group-hover:text-white transition-colors"
               ></i>
             </div>
             <h3
-              class="mt-4 text-lg font-semibold text-gray-800 group-hover:text-teal-700 transition"
+              class="mt-4 text-lg font-semibold text-gray-800 group-hover:text-[#b8962e] transition"
             >
               Gynecology & Obstetrics
             </h3>
@@ -588,7 +593,7 @@
             <!-- Read More Button -->
             <a
               href="./Gynaecology.html"
-              class="mt-4 inline-flex items-center justify-center gap-1 text-teal-600 hover:text-teal-700 font-medium text-sm transition-colors duration-200 group/btn"
+              class="mt-4 inline-flex items-center justify-center gap-1 text-[#0D2240] hover:text-[#b8962e] font-medium text-sm transition-colors duration-200 group/btn"
             >
               Read More
               <i class="fas fa-arrow-right text-xs transition-transform group-hover/btn:translate-x-1"></i>
@@ -597,20 +602,20 @@
 
           <!-- Service 5: Advanced Diagnostics (microscope) keeping diagnostics as key service -->
           <div
-            class="block group bg-white rounded-xl p-6 text-center shadow-sm hover:shadow-xl transition-all duration-300 hover:-translate-y-1 border border-gray-100 hover:border-teal-200 flex flex-col"
+            class="block group bg-white rounded-xl p-6 text-center shadow-sm hover:shadow-xl transition-all duration-300 hover:-translate-y-1 border border-gray-100 hover:border-[#D4AF37] flex flex-col"
             data-aos="zoom-in"
             data-aos-duration="600"
             data-aos-delay="300"
           >
             <div
-              class="w-16 h-16 mx-auto flex items-center justify-center rounded-full bg-teal-100 group-hover:bg-teal-600 transition-all duration-300"
+              class="w-16 h-16 mx-auto flex items-center justify-center rounded-full bg-[#e8edf3] group-hover:bg-[#0D2240] transition-all duration-300"
             >
               <i
-                class="fas fa-microscope text-2xl text-teal-600 group-hover:text-white transition-colors"
+                class="fas fa-microscope text-2xl text-[#0D2240] group-hover:text-white transition-colors"
               ></i>
             </div>
             <h3
-              class="mt-4 text-lg font-semibold text-gray-800 group-hover:text-teal-700 transition"
+              class="mt-4 text-lg font-semibold text-gray-800 group-hover:text-[#b8962e] transition"
             >
               Advanced Diagnostic Services
             </h3>
@@ -620,7 +625,7 @@
             <!-- Read More Button -->
             <a
               href="./Diagnostics.html"
-              class="mt-4 inline-flex items-center justify-center gap-1 text-teal-600 hover:text-teal-700 font-medium text-sm transition-colors duration-200 group/btn"
+              class="mt-4 inline-flex items-center justify-center gap-1 text-[#0D2240] hover:text-[#b8962e] font-medium text-sm transition-colors duration-200 group/btn"
             >
               Read More
               <i class="fas fa-arrow-right text-xs transition-transform group-hover/btn:translate-x-1"></i>
@@ -628,112 +633,112 @@
           </div>
 
          <!-- Cosmetology -->
-          <div class="block group bg-white rounded-xl p-6 text-center shadow-sm hover:shadow-xl transition-all duration-300 hover:-translate-y-1 border border-gray-100 hover:border-teal-200 flex flex-col" data-aos="fade-up" data-aos-duration="600" data-aos-delay="100">
-            <div class="w-16 h-16 mx-auto flex items-center justify-center rounded-full bg-teal-100 group-hover:bg-teal-600 transition-all duration-300">
-              <i class="ri-leaf-line text-2xl text-teal-600 group-hover:text-white transition-colors"></i>
+          <div class="block group bg-white rounded-xl p-6 text-center shadow-sm hover:shadow-xl transition-all duration-300 hover:-translate-y-1 border border-gray-100 hover:border-[#D4AF37] flex flex-col" data-aos="fade-up" data-aos-duration="600" data-aos-delay="100">
+            <div class="w-16 h-16 mx-auto flex items-center justify-center rounded-full bg-[#e8edf3] group-hover:bg-[#0D2240] transition-all duration-300">
+              <i class="ri-leaf-line text-2xl text-[#0D2240] group-hover:text-white transition-colors"></i>
             </div>
-            <h3 class="mt-4 text-lg font-semibold text-gray-800 group-hover:text-teal-700 transition">Cosmetology</h3>
+            <h3 class="mt-4 text-lg font-semibold text-gray-800 group-hover:text-[#b8962e] transition">Cosmetology</h3>
             <p class="text-gray-600 text-sm mt-2 leading-relaxed flex-grow">Aesthetic treatments for skin, hair, and appearance enhancement.</p>
             <!-- Read More Button -->
-            <a href="./Cosmetology.html" class="mt-4 inline-flex items-center justify-center gap-1 text-teal-600 hover:text-teal-700 font-medium text-sm transition-colors duration-200 group/btn">
+            <a href="./Cosmetology.html" class="mt-4 inline-flex items-center justify-center gap-1 text-[#0D2240] hover:text-[#b8962e] font-medium text-sm transition-colors duration-200 group/btn">
               Read More
               <i class="fas fa-arrow-right text-xs transition-transform group-hover/btn:translate-x-1"></i>
             </a>
           </div>
 
           <!-- Dentistry -->
-          <div class="block group bg-white rounded-xl p-6 text-center shadow-sm hover:shadow-xl transition-all duration-300 hover:-translate-y-1 border border-gray-100 hover:border-teal-200 flex flex-col" data-aos="fade-up" data-aos-duration="600" data-aos-delay="150">
-            <div class="w-16 h-16 mx-auto flex items-center justify-center rounded-full bg-teal-100 group-hover:bg-teal-600 transition-all duration-300">
-              <i class="ri-tooth-line text-2xl text-teal-600 group-hover:text-white transition-colors"></i>
+          <div class="block group bg-white rounded-xl p-6 text-center shadow-sm hover:shadow-xl transition-all duration-300 hover:-translate-y-1 border border-gray-100 hover:border-[#D4AF37] flex flex-col" data-aos="fade-up" data-aos-duration="600" data-aos-delay="150">
+            <div class="w-16 h-16 mx-auto flex items-center justify-center rounded-full bg-[#e8edf3] group-hover:bg-[#0D2240] transition-all duration-300">
+              <i class="ri-tooth-line text-2xl text-[#0D2240] group-hover:text-white transition-colors"></i>
             </div>
-            <h3 class="mt-4 text-lg font-semibold text-gray-800 group-hover:text-teal-700 transition">Dentistry</h3>
+            <h3 class="mt-4 text-lg font-semibold text-gray-800 group-hover:text-[#b8962e] transition">Dentistry</h3>
             <p class="text-gray-600 text-sm mt-2 leading-relaxed flex-grow">Complete dental care for healthy teeth and confident smiles.</p>
             <!-- Read More Button -->
-            <a href="./Dentistry.html" class="mt-4 inline-flex items-center justify-center gap-1 text-teal-600 hover:text-teal-700 font-medium text-sm transition-colors duration-200 group/btn">
+            <a href="./Dentistry.html" class="mt-4 inline-flex items-center justify-center gap-1 text-[#0D2240] hover:text-[#b8962e] font-medium text-sm transition-colors duration-200 group/btn">
               Read More
               <i class="fas fa-arrow-right text-xs transition-transform group-hover/btn:translate-x-1"></i>
             </a>
           </div>
 
           <!-- Diabetology -->
-          <div class="block group bg-white rounded-xl p-6 text-center shadow-sm hover:shadow-xl transition-all duration-300 hover:-translate-y-1 border border-gray-100 hover:border-teal-200 flex flex-col" data-aos="fade-up" data-aos-duration="600" data-aos-delay="200">
-            <div class="w-16 h-16 mx-auto flex items-center justify-center rounded-full bg-teal-100 group-hover:bg-teal-600 transition-all duration-300">
-              <i class="ri-drop-line text-2xl text-teal-600 group-hover:text-white transition-colors"></i>
+          <div class="block group bg-white rounded-xl p-6 text-center shadow-sm hover:shadow-xl transition-all duration-300 hover:-translate-y-1 border border-gray-100 hover:border-[#D4AF37] flex flex-col" data-aos="fade-up" data-aos-duration="600" data-aos-delay="200">
+            <div class="w-16 h-16 mx-auto flex items-center justify-center rounded-full bg-[#e8edf3] group-hover:bg-[#0D2240] transition-all duration-300">
+              <i class="ri-drop-line text-2xl text-[#0D2240] group-hover:text-white transition-colors"></i>
             </div>
-            <h3 class="mt-4 text-lg font-semibold text-gray-800 group-hover:text-teal-700 transition">Diabetology</h3>
+            <h3 class="mt-4 text-lg font-semibold text-gray-800 group-hover:text-[#b8962e] transition">Diabetology</h3>
             <p class="text-gray-600 text-sm mt-2 leading-relaxed flex-grow">Effective management and care for diabetes and related conditions.</p>
             <!-- Read More Button -->
-            <a href="./Diabetology.html" class="mt-4 inline-flex items-center justify-center gap-1 text-teal-600 hover:text-teal-700 font-medium text-sm transition-colors duration-200 group/btn">
+            <a href="./Diabetology.html" class="mt-4 inline-flex items-center justify-center gap-1 text-[#0D2240] hover:text-[#b8962e] font-medium text-sm transition-colors duration-200 group/btn">
               Read More
               <i class="fas fa-arrow-right text-xs transition-transform group-hover/btn:translate-x-1"></i>
             </a>
           </div>
 
           <!-- ENT -->
-          <div class="block group bg-white rounded-xl p-6 text-center shadow-sm hover:shadow-xl transition-all duration-300 hover:-translate-y-1 border border-gray-100 hover:border-teal-200 flex flex-col" data-aos="fade-up" data-aos-duration="600" data-aos-delay="250">
-            <div class="w-16 h-16 mx-auto flex items-center justify-center rounded-full bg-teal-100 group-hover:bg-teal-600 transition-all duration-300">
-              <i class="fas fa-ear-listen text-2xl text-teal-600 group-hover:text-white transition-colors"></i>
+          <div class="block group bg-white rounded-xl p-6 text-center shadow-sm hover:shadow-xl transition-all duration-300 hover:-translate-y-1 border border-gray-100 hover:border-[#D4AF37] flex flex-col" data-aos="fade-up" data-aos-duration="600" data-aos-delay="250">
+            <div class="w-16 h-16 mx-auto flex items-center justify-center rounded-full bg-[#e8edf3] group-hover:bg-[#0D2240] transition-all duration-300">
+              <i class="fas fa-ear-listen text-2xl text-[#0D2240] group-hover:text-white transition-colors"></i>
             </div>
-            <h3 class="mt-4 text-lg font-semibold text-gray-800 group-hover:text-teal-700 transition">ENT (Ear, Nose, Throat)</h3>
+            <h3 class="mt-4 text-lg font-semibold text-gray-800 group-hover:text-[#b8962e] transition">ENT (Ear, Nose, Throat)</h3>
             <p class="text-gray-600 text-sm mt-2 leading-relaxed flex-grow">Diagnosis and treatment of ear, nose, and throat conditions.</p>
             <!-- Read More Button -->
-            <a href="./ENT.html" class="mt-4 inline-flex items-center justify-center gap-1 text-teal-600 hover:text-teal-700 font-medium text-sm transition-colors duration-200 group/btn">
+            <a href="./ENT.html" class="mt-4 inline-flex items-center justify-center gap-1 text-[#0D2240] hover:text-[#b8962e] font-medium text-sm transition-colors duration-200 group/btn">
               Read More
               <i class="fas fa-arrow-right text-xs transition-transform group-hover/btn:translate-x-1"></i>
             </a>
           </div>
 
           <!-- Laparoscopic Surgery -->
-          <div class="block group bg-white rounded-xl p-6 text-center shadow-sm hover:shadow-xl transition-all duration-300 hover:-translate-y-1 border border-gray-100 hover:border-teal-200 flex flex-col" data-aos="fade-up" data-aos-duration="600" data-aos-delay="300">
-            <div class="w-16 h-16 mx-auto flex items-center justify-center rounded-full bg-teal-100 group-hover:bg-teal-600 transition-all duration-300">
-              <i class="ri-surgical-mask-line text-2xl text-teal-600 group-hover:text-white transition-colors"></i>
+          <div class="block group bg-white rounded-xl p-6 text-center shadow-sm hover:shadow-xl transition-all duration-300 hover:-translate-y-1 border border-gray-100 hover:border-[#D4AF37] flex flex-col" data-aos="fade-up" data-aos-duration="600" data-aos-delay="300">
+            <div class="w-16 h-16 mx-auto flex items-center justify-center rounded-full bg-[#e8edf3] group-hover:bg-[#0D2240] transition-all duration-300">
+              <i class="ri-surgical-mask-line text-2xl text-[#0D2240] group-hover:text-white transition-colors"></i>
             </div>
-            <h3 class="mt-4 text-lg font-semibold text-gray-800 group-hover:text-teal-700 transition">Laparoscopic Surgery</h3>
+            <h3 class="mt-4 text-lg font-semibold text-gray-800 group-hover:text-[#b8962e] transition">Laparoscopic Surgery</h3>
             <p class="text-gray-600 text-sm mt-2 leading-relaxed flex-grow">Minimally invasive surgical solutions with faster recovery.</p>
             <!-- Read More Button -->
-            <a href="./Laparoscopic.html" class="mt-4 inline-flex items-center justify-center gap-1 text-teal-600 hover:text-teal-700 font-medium text-sm transition-colors duration-200 group/btn">
+            <a href="./Laparoscopic.html" class="mt-4 inline-flex items-center justify-center gap-1 text-[#0D2240] hover:text-[#b8962e] font-medium text-sm transition-colors duration-200 group/btn">
               Read More
               <i class="fas fa-arrow-right text-xs transition-transform group-hover/btn:translate-x-1"></i>
             </a>
           </div>
 
           <!-- General Medicine -->
-          <div class="block group bg-white rounded-xl p-6 text-center shadow-sm hover:shadow-xl transition-all duration-300 hover:-translate-y-1 border border-gray-100 hover:border-teal-200 flex flex-col" data-aos="fade-up" data-aos-duration="600" data-aos-delay="350">
-            <div class="w-16 h-16 mx-auto flex items-center justify-center rounded-full bg-teal-100 group-hover:bg-teal-600 transition-all duration-300">
-              <i class="ri-stethoscope-line text-2xl text-teal-600 group-hover:text-white transition-colors"></i>
+          <div class="block group bg-white rounded-xl p-6 text-center shadow-sm hover:shadow-xl transition-all duration-300 hover:-translate-y-1 border border-gray-100 hover:border-[#D4AF37] flex flex-col" data-aos="fade-up" data-aos-duration="600" data-aos-delay="350">
+            <div class="w-16 h-16 mx-auto flex items-center justify-center rounded-full bg-[#e8edf3] group-hover:bg-[#0D2240] transition-all duration-300">
+              <i class="ri-stethoscope-line text-2xl text-[#0D2240] group-hover:text-white transition-colors"></i>
             </div>
-            <h3 class="mt-4 text-lg font-semibold text-gray-800 group-hover:text-teal-700 transition">General Medicine</h3>
+            <h3 class="mt-4 text-lg font-semibold text-gray-800 group-hover:text-[#b8962e] transition">General Medicine</h3>
             <p class="text-gray-600 text-sm mt-2 leading-relaxed flex-grow">Comprehensive care for common illnesses and chronic conditions.</p>
             <!-- Read More Button -->
-            <a href="./Medicine.html" class="mt-4 inline-flex items-center justify-center gap-1 text-teal-600 hover:text-teal-700 font-medium text-sm transition-colors duration-200 group/btn">
+            <a href="./Medicine.html" class="mt-4 inline-flex items-center justify-center gap-1 text-[#0D2240] hover:text-[#b8962e] font-medium text-sm transition-colors duration-200 group/btn">
               Read More
               <i class="fas fa-arrow-right text-xs transition-transform group-hover/btn:translate-x-1"></i>
             </a>
           </div>
 
           <!-- General Physician -->
-          <div class="block group bg-white rounded-xl p-6 text-center shadow-sm hover:shadow-xl transition-all duration-300 hover:-translate-y-1 border border-gray-100 hover:border-teal-200 flex flex-col" data-aos="fade-up" data-aos-duration="600" data-aos-delay="400">
-            <div class="w-16 h-16 mx-auto flex items-center justify-center rounded-full bg-teal-100 group-hover:bg-teal-600 transition-all duration-300">
-              <i class="ri-user-heart-line text-2xl text-teal-600 group-hover:text-white transition-colors"></i>
+          <div class="block group bg-white rounded-xl p-6 text-center shadow-sm hover:shadow-xl transition-all duration-300 hover:-translate-y-1 border border-gray-100 hover:border-[#D4AF37] flex flex-col" data-aos="fade-up" data-aos-duration="600" data-aos-delay="400">
+            <div class="w-16 h-16 mx-auto flex items-center justify-center rounded-full bg-[#e8edf3] group-hover:bg-[#0D2240] transition-all duration-300">
+              <i class="ri-user-heart-line text-2xl text-[#0D2240] group-hover:text-white transition-colors"></i>
             </div>
-            <h3 class="mt-4 text-lg font-semibold text-gray-800 group-hover:text-teal-700 transition">General Physician</h3>
+            <h3 class="mt-4 text-lg font-semibold text-gray-800 group-hover:text-[#b8962e] transition">General Physician</h3>
             <p class="text-gray-600 text-sm mt-2 leading-relaxed flex-grow">Primary medical care for routine checkups and health concerns.</p>
             <!-- Read More Button -->
-            <a href="./Physician.html" class="mt-4 inline-flex items-center justify-center gap-1 text-teal-600 hover:text-teal-700 font-medium text-sm transition-colors duration-200 group/btn">
+            <a href="./Physician.html" class="mt-4 inline-flex items-center justify-center gap-1 text-[#0D2240] hover:text-[#b8962e] font-medium text-sm transition-colors duration-200 group/btn">
               Read More
               <i class="fas fa-arrow-right text-xs transition-transform group-hover/btn:translate-x-1"></i>
             </a>
           </div>
 
           <!-- General Surgery -->
-          <div class="block group bg-white rounded-xl p-6 text-center shadow-sm hover:shadow-xl transition-all duration-300 hover:-translate-y-1 border border-gray-100 hover:border-teal-200 flex flex-col" data-aos="fade-up" data-aos-duration="600" data-aos-delay="450">
-            <div class="w-16 h-16 mx-auto flex items-center justify-center rounded-full bg-teal-100 group-hover:bg-teal-600 transition-all duration-300">
-              <i class="ri-scissors-cut-line text-2xl text-teal-600 group-hover:text-white transition-colors"></i>
+          <div class="block group bg-white rounded-xl p-6 text-center shadow-sm hover:shadow-xl transition-all duration-300 hover:-translate-y-1 border border-gray-100 hover:border-[#D4AF37] flex flex-col" data-aos="fade-up" data-aos-duration="600" data-aos-delay="450">
+            <div class="w-16 h-16 mx-auto flex items-center justify-center rounded-full bg-[#e8edf3] group-hover:bg-[#0D2240] transition-all duration-300">
+              <i class="ri-scissors-cut-line text-2xl text-[#0D2240] group-hover:text-white transition-colors"></i>
             </div>
-            <h3 class="mt-4 text-lg font-semibold text-gray-800 group-hover:text-teal-700 transition">General Surgery</h3>
+            <h3 class="mt-4 text-lg font-semibold text-gray-800 group-hover:text-[#b8962e] transition">General Surgery</h3>
             <p class="text-gray-600 text-sm mt-2 leading-relaxed flex-grow">Safe and reliable surgical procedures with expert surgeons.</p>
             <!-- Read More Button -->
-            <a href="./Surgery.html" class="mt-4 inline-flex items-center justify-center gap-1 text-teal-600 hover:text-teal-700 font-medium text-sm transition-colors duration-200 group/btn">
+            <a href="./Surgery.html" class="mt-4 inline-flex items-center justify-center gap-1 text-[#0D2240] hover:text-[#b8962e] font-medium text-sm transition-colors duration-200 group/btn">
               Read More
               <i class="fas fa-arrow-right text-xs transition-transform group-hover/btn:translate-x-1"></i>
             </a>
@@ -741,28 +746,28 @@
 
           
           <!-- Pediatric Care (additional but different icon) -->
-          <div class="block group bg-white rounded-xl p-6 text-center shadow-sm hover:shadow-xl transition-all duration-300 hover:-translate-y-1 border border-gray-100 hover:border-teal-200 flex flex-col" data-aos="fade-up" data-aos-duration="600" data-aos-delay="550">
-            <div class="w-16 h-16 mx-auto flex items-center justify-center rounded-full bg-teal-100 group-hover:bg-teal-600 transition-all duration-300">
-              <i class="fas fa-child text-2xl text-teal-600 group-hover:text-white transition-colors"></i>
+          <div class="block group bg-white rounded-xl p-6 text-center shadow-sm hover:shadow-xl transition-all duration-300 hover:-translate-y-1 border border-gray-100 hover:border-[#D4AF37] flex flex-col" data-aos="fade-up" data-aos-duration="600" data-aos-delay="550">
+            <div class="w-16 h-16 mx-auto flex items-center justify-center rounded-full bg-[#e8edf3] group-hover:bg-[#0D2240] transition-all duration-300">
+              <i class="fas fa-child text-2xl text-[#0D2240] group-hover:text-white transition-colors"></i>
             </div>
-            <h3 class="mt-4 text-lg font-semibold text-gray-800 group-hover:text-teal-700 transition">Pediatric Care</h3>
+            <h3 class="mt-4 text-lg font-semibold text-gray-800 group-hover:text-[#b8962e] transition">Pediatric Care</h3>
             <p class="text-gray-600 text-sm mt-2 leading-relaxed flex-grow">Specialized medical care for infants, children, and adolescents.</p>
             <!-- Read More Button -->
-            <a href="./Pediatric.html" class="mt-4 inline-flex items-center justify-center gap-1 text-teal-600 hover:text-teal-700 font-medium text-sm transition-colors duration-200 group/btn">
+            <a href="./Pediatric.html" class="mt-4 inline-flex items-center justify-center gap-1 text-[#0D2240] hover:text-[#b8962e] font-medium text-sm transition-colors duration-200 group/btn">
               Read More
               <i class="fas fa-arrow-right text-xs transition-transform group-hover/btn:translate-x-1"></i>
             </a>
           </div>
 
           <!-- Physiotherapy -->
-          <div class="block group bg-white rounded-xl p-6 text-center shadow-sm hover:shadow-xl transition-all duration-300 hover:-translate-y-1 border border-gray-100 hover:border-teal-200 flex flex-col" data-aos="fade-up" data-aos-duration="600" data-aos-delay="600">
-            <div class="w-16 h-16 mx-auto flex items-center justify-center rounded-full bg-teal-100 group-hover:bg-teal-600 transition-all duration-300">
-              <i class="ri-run-line text-2xl text-teal-600 group-hover:text-white transition-colors"></i>
+          <div class="block group bg-white rounded-xl p-6 text-center shadow-sm hover:shadow-xl transition-all duration-300 hover:-translate-y-1 border border-gray-100 hover:border-[#D4AF37] flex flex-col" data-aos="fade-up" data-aos-duration="600" data-aos-delay="600">
+            <div class="w-16 h-16 mx-auto flex items-center justify-center rounded-full bg-[#e8edf3] group-hover:bg-[#0D2240] transition-all duration-300">
+              <i class="ri-run-line text-2xl text-[#0D2240] group-hover:text-white transition-colors"></i>
             </div>
-            <h3 class="mt-4 text-lg font-semibold text-gray-800 group-hover:text-teal-700 transition">Physiotherapy</h3>
+            <h3 class="mt-4 text-lg font-semibold text-gray-800 group-hover:text-[#b8962e] transition">Physiotherapy</h3>
             <p class="text-gray-600 text-sm mt-2 leading-relaxed flex-grow">Rehabilitation and physical therapy for injury recovery and mobility.</p>
             <!-- Read More Button -->
-            <a href="./Physiotherapy.html" class="mt-4 inline-flex items-center justify-center gap-1 text-teal-600 hover:text-teal-700 font-medium text-sm transition-colors duration-200 group/btn">
+            <a href="./Physiotherapy.html" class="mt-4 inline-flex items-center justify-center gap-1 text-[#0D2240] hover:text-[#b8962e] font-medium text-sm transition-colors duration-200 group/btn">
               Read More
               <i class="fas fa-arrow-right text-xs transition-transform group-hover/btn:translate-x-1"></i>
             </a>
@@ -775,7 +780,7 @@
 
     <!-- TESTIMONIALS SECTION -->
     <section
-      class="py-16 sm:py-20 relative overflow-hidden bg-gradient-to-b from-white to-teal-50/30"
+      class="py-16 sm:py-20 relative overflow-hidden bg-gradient-to-b from-white to-[#f5f0e8]/30"
       data-aos="fade-up"
       data-aos-duration="800"
     >
@@ -789,7 +794,7 @@
           viewBox="0 0 1440 320"
         >
           <path
-            fill="#14b8a6"
+            fill="#D4AF37"
             fill-opacity="0.1"
             d="M0,192L48,197.3C96,203,192,213,288,208C384,203,480,181,576,181.3C672,181,768,203,864,208C960,213,1056,203,1152,186.7C1248,171,1344,149,1392,138.7L1440,128L1440,0L1392,0C1344,0,1248,0,1152,0C1056,0,960,0,864,0C768,0,672,0,576,0C480,0,384,0,288,0C192,0,96,0,48,0L0,0Z"
           ></path>
@@ -800,16 +805,16 @@
         <!-- Section Header -->
         <div class="text-center mb-12 md:mb-16">
           <span
-            class="inline-block px-4 py-1.5 rounded-full bg-teal-100/90 text-teal-700 text-sm font-semibold tracking-wide mb-4 shadow-sm"
+            class="inline-block px-4 py-1.5 rounded-full bg-[#e8edf3]/90 text-[#0D2240] text-sm font-semibold tracking-wide mb-4 shadow-sm"
           >
             Testimonials
           </span>
           <h2
             class="text-3xl sm:text-4xl md:text-5xl font-bold text-gray-800 mb-3"
           >
-            What Our <span class="text-teal-600">Patients Say</span>
+            What Our <span class="text-[#0D2240]">Patients Say</span>
           </h2>
-          <!-- <div class="w-20 h-1 bg-gradient-to-r from-teal-400 to-teal-600 mx-auto rounded-full mb-4"></div> -->
+          <!-- <div class="w-20 h-1 bg-gradient-to-r from-[#D4AF37] to-[#0D2240] mx-auto rounded-full mb-4"></div> -->
           <p class="text-gray-500 max-w-2xl mx-auto text-sm sm:text-base">
             Real experiences from patients who trusted us with their health and
             well-being
@@ -822,7 +827,7 @@
         >
           <!-- testimonial card 1 -->
           <div
-            class="group bg-[#F8FAFC] p-6 md:p-8 rounded-3xl shadow-lg border border-gray-100 flex flex-col items-start transition-all duration-300 hover:-translate-y-2 hover:shadow-2xl hover:border-[#2A9D8F]/30 hover:bg-white cursor-default"
+            class="group bg-[#F8FAFC] p-6 md:p-8 rounded-3xl shadow-lg border border-gray-100 flex flex-col items-start transition-all duration-300 hover:-translate-y-2 hover:shadow-2xl hover:border-[#D4AF37]/30 hover:bg-white cursor-default"
             data-aos="fade-up"
             data-aos-delay="100"
           >
@@ -835,7 +840,7 @@
               <span class="text-gray-500 text-sm ml-2">5.0</span>
             </div>
             <p
-              class="text-[#1e3a3a] text-base md:text-lg leading-relaxed mb-6 transition-colors duration-300 group-hover:text-[#1e3a3a]/90"
+              class="text-[#1A1F2B] text-base md:text-lg leading-relaxed mb-6 transition-colors duration-300 group-hover:text-[#1A1F2B]/90"
             >
               "We recently had a family member treated here and the experience
               was truly reassuring. The staff were caring, attentive, and
@@ -846,13 +851,13 @@
               class="flex items-center gap-4 mt-auto transition-all duration-300 group-hover:translate-x-1"
             >
               <div
-                class="w-12 h-12 bg-[#2A9D8F]/20 rounded-full flex items-center justify-center text-[#2A9D8F] text-xl font-bold transition-all duration-300 group-hover:bg-[#2A9D8F] group-hover:text-white group-hover:scale-110"
+                class="w-12 h-12 bg-[#D4AF37]/20 rounded-full flex items-center justify-center text-[#D4AF37] text-xl font-bold transition-all duration-300 group-hover:bg-[#D4AF37] group-hover:text-white group-hover:scale-110"
               >
                 K
               </div>
               <div>
                 <h4
-                  class="font-semibold text-[#1e3a3a] transition-colors duration-300 group-hover:text-[#2A9D8F]"
+                  class="font-semibold text-[#1A1F2B] transition-colors duration-300 group-hover:text-[#D4AF37]"
                 >
                   Kamal Mittal
                 </h4>
@@ -862,7 +867,7 @@
 
           <!-- testimonial card 2 -->
           <div
-            class="group bg-[#F8FAFC] p-6 md:p-8 rounded-3xl shadow-lg border border-gray-100 flex flex-col items-start transition-all duration-300 hover:-translate-y-2 hover:shadow-2xl hover:border-[#2A9D8F]/30 hover:bg-white cursor-default"
+            class="group bg-[#F8FAFC] p-6 md:p-8 rounded-3xl shadow-lg border border-gray-100 flex flex-col items-start transition-all duration-300 hover:-translate-y-2 hover:shadow-2xl hover:border-[#D4AF37]/30 hover:bg-white cursor-default"
             data-aos="fade-up"
             data-aos-delay="200"
           >
@@ -875,7 +880,7 @@
               <span class="text-gray-500 text-sm ml-2">5.0</span>
             </div>
             <p
-              class="text-[#1e3a3a] text-base md:text-lg leading-relaxed mb-6 transition-colors duration-300 group-hover:text-[#1e3a3a]/90"
+              class="text-[#1A1F2B] text-base md:text-lg leading-relaxed mb-6 transition-colors duration-300 group-hover:text-[#1A1F2B]/90"
             >
               "I felt genuinely heard and cared for throughout my treatment,
               making my recovery much smoother."
@@ -884,13 +889,13 @@
               class="flex items-center gap-4 mt-auto transition-all duration-300 group-hover:translate-x-1"
             >
               <div
-                class="w-12 h-12 bg-[#2A9D8F]/20 rounded-full flex items-center justify-center text-[#2A9D8F] text-xl font-bold transition-all duration-300 group-hover:bg-[#2A9D8F] group-hover:text-white group-hover:scale-110"
+                class="w-12 h-12 bg-[#D4AF37]/20 rounded-full flex items-center justify-center text-[#D4AF37] text-xl font-bold transition-all duration-300 group-hover:bg-[#D4AF37] group-hover:text-white group-hover:scale-110"
               >
                 P
               </div>
               <div>
                 <h4
-                  class="font-semibold text-[#1e3a3a] transition-colors duration-300 group-hover:text-[#2A9D8F]"
+                  class="font-semibold text-[#1A1F2B] transition-colors duration-300 group-hover:text-[#D4AF37]"
                 >
                   Priya Singh
                 </h4>
@@ -900,7 +905,7 @@
 
           <!-- testimonial card 3 -->
           <div
-            class="group bg-[#F8FAFC] p-6 md:p-8 rounded-3xl shadow-lg border border-gray-100 flex flex-col items-start transition-all duration-300 hover:-translate-y-2 hover:shadow-2xl hover:border-[#2A9D8F]/30 hover:bg-white cursor-default"
+            class="group bg-[#F8FAFC] p-6 md:p-8 rounded-3xl shadow-lg border border-gray-100 flex flex-col items-start transition-all duration-300 hover:-translate-y-2 hover:shadow-2xl hover:border-[#D4AF37]/30 hover:bg-white cursor-default"
             data-aos="fade-up"
             data-aos-delay="300"
           >
@@ -913,7 +918,7 @@
               <span class="text-gray-500 text-sm ml-2">4.8</span>
             </div>
             <p
-              class="text-[#1e3a3a] text-base md:text-lg leading-relaxed mb-6 transition-colors duration-300 group-hover:text-[#1e3a3a]/90"
+              class="text-[#1A1F2B] text-base md:text-lg leading-relaxed mb-6 transition-colors duration-300 group-hover:text-[#1A1F2B]/90"
             >
               "Dr Rahul Rane is an excellent orthopaedic doctor. He listens
               patiently, explains the condition clearly, and suggests the right
@@ -926,13 +931,13 @@
               class="flex items-center gap-4 mt-auto transition-all duration-300 group-hover:translate-x-1"
             >
               <div
-                class="w-12 h-12 bg-[#2A9D8F]/20 rounded-full flex items-center justify-center text-[#2A9D8F] text-xl font-bold transition-all duration-300 group-hover:bg-[#2A9D8F] group-hover:text-white group-hover:scale-110"
+                class="w-12 h-12 bg-[#D4AF37]/20 rounded-full flex items-center justify-center text-[#D4AF37] text-xl font-bold transition-all duration-300 group-hover:bg-[#D4AF37] group-hover:text-white group-hover:scale-110"
               >
                 A
               </div>
               <div>
                 <h4
-                  class="font-semibold text-[#1e3a3a] transition-colors duration-300 group-hover:text-[#2A9D8F]"
+                  class="font-semibold text-[#1A1F2B] transition-colors duration-300 group-hover:text-[#D4AF37]"
                 >
                   Alvi Shaban
                 </h4>
@@ -942,7 +947,7 @@
 
           <!-- testimonial card 4 -->
           <div
-            class="group bg-[#F8FAFC] p-6 md:p-8 rounded-3xl shadow-lg border border-gray-100 flex flex-col items-start transition-all duration-300 hover:-translate-y-2 hover:shadow-2xl hover:border-[#2A9D8F]/30 hover:bg-white cursor-default"
+            class="group bg-[#F8FAFC] p-6 md:p-8 rounded-3xl shadow-lg border border-gray-100 flex flex-col items-start transition-all duration-300 hover:-translate-y-2 hover:shadow-2xl hover:border-[#D4AF37]/30 hover:bg-white cursor-default"
             data-aos="fade-up"
             data-aos-delay="100"
           >
@@ -955,7 +960,7 @@
               <span class="text-gray-500 text-sm ml-2">5.0</span>
             </div>
             <p
-              class="text-[#1e3a3a] text-base md:text-lg leading-relaxed mb-6 transition-colors duration-300 group-hover:text-[#1e3a3a]/90"
+              class="text-[#1A1F2B] text-base md:text-lg leading-relaxed mb-6 transition-colors duration-300 group-hover:text-[#1A1F2B]/90"
             >
               "The service and management is amazing the dr performed the
               operation was very incredible the staff specially the nurses
@@ -968,13 +973,13 @@
               class="flex items-center gap-4 mt-auto transition-all duration-300 group-hover:translate-x-1"
             >
               <div
-                class="w-12 h-12 bg-[#2A9D8F]/20 rounded-full flex items-center justify-center text-[#2A9D8F] text-xl font-bold transition-all duration-300 group-hover:bg-[#2A9D8F] group-hover:text-white group-hover:scale-110"
+                class="w-12 h-12 bg-[#D4AF37]/20 rounded-full flex items-center justify-center text-[#D4AF37] text-xl font-bold transition-all duration-300 group-hover:bg-[#D4AF37] group-hover:text-white group-hover:scale-110"
               >
                 M
               </div>
               <div>
                 <h4
-                  class="font-semibold text-[#1e3a3a] transition-colors duration-300 group-hover:text-[#2A9D8F]"
+                  class="font-semibold text-[#1A1F2B] transition-colors duration-300 group-hover:text-[#D4AF37]"
                 >
                   Muskaan Shaikh
                 </h4>
@@ -984,7 +989,7 @@
 
           <!-- testimonial card 5 -->
           <div
-            class="group bg-[#F8FAFC] p-6 md:p-8 rounded-3xl shadow-lg border border-gray-100 flex flex-col items-start transition-all duration-300 hover:-translate-y-2 hover:shadow-2xl hover:border-[#2A9D8F]/30 hover:bg-white cursor-default"
+            class="group bg-[#F8FAFC] p-6 md:p-8 rounded-3xl shadow-lg border border-gray-100 flex flex-col items-start transition-all duration-300 hover:-translate-y-2 hover:shadow-2xl hover:border-[#D4AF37]/30 hover:bg-white cursor-default"
             data-aos="fade-up"
             data-aos-delay="200"
           >
@@ -997,7 +1002,7 @@
               <span class="text-gray-500 text-sm ml-2">5.0</span>
             </div>
             <p
-              class="text-[#1e3a3a] text-base md:text-lg leading-relaxed mb-6 transition-colors duration-300 group-hover:text-[#1e3a3a]/90"
+              class="text-[#1A1F2B] text-base md:text-lg leading-relaxed mb-6 transition-colors duration-300 group-hover:text-[#1A1F2B]/90"
             >
               "Sainit star hospital has excellent reach by metro line from
               western suberbs, I received good treatment along with proper
@@ -1009,13 +1014,13 @@
               class="flex items-center gap-4 mt-auto transition-all duration-300 group-hover:translate-x-1"
             >
               <div
-                class="w-12 h-12 bg-[#2A9D8F]/20 rounded-full flex items-center justify-center text-[#2A9D8F] text-xl font-bold transition-all duration-300 group-hover:bg-[#2A9D8F] group-hover:text-white group-hover:scale-110"
+                class="w-12 h-12 bg-[#D4AF37]/20 rounded-full flex items-center justify-center text-[#D4AF37] text-xl font-bold transition-all duration-300 group-hover:bg-[#D4AF37] group-hover:text-white group-hover:scale-110"
               >
                 P
               </div>
               <div>
                 <h4
-                  class="font-semibold text-[#1e3a3a] transition-colors duration-300 group-hover:text-[#2A9D8F]"
+                  class="font-semibold text-[#1A1F2B] transition-colors duration-300 group-hover:text-[#D4AF37]"
                 >
                   Piyush Saurabh
                 </h4>
@@ -1025,7 +1030,7 @@
 
           <!-- testimonial card 6 -->
           <div
-            class="group bg-[#F8FAFC] p-6 md:p-8 rounded-3xl shadow-lg border border-gray-100 flex flex-col items-start transition-all duration-300 hover:-translate-y-2 hover:shadow-2xl hover:border-[#2A9D8F]/30 hover:bg-white cursor-default"
+            class="group bg-[#F8FAFC] p-6 md:p-8 rounded-3xl shadow-lg border border-gray-100 flex flex-col items-start transition-all duration-300 hover:-translate-y-2 hover:shadow-2xl hover:border-[#D4AF37]/30 hover:bg-white cursor-default"
             data-aos="fade-up"
             data-aos-delay="300"
           >
@@ -1038,7 +1043,7 @@
               <span class="text-gray-500 text-sm ml-2">4.9</span>
             </div>
             <p
-              class="text-[#1e3a3a] text-base md:text-lg leading-relaxed mb-6 transition-colors duration-300 group-hover:text-[#1e3a3a]/90"
+              class="text-[#1A1F2B] text-base md:text-lg leading-relaxed mb-6 transition-colors duration-300 group-hover:text-[#1A1F2B]/90"
             >
               "Sainit star multispeciality is definitely a place for all your
               requirements. I highly recommend this place for optimim diagnosis,
@@ -1048,13 +1053,13 @@
               class="flex items-center gap-4 mt-auto transition-all duration-300 group-hover:translate-x-1"
             >
               <div
-                class="w-12 h-12 bg-[#2A9D8F]/20 rounded-full flex items-center justify-center text-[#2A9D8F] text-xl font-bold transition-all duration-300 group-hover:bg-[#2A9D8F] group-hover:text-white group-hover:scale-110"
+                class="w-12 h-12 bg-[#D4AF37]/20 rounded-full flex items-center justify-center text-[#D4AF37] text-xl font-bold transition-all duration-300 group-hover:bg-[#D4AF37] group-hover:text-white group-hover:scale-110"
               >
                 P
               </div>
               <div>
                 <h4
-                  class="font-semibold text-[#1e3a3a] transition-colors duration-300 group-hover:text-[#2A9D8F]"
+                  class="font-semibold text-[#1A1F2B] transition-colors duration-300 group-hover:text-[#D4AF37]"
                 >
                   Poonam dave
                 </h4>
@@ -1068,7 +1073,7 @@
     <!-- FAQ SECTION -->
 
     <section
-      class="py-16 sm:py-20 relative overflow-hidden bg-gradient-to-b from-teal-50/20 to-white"
+      class="py-16 sm:py-20 relative overflow-hidden bg-gradient-to-b from-[#f5f0e8]/20 to-white"
       data-aos="fade-up"
       data-aos-duration="800"
     >
@@ -1082,7 +1087,7 @@
           viewBox="0 0 1440 320"
         >
           <path
-            fill="#14b8a6"
+            fill="#D4AF37"
             fill-opacity="0.1"
             d="M0,192L48,197.3C96,203,192,213,288,208C384,203,480,181,576,181.3C672,181,768,203,864,208C960,213,1056,203,1152,186.7C1248,171,1344,149,1392,138.7L1440,128L1440,320L1392,320C1344,320,1248,320,1152,320C1056,320,960,320,864,320C768,320,672,320,576,320C480,320,384,320,288,320C192,320,96,320,48,320L0,320Z"
           ></path>
@@ -1097,17 +1102,17 @@
           data-aos-duration="600"
         >
           <span
-            class="inline-block px-4 py-1.5 rounded-full bg-teal-100/90 text-teal-700 text-sm font-semibold tracking-wide mb-4 shadow-sm"
+            class="inline-block px-4 py-1.5 rounded-full bg-[#e8edf3]/90 text-[#0D2240] text-sm font-semibold tracking-wide mb-4 shadow-sm"
           >
             Frequently Asked Questions
           </span>
           <h2
             class="text-3xl sm:text-4xl md:text-5xl font-bold text-gray-800 mb-3"
           >
-            Got <span class="text-teal-600">Questions?</span> We've Got Answers
+            Got <span class="text-[#0D2240]">Questions?</span> We've Got Answers
           </h2>
           <div
-            class="w-20 h-1 bg-gradient-to-r from-teal-400 to-teal-600 mx-auto rounded-full mb-4"
+            class="w-20 h-1 bg-gradient-to-r from-[#D4AF37] to-[#0D2240] mx-auto rounded-full mb-4"
           ></div>
           <p class="text-gray-500 max-w-2xl mx-auto text-sm sm:text-base">
             Find answers to common questions about our services, facilities, and
@@ -1125,14 +1130,14 @@
             data-aos-delay="100"
           >
             <button
-              class="faq-toggle w-full text-left bg-white rounded-xl p-5 shadow-sm hover:shadow-md transition-all duration-300 border border-gray-100 hover:border-teal-200 flex justify-between items-center"
+              class="faq-toggle w-full text-left bg-white rounded-xl p-5 shadow-sm hover:shadow-md transition-all duration-300 border border-gray-100 hover:border-[#D4AF37] flex justify-between items-center"
             >
               <div class="flex items-center gap-3">
                 <div
-                  class="w-8 h-8 rounded-full bg-teal-100 group-hover:bg-teal-600 transition-colors duration-300 flex items-center justify-center"
+                  class="w-8 h-8 rounded-full bg-[#e8edf3] group-hover:bg-[#0D2240] transition-colors duration-300 flex items-center justify-center"
                 >
                   <i
-                    class="fas fa-question text-teal-600 group-hover:text-white text-sm transition-colors"
+                    class="fas fa-question text-[#0D2240] group-hover:text-white text-sm transition-colors"
                   ></i>
                 </div>
                 <span class="font-semibold text-gray-800 text-base sm:text-lg"
@@ -1141,11 +1146,11 @@
                 >
               </div>
               <i
-                class="fas fa-chevron-down text-teal-600 transition-transform duration-300"
+                class="fas fa-chevron-down text-[#0D2240] transition-transform duration-300"
               ></i>
             </button>
             <div
-              class="faq-answer hidden mt-2 ml-11 p-4 bg-gray-50 rounded-lg border-l-4 border-teal-500"
+              class="faq-answer hidden mt-2 ml-11 p-4 bg-gray-50 rounded-lg border-l-4 border-[#D4AF37]"
             >
               <p class="text-gray-600 text-sm sm:text-base leading-relaxed">
                 The contact no of Sainit Multispeciality Hospital is 9167916660
@@ -1161,14 +1166,14 @@
             data-aos-delay="150"
           >
             <button
-              class="faq-toggle w-full text-left bg-white rounded-xl p-5 shadow-sm hover:shadow-md transition-all duration-300 border border-gray-100 hover:border-teal-200 flex justify-between items-center"
+              class="faq-toggle w-full text-left bg-white rounded-xl p-5 shadow-sm hover:shadow-md transition-all duration-300 border border-gray-100 hover:border-[#D4AF37] flex justify-between items-center"
             >
               <div class="flex items-center gap-3">
                 <div
-                  class="w-8 h-8 rounded-full bg-teal-100 group-hover:bg-teal-600 transition-colors duration-300 flex items-center justify-center"
+                  class="w-8 h-8 rounded-full bg-[#e8edf3] group-hover:bg-[#0D2240] transition-colors duration-300 flex items-center justify-center"
                 >
                   <i
-                    class="fas fa-question text-teal-600 group-hover:text-white text-sm transition-colors"
+                    class="fas fa-question text-[#0D2240] group-hover:text-white text-sm transition-colors"
                   ></i>
                 </div>
                 <span class="font-semibold text-gray-800 text-base sm:text-lg"
@@ -1177,11 +1182,11 @@
                 >
               </div>
               <i
-                class="fas fa-chevron-down text-teal-600 transition-transform duration-300"
+                class="fas fa-chevron-down text-[#0D2240] transition-transform duration-300"
               ></i>
             </button>
             <div
-              class="faq-answer hidden mt-2 ml-11 p-4 bg-gray-50 rounded-lg border-l-4 border-teal-500"
+              class="faq-answer hidden mt-2 ml-11 p-4 bg-gray-50 rounded-lg border-l-4 border-[#D4AF37]"
             >
               <p class="text-gray-600 text-sm sm:text-base leading-relaxed">
                 The official email id of Sainit Multispeciality Hospital is
@@ -1198,14 +1203,14 @@
             data-aos-delay="200"
           >
             <button
-              class="faq-toggle w-full text-left bg-white rounded-xl p-5 shadow-sm hover:shadow-md transition-all duration-300 border border-gray-100 hover:border-teal-200 flex justify-between items-center"
+              class="faq-toggle w-full text-left bg-white rounded-xl p-5 shadow-sm hover:shadow-md transition-all duration-300 border border-gray-100 hover:border-[#D4AF37] flex justify-between items-center"
             >
               <div class="flex items-center gap-3">
                 <div
-                  class="w-8 h-8 rounded-full bg-teal-100 group-hover:bg-teal-600 transition-colors duration-300 flex items-center justify-center"
+                  class="w-8 h-8 rounded-full bg-[#e8edf3] group-hover:bg-[#0D2240] transition-colors duration-300 flex items-center justify-center"
                 >
                   <i
-                    class="fas fa-question text-teal-600 group-hover:text-white text-sm transition-colors"
+                    class="fas fa-question text-[#0D2240] group-hover:text-white text-sm transition-colors"
                   ></i>
                 </div>
                 <span class="font-semibold text-gray-800 text-base sm:text-lg"
@@ -1213,11 +1218,11 @@
                 >
               </div>
               <i
-                class="fas fa-chevron-down text-teal-600 transition-transform duration-300"
+                class="fas fa-chevron-down text-[#0D2240] transition-transform duration-300"
               ></i>
             </button>
             <div
-              class="faq-answer hidden mt-2 ml-11 p-4 bg-gray-50 rounded-lg border-l-4 border-teal-500"
+              class="faq-answer hidden mt-2 ml-11 p-4 bg-gray-50 rounded-lg border-l-4 border-[#D4AF37]"
             >
               <p class="text-gray-600 text-sm sm:text-base leading-relaxed">
                 You should consult an orthopedic specialist if you experience
@@ -1236,14 +1241,14 @@
             data-aos-delay="250"
           >
             <button
-              class="faq-toggle w-full text-left bg-white rounded-xl p-5 shadow-sm hover:shadow-md transition-all duration-300 border border-gray-100 hover:border-teal-200 flex justify-between items-center"
+              class="faq-toggle w-full text-left bg-white rounded-xl p-5 shadow-sm hover:shadow-md transition-all duration-300 border border-gray-100 hover:border-[#D4AF37] flex justify-between items-center"
             >
               <div class="flex items-center gap-3">
                 <div
-                  class="w-8 h-8 rounded-full bg-teal-100 group-hover:bg-teal-600 transition-colors duration-300 flex items-center justify-center"
+                  class="w-8 h-8 rounded-full bg-[#e8edf3] group-hover:bg-[#0D2240] transition-colors duration-300 flex items-center justify-center"
                 >
                   <i
-                    class="fas fa-question text-teal-600 group-hover:text-white text-sm transition-colors"
+                    class="fas fa-question text-[#0D2240] group-hover:text-white text-sm transition-colors"
                   ></i>
                 </div>
                 <span class="font-semibold text-gray-800 text-base sm:text-lg"
@@ -1251,11 +1256,11 @@
                 >
               </div>
               <i
-                class="fas fa-chevron-down text-teal-600 transition-transform duration-300"
+                class="fas fa-chevron-down text-[#0D2240] transition-transform duration-300"
               ></i>
             </button>
             <div
-              class="faq-answer hidden mt-2 ml-11 p-4 bg-gray-50 rounded-lg border-l-4 border-teal-500"
+              class="faq-answer hidden mt-2 ml-11 p-4 bg-gray-50 rounded-lg border-l-4 border-[#D4AF37]"
             >
               <p class="text-gray-600 text-sm sm:text-base leading-relaxed">
                 Yes, physiotherapy is an important part of orthopedic care. Our
@@ -1274,14 +1279,14 @@
             data-aos-delay="300"
           >
             <button
-              class="faq-toggle w-full text-left bg-white rounded-xl p-5 shadow-sm hover:shadow-md transition-all duration-300 border border-gray-100 hover:border-teal-200 flex justify-between items-center"
+              class="faq-toggle w-full text-left bg-white rounded-xl p-5 shadow-sm hover:shadow-md transition-all duration-300 border border-gray-100 hover:border-[#D4AF37] flex justify-between items-center"
             >
               <div class="flex items-center gap-3">
                 <div
-                  class="w-8 h-8 rounded-full bg-teal-100 group-hover:bg-teal-600 transition-colors duration-300 flex items-center justify-center"
+                  class="w-8 h-8 rounded-full bg-[#e8edf3] group-hover:bg-[#0D2240] transition-colors duration-300 flex items-center justify-center"
                 >
                   <i
-                    class="fas fa-question text-teal-600 group-hover:text-white text-sm transition-colors"
+                    class="fas fa-question text-[#0D2240] group-hover:text-white text-sm transition-colors"
                   ></i>
                 </div>
                 <span class="font-semibold text-gray-800 text-base sm:text-lg"
@@ -1289,11 +1294,11 @@
                 >
               </div>
               <i
-                class="fas fa-chevron-down text-teal-600 transition-transform duration-300"
+                class="fas fa-chevron-down text-[#0D2240] transition-transform duration-300"
               ></i>
             </button>
             <div
-              class="faq-answer hidden mt-2 ml-11 p-4 bg-gray-50 rounded-lg border-l-4 border-teal-500"
+              class="faq-answer hidden mt-2 ml-11 p-4 bg-gray-50 rounded-lg border-l-4 border-[#D4AF37]"
             >
               <p class="text-gray-600 text-sm sm:text-base leading-relaxed">
                 No, surgery is not always necessary. Many orthopedic conditions
@@ -1311,14 +1316,14 @@
             data-aos-delay="350"
           >
             <button
-              class="faq-toggle w-full text-left bg-white rounded-xl p-5 shadow-sm hover:shadow-md transition-all duration-300 border border-gray-100 hover:border-teal-200 flex justify-between items-center"
+              class="faq-toggle w-full text-left bg-white rounded-xl p-5 shadow-sm hover:shadow-md transition-all duration-300 border border-gray-100 hover:border-[#D4AF37] flex justify-between items-center"
             >
               <div class="flex items-center gap-3">
                 <div
-                  class="w-8 h-8 rounded-full bg-teal-100 group-hover:bg-teal-600 transition-colors duration-300 flex items-center justify-center"
+                  class="w-8 h-8 rounded-full bg-[#e8edf3] group-hover:bg-[#0D2240] transition-colors duration-300 flex items-center justify-center"
                 >
                   <i
-                    class="fas fa-question text-teal-600 group-hover:text-white text-sm transition-colors"
+                    class="fas fa-question text-[#0D2240] group-hover:text-white text-sm transition-colors"
                   ></i>
                 </div>
                 <span class="font-semibold text-gray-800 text-base sm:text-lg"
@@ -1326,11 +1331,11 @@
                 >
               </div>
               <i
-                class="fas fa-chevron-down text-teal-600 transition-transform duration-300"
+                class="fas fa-chevron-down text-[#0D2240] transition-transform duration-300"
               ></i>
             </button>
             <div
-              class="faq-answer hidden mt-2 ml-11 p-4 bg-gray-50 rounded-lg border-l-4 border-teal-500"
+              class="faq-answer hidden mt-2 ml-11 p-4 bg-gray-50 rounded-lg border-l-4 border-[#D4AF37]"
             >
               <p class="text-gray-600 text-sm sm:text-base leading-relaxed">
                 Yes, we offer complete fracture management including diagnosis,
@@ -1348,14 +1353,14 @@
             data-aos-delay="400"
           >
             <button
-              class="faq-toggle w-full text-left bg-white rounded-xl p-5 shadow-sm hover:shadow-md transition-all duration-300 border border-gray-100 hover:border-teal-200 flex justify-between items-center"
+              class="faq-toggle w-full text-left bg-white rounded-xl p-5 shadow-sm hover:shadow-md transition-all duration-300 border border-gray-100 hover:border-[#D4AF37] flex justify-between items-center"
             >
               <div class="flex items-center gap-3">
                 <div
-                  class="w-8 h-8 rounded-full bg-teal-100 group-hover:bg-teal-600 transition-colors duration-300 flex items-center justify-center"
+                  class="w-8 h-8 rounded-full bg-[#e8edf3] group-hover:bg-[#0D2240] transition-colors duration-300 flex items-center justify-center"
                 >
                   <i
-                    class="fas fa-question text-teal-600 group-hover:text-white text-sm transition-colors"
+                    class="fas fa-question text-[#0D2240] group-hover:text-white text-sm transition-colors"
                   ></i>
                 </div>
                 <span class="font-semibold text-gray-800 text-base sm:text-lg"
@@ -1364,11 +1369,11 @@
                 >
               </div>
               <i
-                class="fas fa-chevron-down text-teal-600 transition-transform duration-300"
+                class="fas fa-chevron-down text-[#0D2240] transition-transform duration-300"
               ></i>
             </button>
             <div
-              class="faq-answer hidden mt-2 ml-11 p-4 bg-gray-50 rounded-lg border-l-4 border-teal-500"
+              class="faq-answer hidden mt-2 ml-11 p-4 bg-gray-50 rounded-lg border-l-4 border-[#D4AF37]"
             >
               <p class="text-gray-600 text-sm sm:text-base leading-relaxed">
                 Our orthopedic department treats bone, joint, muscle, ligament,
@@ -1381,7 +1386,7 @@
 
         <!-- Still Have Questions -->
         <div
-          class="text-center mt-12 p-8 bg-teal-50/50 rounded-2xl border border-teal-100"
+          class="text-center mt-12 p-8 bg-[#f5f0e8]/50 rounded-2xl border border-[#e8edf3]"
           data-aos="zoom-in-up"
           data-aos-duration="700"
           data-aos-delay="450"
@@ -1396,13 +1401,13 @@
           <div class="flex flex-col sm:flex-row gap-3 justify-center">
             <a
               href="tel:+919167916660"
-              class="px-6 py-2.5 bg-teal-600 hover:bg-teal-700 text-white font-semibold rounded-full shadow-md hover:shadow-lg transition-all duration-300 inline-flex items-center justify-center gap-2"
+              class="px-6 py-2.5 bg-[#D4AF37] hover:bg-[#b8962e] text-[#0D2240] font-semibold rounded-full shadow-md hover:shadow-lg transition-all duration-300 inline-flex items-center justify-center gap-2"
             >
               <i class="fas fa-phone-alt"></i> Call Us
             </a>
             <a
               href="mailto:care@saintistarhospital.com?subject=Inquiry%20from%20Sainit%20Hospital&body=Hello,%20I%20would%20like%20to%20inquire%20about..."
-              class="px-6 py-2.5 border-2 border-teal-600 text-teal-600 hover:bg-teal-600 hover:text-white font-semibold rounded-full transition-all duration-300 inline-flex items-center justify-center gap-2"
+              class="px-6 py-2.5 border-2 border-[#0D2240] text-[#0D2240] hover:bg-[#0D2240] hover:text-white font-semibold rounded-full transition-all duration-300 inline-flex items-center justify-center gap-2"
               target="_blank"
             >
               <i class="fas fa-envelope"></i> Email Us
@@ -1415,7 +1420,7 @@
     <!-- CONTACT SECTION -->
     <section
       id="contact"
-      class="py-16 sm:py-20 relative overflow-hidden bg-gradient-to-b from-white to-teal-50/30"
+      class="py-16 sm:py-20 relative overflow-hidden bg-gradient-to-b from-white to-[#f5f0e8]/30"
       data-aos="fade-up"
       data-aos-duration="800"
     >
@@ -1429,7 +1434,7 @@
           viewBox="0 0 1440 320"
         >
           <path
-            fill="#14b8a6"
+            fill="#D4AF37"
             fill-opacity="0.1"
             d="M0,192L48,197.3C96,203,192,213,288,208C384,203,480,181,576,181.3C672,181,768,203,864,208C960,213,1056,203,1152,186.7C1248,171,1344,149,1392,138.7L1440,128L1440,0L1392,0C1344,0,1248,0,1152,0C1056,0,960,0,864,0C768,0,672,0,576,0C480,0,384,0,288,0C192,0,96,0,48,0L0,0Z"
           ></path>
@@ -1440,14 +1445,14 @@
         <!-- Heading (matches your website's section headers) -->
         <div class="text-center mb-12 md:mb-16">
           <span
-            class="inline-block px-4 py-1.5 rounded-full bg-teal-100/90 text-teal-700 text-sm font-semibold tracking-wide mb-4 shadow-sm"
+            class="inline-block px-4 py-1.5 rounded-full bg-[#e8edf3]/90 text-[#0D2240] text-sm font-semibold tracking-wide mb-4 shadow-sm"
           >
             Get In Touch
           </span>
           <h2
             class="text-3xl sm:text-4xl md:text-5xl font-bold text-gray-800 mb-3"
           >
-            Contact <span class="text-teal-600">Us</span>
+            Contact <span class="text-[#0D2240]">Us</span>
           </h2>
 
           <p class="text-gray-500 max-w-2xl mx-auto text-sm sm:text-base">
@@ -1461,16 +1466,16 @@
           <div class="space-y-6">
             <!-- Address Card with Google Maps Link -->
             <div
-  class="group bg-white/70 backdrop-blur-md border border-teal-100 rounded-xl p-6 shadow-sm transition duration-300 hover:-translate-y-2 hover:shadow-xl hover:border-teal-300 block cursor-pointer"
+  class="group bg-white/70 backdrop-blur-md border border-[#e8edf3] rounded-xl p-6 shadow-sm transition duration-300 hover:-translate-y-2 hover:shadow-xl hover:border-[#D4AF37] block cursor-pointer"
   data-aos="fade-right"
   data-aos-duration="600"
 >
   <div class="flex items-center gap-4">
     <div
-      class="w-14 h-14 flex items-center justify-center rounded-lg bg-teal-100 transition duration-300 group-hover:bg-teal-600"
+      class="w-14 h-14 flex items-center justify-center rounded-lg bg-[#e8edf3] transition duration-300 group-hover:bg-[#D4AF37]"
     >
       <i
-        class="fas fa-map-marker-alt text-2xl text-teal-600 group-hover:text-white transition"
+        class="fas fa-map-marker-alt text-2xl text-[#0D2240] group-hover:text-[#0D2240] transition"
       ></i>
     </div>
     <div>
@@ -1489,28 +1494,28 @@
               <!-- Call Card - Clickable Phone Link -->
               <a
                 href="tel:+919167916660"
-                class="group bg-white/70 backdrop-blur-md border border-teal-100 rounded-xl p-6 text-center transition duration-300 hover:-translate-y-2 hover:shadow-xl hover:border-teal-300 block cursor-pointer"
+                class="group bg-white/70 backdrop-blur-md border border-[#e8edf3] rounded-xl p-6 text-center transition duration-300 hover:-translate-y-2 hover:shadow-xl hover:border-[#D4AF37] block cursor-pointer"
                 data-aos="fade-up"
                 data-aos-duration="600"
                 data-aos-delay="100"
               >
                 <div
-                  class="w-14 h-14 mx-auto flex items-center justify-center rounded-lg bg-teal-100 transition duration-300 group-hover:bg-teal-600 mb-4"
+                  class="w-14 h-14 mx-auto flex items-center justify-center rounded-lg bg-[#e8edf3] transition duration-300 group-hover:bg-[#D4AF37] mb-4"
                 >
                   <i
-                    class="fas fa-phone-alt text-2xl text-teal-600 group-hover:text-white transition"
+                    class="fas fa-phone-alt text-2xl text-[#0D2240] group-hover:text-[#0D2240] transition"
                   ></i>
                 </div>
                 <h3 class="font-semibold text-gray-800 text-lg mb-2">
                   Call Us
                 </h3>
-                <p class="text-teal-600 font-medium text-base">
+                <p class="text-[#0D2240] font-medium text-base">
                   +91 9167916660
                 </p>
                 <p class="text-gray-500 text-xs mt-2">
                   24/7 Emergency Available
                 </p>
-                <p class="text-teal-600 text-xs mt-1 group-hover:text-teal-700">
+                <p class="text-[#0D2240] text-xs mt-1 group-hover:text-[#b8962e]">
                   <i class="fas fa-phone-alt mr-1"></i>Tap to call →
                 </p>
               </a>
@@ -1518,28 +1523,28 @@
               <!-- Email Card - Clickable Email Link -->
               <a
                 href="mailto:care@saintistarhospital.com?subject=Inquiry%20from%20Website&body=Hello,%20I%20would%20like%20to%20know%20more%20about..."
-                class="group bg-white/70 backdrop-blur-md border border-teal-100 rounded-xl p-6 text-center transition duration-300 hover:-translate-y-2 hover:shadow-xl hover:border-teal-300 block cursor-pointer"
+                class="group bg-white/70 backdrop-blur-md border border-[#e8edf3] rounded-xl p-6 text-center transition duration-300 hover:-translate-y-2 hover:shadow-xl hover:border-[#D4AF37] block cursor-pointer"
                 data-aos="fade-up"
                 data-aos-duration="600"
                 data-aos-delay="200"
               >
                 <div
-                  class="w-14 h-14 mx-auto flex items-center justify-center rounded-lg bg-teal-100 transition duration-300 group-hover:bg-teal-600 mb-4"
+                  class="w-14 h-14 mx-auto flex items-center justify-center rounded-lg bg-[#e8edf3] transition duration-300 group-hover:bg-[#D4AF37] mb-4"
                 >
                   <i
-                    class="fas fa-envelope text-2xl text-teal-600 group-hover:text-white transition"
+                    class="fas fa-envelope text-2xl text-[#0D2240] group-hover:text-[#0D2240] transition"
                   ></i>
                 </div>
                 <h3 class="font-semibold text-gray-800 text-lg mb-2">
                   Email Us
                 </h3>
-                <p class="text-teal-600 text-sm break-all">
+                <p class="text-[#0D2240] text-sm break-all">
                   care@saintistarhospital.com
                 </p>
                 <p class="text-gray-500 text-xs mt-2">
                   We reply within 24 hours
                 </p>
-                <p class="text-teal-600 text-xs mt-1 group-hover:text-teal-700">
+                <p class="text-[#0D2240] text-xs mt-1 group-hover:text-[#b8962e]">
                   <i class="fas fa-envelope mr-1"></i>Send email →
                 </p>
               </a>
@@ -1549,16 +1554,16 @@
             <a
               href="https://wa.me/919167916660?text=Hello%2C%20I%20would%20like%20to%20inquire%20about%20hospital%20services"
               target="_blank"
-              class="group bg-white/70 backdrop-blur-md border border-teal-100 rounded-xl p-6 transition duration-300 hover:-translate-y-2 hover:shadow-xl hover:border-teal-300 block cursor-pointer"
+              class="group bg-white/70 backdrop-blur-md border border-[#e8edf3] rounded-xl p-6 transition duration-300 hover:-translate-y-2 hover:shadow-xl hover:border-[#D4AF37] block cursor-pointer"
               data-aos="fade-left"
               data-aos-duration="600"
             >
               <div class="flex items-center gap-4">
                 <div
-                  class="w-14 h-14 flex items-center justify-center rounded-lg bg-teal-100 transition duration-300 group-hover:bg-green-500"
+                  class="w-14 h-14 flex items-center justify-center rounded-lg bg-[#e8edf3] transition duration-300 group-hover:bg-green-500"
                 >
                   <i
-                    class="fab fa-whatsapp text-2xl text-teal-600 group-hover:text-white transition"
+                    class="fab fa-whatsapp text-2xl text-[#0D2240] group-hover:text-[#0D2240] transition"
                   ></i>
                 </div>
                 <div>
@@ -1585,10 +1590,10 @@
             data-aos-delay="200"
           >
             <div
-              class="bg-gradient-to-r from-teal-50 to-white px-6 py-5 border-b border-teal-100"
+              class="bg-gradient-to-r from-[#f5f0e8] to-white px-6 py-5 border-b border-[#e8edf3]"
             >
               <div class="flex items-center gap-3">
-                <i class="fas fa-pen-alt text-teal-600 text-xl"></i>
+                <i class="fas fa-pen-alt text-[#0D2240] text-xl"></i>
                 <h3 class="text-xl sm:text-2xl font-bold text-gray-800">
                   Send Us a Message
                 </h3>
@@ -1602,7 +1607,7 @@
               <!-- Name Field -->
               <div>
                 <label class="text-gray-700 font-medium text-sm mb-2 block">
-                  <i class="fas fa-user text-teal-500 mr-2 text-xs"></i>Your
+                  <i class="fas fa-user text-[#D4AF37] mr-2 text-xs"></i>Your
                   Name *
                 </label>
                 <input
@@ -1616,7 +1621,7 @@
               <div class="grid md:grid-cols-2 gap-4">
                 <div>
                   <label class="text-gray-700 font-medium text-sm mb-2 block">
-                    <i class="fas fa-phone-alt text-teal-500 mr-2 text-xs"></i
+                    <i class="fas fa-phone-alt text-[#D4AF37] mr-2 text-xs"></i
                     >Contact Number *
                   </label>
                   <input
@@ -1627,7 +1632,7 @@
                 </div>
                 <div>
                   <label class="text-gray-700 font-medium text-sm mb-2 block">
-                    <i class="fas fa-envelope text-teal-500 mr-2 text-xs"></i
+                    <i class="fas fa-envelope text-[#D4AF37] mr-2 text-xs"></i
                     >Email Address *
                   </label>
                   <input
@@ -1641,7 +1646,7 @@
               <!-- Subject Dropdown -->
               <div>
                 <label class="text-gray-700 font-medium text-sm mb-2 block">
-                  <i class="fas fa-tag text-teal-500 mr-2 text-xs"></i>Subject *
+                  <i class="fas fa-tag text-[#D4AF37] mr-2 text-xs"></i>Subject *
                 </label>
                 <select
                   class="w-full border border-gray-300 rounded-xl px-4 py-3 focus:outline-none focus:ring-2 focus:ring-teal-400 focus:border-transparent transition bg-gray-50 focus:bg-white"
@@ -1658,7 +1663,7 @@
               <!-- Message Field -->
               <div>
                 <label class="text-gray-700 font-medium text-sm mb-2 block">
-                  <i class="fas fa-comment-dots text-teal-500 mr-2 text-xs"></i
+                  <i class="fas fa-comment-dots text-[#D4AF37] mr-2 text-xs"></i
                   >Your Message *
                 </label>
                 <textarea
@@ -1673,7 +1678,7 @@
                 <input
                   type="checkbox"
                   id="robotCheck"
-                  class="w-5 h-5 text-teal-600 border-gray-300 rounded focus:ring-teal-400"
+                  class="w-5 h-5 text-[#0D2240] border-gray-300 rounded focus:ring-teal-400"
                 />
                 <label for="robotCheck" class="text-gray-600 text-sm"
                   >I am not a robot</label
@@ -1683,14 +1688,14 @@
               <!-- Submit Button -->
               <a
   href="/form/appointment-form"
-  class="w-full sm:w-auto bg-teal-600 hover:bg-teal-700 text-white font-semibold px-8 py-3 rounded-full shadow-md hover:shadow-lg transition-all duration-300 transform hover:scale-105 flex items-center justify-center gap-2"
+  class="w-full sm:w-auto bg-[#D4AF37] hover:bg-[#b8962e] text-[#0D2240] font-bold px-8 py-3 rounded-full shadow-md hover:shadow-lg transition-all duration-300 transform hover:scale-105 flex items-center justify-center gap-2"
 >
   <i class="fas fa-paper-plane"></i>
   Send Message
 </a>
 
               <p class="text-xs text-gray-400 text-center pt-2">
-                <i class="fas fa-lock text-teal-400 mr-1"></i> Your information
+                <i class="fas fa-lock text-[#e4c860] mr-1"></i> Your information
                 is safe and confidential
               </p>
             </form>
@@ -1705,11 +1710,11 @@
             class="bg-white rounded-2xl shadow-xl border border-gray-100 overflow-hidden"
           >
             <div
-              class="bg-gradient-to-r from-teal-50 to-white px-6 py-4 border-b border-teal-100"
+              class="bg-gradient-to-r from-[#f5f0e8] to-white px-6 py-4 border-b border-[#e8edf3]"
             >
             
               <div class="flex items-center gap-3">
-                <i class="fas fa-map-marked-alt text-teal-600 text-xl"></i>
+                <i class="fas fa-map-marked-alt text-[#0D2240] text-xl"></i>
                 <h3 class="text-lg sm:text-xl font-bold text-gray-800">
                   Find Us Here
                 </h3>

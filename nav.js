@@ -1,26 +1,26 @@
 const nav = document.querySelector(".nav");
 
 nav.innerHTML = `
-<header class="fixed w-full top-0 left-0 z-50 shadow-sm bg-white/80 backdrop-blur-lg">
+<header class="fixed w-full top-0 left-0 z-50 bg-[#0D2240] shadow-md border-b-2 border-[#C5A059]">
   
-  <div class="max-w-7xl mx-auto flex items-center justify-between px-6 py-4">
+  <div class="max-w-7xl mx-auto flex items-center justify-between px-6 py-3">
     
     <!-- Logo -->
     <div class="flex items-center">
-      <img src="/images/Sainitlogo.jpg" class="h-12 w-auto" />
+      <img src="/images/Sainitlogo.jpg" class="h-14 w-auto rounded-sm border border-[#C5A059]" />
     </div>
 
     <!-- Desktop Nav -->
-    <nav class="hidden md:flex gap-8 text-gray-600 font-medium">
-      <a href="/index.html" class="hover:text-[#0F766E] transition">Home</a>
-      <a href="/index.html#about" class="hover:text-[#0F766E] transition">About</a>
-      <a href="/index.html#services" class="hover:text-[#0F766E] transition">Services</a>
-            <a href="/index.html" class="hover:text-[#0F766E] transition">Doctors</a>
-      <a href="/index.html#contact" class="hover:text-[#0F766E] transition">Contact</a>
+    <nav class="hidden md:flex gap-8 text-white font-medium tracking-wide">
+      <a href="/index.html" class="hover:text-[#C5A059] transition uppercase text-sm">Home</a>
+      <a href="/index.html#about" class="hover:text-[#C5A059] transition uppercase text-sm">About</a>
+      <a href="/index.html#services" class="hover:text-[#C5A059] transition uppercase text-sm">Services</a>
+      <a href="/index.html#doctors" class="hover:text-[#C5A059] transition uppercase text-sm">Doctors</a>
+      <a href="/index.html#contact" class="hover:text-[#C5A059] transition uppercase text-sm">Contact</a>
     </nav>
 
     <!-- Mobile Button -->
-    <button id="menu-btn" class="md:hidden text-3xl text-[#0F766E] focus:outline-none">
+    <button id="menu-btn" class="md:hidden text-3xl text-[#C5A059] focus:outline-none">
       <span id="menu-open">☰</span>
       <span id="menu-close" class="hidden">✕</span>
     </button>
@@ -31,19 +31,19 @@ nav.innerHTML = `
 
   <!-- Mobile Full Screen Menu -->
   <div id="menu" 
-  class="fixed top-0 right-0 w-full h-screen bg-white z-50 p-6 flex flex-col space-y-6 text-gray-600 font-medium transform translate-x-full transition-transform duration-300">
+  class="fixed top-0 right-0 w-full h-screen bg-[#0D2240] z-50 p-6 flex flex-col space-y-6 text-white font-medium transform translate-x-full transition-transform duration-300">
 
     <!-- Top Row -->
-    <div class="flex justify-between items-center border-b pb-4">
-      <h2 class="text-lg font-semibold text-[#0F766E]">Menu</h2>
-      <button id="close-btn" class="text-3xl text-[#0F766E]">✕</button>
+    <div class="flex justify-between items-center border-b border-[#C5A059] pb-4">
+      <h2 class="text-lg font-semibold text-[#C5A059]">NAVIGATION</h2>
+      <button id="close-btn" class="text-3xl text-[#C5A059]">✕</button>
     </div>
 
-    <a href="/index.html" class="mobile-nav-link hover:text-[#0F766E] transition text-lg">Home</a>
-    <a href="/index.html#about" class="mobile-nav-link hover:text-[#0F766E] transition text-lg">About</a>
-    <a href="/index.html#services" class="mobile-nav-link hover:text-[#0F766E] transition text-lg">Services</a>
-    <a href="/index.html" class="mobile-nav-link hover:text-[#0F766E] transition text-lg">Doctors</a>
-    <a href="/index.html#contact" class="mobile-nav-link hover:text-[#0F766E] transition text-lg">Contact</a>
+    <a href="/index.html" class="mobile-nav-link hover:text-[#C5A059] transition text-lg uppercase tracking-wider">Home</a>
+    <a href="/index.html#about" class="mobile-nav-link hover:text-[#C5A059] transition text-lg uppercase tracking-wider">About</a>
+    <a href="/index.html#services" class="mobile-nav-link hover:text-[#C5A059] transition text-lg uppercase tracking-wider">Services</a>
+    <a href="/index.html#doctors" class="mobile-nav-link hover:text-[#C5A059] transition text-lg uppercase tracking-wider">Doctors</a>
+    <a href="/index.html#contact" class="mobile-nav-link hover:text-[#C5A059] transition text-lg uppercase tracking-wider">Contact</a>
 
   </div>
 
